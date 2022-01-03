@@ -17,4 +17,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/New Test Case</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>002ce6e7-0c6c-4c54-bec3-3597765ff7c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/New Test Case</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
