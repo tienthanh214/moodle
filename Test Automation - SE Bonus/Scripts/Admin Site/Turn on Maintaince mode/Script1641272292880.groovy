@@ -19,24 +19,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Admin Site/Login with Admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Khu vc qun tr Tm kim/a_My ch'))
+WebUI.click(findTestObject('Object Repository/Admin Site/Page_Moodle Khu vc qun tr Tm kim/a_My ch'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Khu vc qun tr Tm kim/a_Ch  bo tr'))
+WebUI.click(findTestObject('Object Repository/Admin Site/Page_Moodle Khu vc qun tr Tm kim/a_Ch  bo tr'))
 
 WebUI.navigateToUrl('http://localhost/admin/settings.php?section=maintenancemode')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Khu vc qun tr My ch Ch  bo tr/select_Tt            M'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr/select_Tt            M'), 
     '1', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Khu vc qun tr My ch Ch  bo tr/button_Lu cc thay i'))
+WebUI.click(findTestObject('Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr/button_Lu cc thay i'))
 
-WebUI.navigateToUrl('http://localhost/admin/settings.php?section=maintenancemode')
+WebUI.click(findTestObject('Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr -_346a94/a_Qun tr Thnh vin'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Khu vc qun tr My ch Ch  bo tr -_346a94/a_Qun tr Thnh vin'))
+WebUI.click(findTestObject('Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr -_346a94/a_Thot'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Khu vc qun tr My ch Ch  bo tr -_346a94/span_Thot'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_New Moodle Site - In maintenance mode/h2_The site is undergoing maintenance and i_04cd85'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Admin Site/Page_New Moodle Site - In maintenance mode/h2_The site is undergoing maintenance and i_04cd85'), 
     'The site is undergoing maintenance and is currently not available')
 
 WebUI.closeBrowser()

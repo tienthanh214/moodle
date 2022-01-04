@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Lu cc thay i</name>
    <tag></tag>
-   <elementGuidId>d926d2d7-ebc7-4bba-a821-ab07bcc75124</elementGuidId>
+   <elementGuidId>47d0e6a4-1ac4-4a16-a7aa-89ea10857887</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='yui_3_17_2_1_1641284297729_368']</value>
+         <value>(//button[@type='submit'])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#yui_3_17_2_1_1641284297729_368</value>
+         <value>button.btn.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -40,13 +40,6 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>yui_3_17_2_1_1641284297729_368</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Lưu các thay đổi</value>
@@ -56,21 +49,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641284297729_368&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1641290006875_29&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;offset-sm-3 col-sm-3&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='yui_3_17_2_1_1641284297729_368']</value>
+      <value>(//button[@type='submit'])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641284297729_369']/button</value>
+      <value>//div[@id='yui_3_17_2_1_1641290006875_29']/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +105,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/button</value>
+      <value>//div/div/button</value>
    </webElementXpaths>
 </WebElementEntity>
