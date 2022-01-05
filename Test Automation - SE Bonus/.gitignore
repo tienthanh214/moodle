@@ -4,9 +4,11 @@ bin
 
 #Reports
 
+
 Libs
 
 output
+
 
 !output/.gitkeep
 build
@@ -14,3 +16,7 @@ build
 .classpath
 
 .project
+
+/settings
+
+settings/internal/
