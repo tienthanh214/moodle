@@ -6,12 +6,12 @@
    <elementGuidId>179174d0-99c8-425c-8e21-df14ebd1a1eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='id_subject']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_subject</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='id_subject']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641301238225_502']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641377104026_502']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

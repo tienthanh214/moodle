@@ -6,12 +6,12 @@
    <elementGuidId>d5daf993-4ebd-45ab-9455-3153d8900395</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='course-info-container-2-4']/div/div/a/span[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.aalink.coursename.mr-2 > span.text-truncate</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='course-info-container-2-4']/div/div/a/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
