@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Normal User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>228a91c9-e6d8-401c-9ba2-7c9cab9865e5</testCaseGuid>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>8d0d90f0-d3cb-4914-be15-1fffbfa92ac7</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nguyễn'</defaultValue>
+      <description></description>
+      <id>8b1f489d-4889-406e-91bc-9d49b6a73a0b</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+</TestCaseEntity>

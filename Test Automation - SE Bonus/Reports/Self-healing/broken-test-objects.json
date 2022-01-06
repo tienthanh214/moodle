@@ -140,7 +140,6 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo dng bullet/li_Thng bo 1_neighbor.png"
-=======
       "testObjectId": "Object Repository/Admin Site/Page_Moodle Khu vc qun tr Trang ch Thit t trang ch/button_Lu cc thay i",
       "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1641267626847_379\u0027]",
       "brokenLocatorMethod": "XPATH",
@@ -168,7 +167,6 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Moodle Khu vc qun tr My ch Ch  bo tr/button_Lu cc thay i_neighbor.png"
->>>>>>> 4840183cf44a5ae776fb776eec1aa38666f00187
     }
   ]
 }
