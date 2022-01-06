@@ -2,6 +2,7 @@
   "brokenTestObjects": [
     {
       "approved": true,
+<<<<<<< HEAD
       "testObjectId": "Object Repository/Page_Local Moodle Log in to the site/input_Password_password",
       "brokenLocator": "",
       "brokenLocatorMethod": "XPATH",
@@ -139,6 +140,35 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo dng bullet/li_Thng bo 1_neighbor.png"
+=======
+      "testObjectId": "Object Repository/Admin Site/Page_Moodle Khu vc qun tr Trang ch Thit t trang ch/button_Lu cc thay i",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1641267626847_379\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mặc định: Người dùng đã xác thực trên trang chủ (frontpage)\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin Site/Page_Moodle Khu vc qun tr Trang ch Thit t trang ch/button_Lu cc thay i_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin Site/Page_New Moodle/h1_New Moodle_1",
+      "brokenLocator": "//h1[@id\u003d\u0027yui_3_17_2_1_1641267670435_20\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Home\u0027])[1]/following::h1[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin Site/Page_New Moodle/h1_New Moodle_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Moodle Khu vc qun tr My ch Ch  bo tr/button_Lu cc thay i",
+      "brokenLocator": "#yui_3_17_2_1_1641284437292_368",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mặc định: Xoá rỗng\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Moodle Khu vc qun tr My ch Ch  bo tr/button_Lu cc thay i_neighbor.png"
+>>>>>>> 4840183cf44a5ae776fb776eec1aa38666f00187
     }
   ]
 }

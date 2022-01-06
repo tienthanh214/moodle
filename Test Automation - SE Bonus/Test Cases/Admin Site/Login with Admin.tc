@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>If login with admin account administration site will present</description>
+   <name>Login with Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b74bab82-b979-42d6-8f72-4554453f3582</testCaseGuid>
+</TestCaseEntity>
