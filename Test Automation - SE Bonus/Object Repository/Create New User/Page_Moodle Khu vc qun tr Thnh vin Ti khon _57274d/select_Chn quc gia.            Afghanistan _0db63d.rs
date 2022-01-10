@@ -6,12 +6,12 @@
    <elementGuidId>7d179292-35b3-436f-9e91-e64c906a35ab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='id_country']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_country</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='id_country']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -323,7 +323,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641292236714_803']/select</value>
+      <value>//div[@id='yui_3_17_2_1_1641442754528_787']/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -359,5 +359,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[14]/div[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641375718034_814']/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641292236714_803']/select</value>
    </webElementXpaths>
 </WebElementEntity>

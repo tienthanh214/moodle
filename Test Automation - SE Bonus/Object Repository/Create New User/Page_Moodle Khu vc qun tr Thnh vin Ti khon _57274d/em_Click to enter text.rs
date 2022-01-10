@@ -6,12 +6,12 @@
    <elementGuidId>efed5e99-8ec5-4709-a942-4e67c6e502e5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1641292236714_772']/span/span/em</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>em</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='yui_3_17_2_1_1641442305859_770']/span/span/em</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641292236714_772&quot;)/span[1]/span[1]/em[1]</value>
+      <value>id(&quot;yui_3_17_2_1_1641442305859_770&quot;)/span[1]/span[1]/em[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641292236714_772']/span/span/em</value>
+      <value>//a[@id='yui_3_17_2_1_1641442305859_770']/span/span/em</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +85,26 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//em</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='yui_3_17_2_1_1641375718034_779']/span/span/em</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='yui_3_17_2_1_1641375298810_787']/span/span/em</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='yui_3_17_2_1_1641292236714_772']/span/span/em</value>
    </webElementXpaths>
 </WebElementEntity>

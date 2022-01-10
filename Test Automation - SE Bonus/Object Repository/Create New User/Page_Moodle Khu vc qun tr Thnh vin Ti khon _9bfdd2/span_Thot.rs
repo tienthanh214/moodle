@@ -6,12 +6,12 @@
    <elementGuidId>27ee3980-07be-4801-b228-2b8e4f027487</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='actionmenuaction-6']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#actionmenuaction-6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='actionmenuaction-6']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641292441046_565']/span</value>
+      <value>//a[@id='yui_3_17_2_1_1641791892958_565']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +106,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[6]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='yui_3_17_2_1_1641292441046_565']/span</value>
    </webElementXpaths>
 </WebElementEntity>
