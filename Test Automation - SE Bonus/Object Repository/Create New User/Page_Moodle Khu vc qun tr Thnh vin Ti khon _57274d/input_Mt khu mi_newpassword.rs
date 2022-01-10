@@ -6,12 +6,12 @@
    <elementGuidId>19b93a1f-a220-4af4-b596-ab3e5038fbe4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='id_newpassword']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#id_newpassword</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='id_newpassword']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='yui_3_17_2_1_1641292236714_777']/input</value>
+      <value>//span[@id='yui_3_17_2_1_1641440991320_771']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +99,26 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='yui_3_17_2_1_1641375718034_784']/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='yui_3_17_2_1_1641375298810_792']/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='yui_3_17_2_1_1641292236714_777']/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>6f71f8f4-4517-4960-82e0-134314b4faf2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='page-admin-user-editadvanced']/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='page-admin-user-editadvanced']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -78,5 +78,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chuyển tới nội dung chính'])[1]/preceding::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bảng điều khiển cạnh'])[1]/preceding::div[3]</value>
    </webElementXpaths>
 </WebElementEntity>
