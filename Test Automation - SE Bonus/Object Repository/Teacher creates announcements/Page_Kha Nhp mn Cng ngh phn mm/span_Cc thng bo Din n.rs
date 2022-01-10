@@ -6,12 +6,12 @@
    <elementGuidId>6b62066c-aae0-4042-b686-0c7a354a17d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='module-1']/div/div/div[2]/div/a/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.instancename</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='module-1']/div/div/div[2]/div/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
