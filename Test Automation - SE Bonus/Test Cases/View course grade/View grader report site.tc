@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>View grader report site</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42938ffa-7548-4b9b-bf92-6aafaa28876a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eed6a637-0376-40d0-b2d1-eb459d140981</id>
+      <masked>false</masked>
+      <name>tatCaThanhVien</name>
+   </variable>
+</TestCaseEntity>

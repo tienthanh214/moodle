@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create course with existed shortname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c76dca24-21b4-4df5-ab6a-943ca5e71d6d</testCaseGuid>
+</TestCaseEntity>

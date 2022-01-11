@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create course without shortname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bddcdb04-6dfd-43f4-a768-26a01b46f8a6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create quiz without title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>465a8483-82cc-4ce7-8367-56db2e850282</testCaseGuid>
+</TestCaseEntity>

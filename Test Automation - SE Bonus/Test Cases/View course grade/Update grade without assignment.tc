@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update grade without assignment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c9c5b72-3422-4e53-9ed1-6c8ec7391a2b</testCaseGuid>
+</TestCaseEntity>
