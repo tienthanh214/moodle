@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>use for loop to create 5 new user</description>
+   <name>Spam Create User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e58b6395-36bd-4d03-93f3-92a201831175</testCaseGuid>
+</TestCaseEntity>
