@@ -2,7 +2,6 @@
   "brokenTestObjects": [
     {
       "approved": true,
-<<<<<<< HEAD
       "testObjectId": "Object Repository/Page_Qun l kha hc v danh mc kha hc/a_TaoKhoaHocMoi",
       "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641268247594_57\u0027]/div/div/a",
       "brokenLocatorMethod": "XPATH",
@@ -70,8 +69,9 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Nhp mn Cng ngh phn mm/span_Thm hot ng hoc ti nguyn_neighbor.png"
-=======
-<<<<<<< HEAD
+    },
+    {
+      "approved": true,
       "testObjectId": "Object Repository/Page_Local Moodle Log in to the site/input_Password_password",
       "brokenLocator": "",
       "brokenLocatorMethod": "XPATH",
@@ -79,27 +79,25 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Local Moodle Log in to the site/input_Password_password_attributes.png"
->>>>>>> e6e119188ab08b12db1adcaa278021a27bd68b9f
     },
     {
       "approved": true,
       "testObjectId": "Object Repository/Page_Nh ca ti/div_Hnh nh kha hc",
-<<<<<<< HEAD
       "brokenLocator": "//div[@id\u003d\u0027page-container-2\u0027]/div/div/div/a/div",
       "brokenLocatorMethod": "XPATH",
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Card\u0027])[1]/following::div[8]",
-=======
       "brokenLocator": "//div[@id\u003d\u0027recentlyaccessedcourses-view-61d40d407b02261d40d406b9175\u0027]/div[2]/div[2]/div/a/div",
       "brokenLocatorMethod": "XPATH",
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Recently accessed courses\u0027])[1]/following::div[28]",
->>>>>>> e6e119188ab08b12db1adcaa278021a27bd68b9f
+      "brokenLocator": "//div[@id\u003d\u0027recentlyaccessedcourses-view-61d40d407b02261d40d406b9175\u0027]/div[2]/div[2]/div/a/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Recently accessed courses\u0027])[1]/following::div[28]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Nh ca ti/div_Hnh nh kha hc_neighbor.png"
     },
     {
       "approved": true,
-<<<<<<< HEAD
       "testObjectId": "Object Repository/Page_Bin son File/i_- Ko th khng c h tr_icon fa fa-file-o fa-fw",
       "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641281746501_1166\u0027]/i",
       "brokenLocatorMethod": "XPATH",
@@ -907,10 +905,8 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Create doc and quiz/Page_quiz1 Tng quan bi lm th/input_Mt khi np bi, bn s khng th thay i p n_23c1d4_position.png"
-    }
-  ]
-}
-=======
+    },
+    {
       "testObjectId": "Object Repository/Page_Cc thng bo/a_Thm mt ch  mi",
       "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641287001823_492\u0027]",
       "brokenLocatorMethod": "XPATH",
@@ -1028,6 +1024,9 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo dng bullet/li_Thng bo 1_neighbor.png"
+    },  
+    { 
+      "approved": true,
       "testObjectId": "Object Repository/Admin Site/Page_Moodle Khu vc qun tr Trang ch Thit t trang ch/button_Lu cc thay i",
       "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1641267626847_379\u0027]",
       "brokenLocatorMethod": "XPATH",
@@ -1058,4 +1057,3 @@
     }
   ]
 }
->>>>>>> e6e119188ab08b12db1adcaa278021a27bd68b9f
