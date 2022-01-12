@@ -69,9 +69,6 @@ WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span_'))
 
 WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span_Student Nguyen'))
 
-WebUI.selectOptionByValue(findTestObject('Create course/Page_CNPM Danh sch thnh vin/select_Student Nguyen    studentgmail.com  _067375'), 
-    '6', true)
-
 WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/div_Student Nguyen    studentgmail.com     _42a868'))
 
 WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/div_Chn ngi dng                            _38ac1f'))
@@ -83,9 +80,6 @@ WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/input_Danh
 WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span__1'))
 
 WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span_Teacher Nguyen'))
-
-WebUI.selectOptionByValue(findTestObject('Create course/Page_CNPM Danh sch thnh vin/select_Teacher Nguyen    teachergmail.com  _6bf8ca'), 
-    '7', true)
 
 WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/div_Teacher Nguyen    teachergmail.com     _70bc99'))
 

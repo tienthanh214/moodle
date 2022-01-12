@@ -39,9 +39,6 @@ WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/
 
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_Student Nguyen'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/select_Student Le    student1gmail.com     _8a871a'), 
-    '6', true)
-
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/button_Ghi danh ngi dng'))
 
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/input_Danh sch thnh vin_yui_3_17_2_1_164190_a20bc6'))
@@ -52,9 +49,6 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Utils/Page_CNPM Danh
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span__1'))
 
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_Teacher Nguyen'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/select_Student Le    student1gmail.com     _ad77b2'), 
-    '7', true)
 
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/button_Ghi danh ngi dng_1'))
 

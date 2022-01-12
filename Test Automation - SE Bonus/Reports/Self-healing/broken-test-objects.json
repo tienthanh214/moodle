@@ -1058,6 +1058,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_S kin mi_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_Student Nguyen",
+      "brokenLocator": "//ul[@id\u003d\u0027form_autocomplete_suggestions-1641906983107\u0027]/li[2]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027student@gmail.com\u0027])[2]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_Student Nguyen_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_Teacher Nguyen",
+      "brokenLocator": "//li[@id\u003d\u0027form_autocomplete_suggestions-1641965227118-0\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027▼\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_Teacher Nguyen_neighbor.png"
     }
   ]
 }
