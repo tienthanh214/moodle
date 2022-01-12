@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Thiết lập availability</description>
-   <name>Create Assignment Set Availability</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>79213ba5-8a8e-4908-8852-3206a114dfcb</testCaseGuid>
-</TestCaseEntity>
