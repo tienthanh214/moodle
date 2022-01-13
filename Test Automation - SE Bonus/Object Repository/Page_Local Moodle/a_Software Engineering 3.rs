@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='frontpage-available-course-list']/div/div/div/h3/a</value>
+         <value>//div[@id='frontpage-available-course-list']/div/div[2]/div/h3/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.aalink</value>
+         <value>div.coursebox.clearfix.even > div.info > h3.coursename > a.aalink</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'http://localhost/course/view.php?id=5' and (text() = 'Software Engineering 3' or . = 'Software Engineering 3')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/course/view.php?id=4</value>
+      <value>http://localhost/course/view.php?id=5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,14 +53,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;frontpage-available-course-list&quot;)/div[@class=&quot;courses frontpage-course-list-all&quot;]/div[@class=&quot;coursebox clearfix odd first&quot;]/div[@class=&quot;info&quot;]/h3[@class=&quot;coursename&quot;]/a[@class=&quot;aalink&quot;]</value>
+      <value>id(&quot;frontpage-available-course-list&quot;)/div[@class=&quot;courses frontpage-course-list-all&quot;]/div[@class=&quot;coursebox clearfix even&quot;]/div[@class=&quot;info&quot;]/h3[@class=&quot;coursename&quot;]/a[@class=&quot;aalink&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='frontpage-available-course-list']/div/div/div/h3/a</value>
+      <value>//div[@id='frontpage-available-course-list']/div/div[2]/div/h3/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,14 +74,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Các khoá học hiện tại'])[1]/following::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bỏ qua các khoá học hiện tại'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cong Binh Le'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,13 +102,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/course/view.php?id=4']</value>
+      <value>//a[@href='http://localhost/course/view.php?id=5']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h3/a</value>
+      <value>//div[2]/div/h3/a</value>
    </webElementXpaths>
 </WebElementEntity>

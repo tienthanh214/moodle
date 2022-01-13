@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Create course/Page_Moodle Khu vc qun tr Tm kim/a_Kho
 
 WebUI.click(findTestObject('Create course/Page_Moodle Khu vc qun tr Tm kim/a_Thmsa cc kho hc'))
 
-WebUI.click(findTestObject('Create course/Page_Qun l kha hc v danh mc kha hc/a_To kha hc mi'))
+WebUI.click(findTestObject('Create course/Page_Qun l kha hc v danh mc kha hc/a_TaoKhoaHocMoi'))
 
 WebUI.setText(findTestObject('Create course/Page_Moodle Thm kho hc mi/input_Tn y_fullname'), 'Nhập môn Công nghệ phần mềm')
 
@@ -61,30 +61,21 @@ WebUI.selectOptionByValue(findTestObject('Create course/Page_Moodle Thm kho hc m
 
 WebUI.setText(findTestObject('Create course/Page_Moodle Thm kho hc mi/input_M s ID kho hc_idnumber'), '1234')
 
-WebUI.click(findTestObject('Create course/Page_Moodle Thm kho hc mi/input__saveanddisplay'))
+WebUI.click(findTestObject('Object Repository/Utils/Page_Moodle Thm kho hc mi/input__saveanddisplay'))
 
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/input_Danh sch thnh vin_btn btn-secondary my-1'))
+WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/input_Danh sch thnh vin_btn btn-secondary my-1'))
 
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span_'))
+WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_'))
 
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span_Student Nguyen'))
+WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_Student Nguyen'))
 
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/div_Student Nguyen    studentgmail.com     _42a868'))
+WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/button_Ghi danh ngi dng'))
 
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/div_Chn ngi dng                            _38ac1f'))
+WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/input_Danh sch thnh vin_yui_3_17_2_1_164190_a20bc6'))
 
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/button_Ghi danh ngi dng'))
-
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/input_Danh sch thnh vin_yui_3_17_2_1_164137_a08b3e'))
-
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span__1'))
+WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span__1'))
 
 WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span_Teacher Nguyen'))
-
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/div_Teacher Nguyen    teachergmail.com     _70bc99'))
-
-WebUI.selectOptionByValue(findTestObject('Create course/Page_CNPM Danh sch thnh vin/select_Ngi qun l            Gio vin        _4311d9'), 
-    '3', true)
 
 WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/button_Ghi danh ngi dng_1'))
 

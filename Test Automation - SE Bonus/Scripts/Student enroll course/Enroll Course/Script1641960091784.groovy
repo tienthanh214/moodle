@@ -32,9 +32,17 @@ WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the si
 
 WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Trang ch h thng (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Local Moodle/a_Software Engineering 2 (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Local Moodle/a_Software Engineering 2'))
 
 WebUI.click(findTestObject('Object Repository/Page_SE2/input_Khng yu cu mt khu ng k_submitbutton (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering 2/a_Software Engineering 2_action-menu-toggle-2'))
+
+WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering 2/a_Rt tn ti khi kho hc SE2_1'))
+
+WebUI.navigateToUrl('http://localhost/enrol/self/unenrolself.php?enrolid=9')
+
+WebUI.click(findTestObject('Object Repository/Page_T ng k (Hc vin)/button_Tip tc_1'))
 
 WebUI.closeBrowser()
 

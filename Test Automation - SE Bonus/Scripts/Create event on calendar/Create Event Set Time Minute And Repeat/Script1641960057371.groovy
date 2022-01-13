@@ -49,12 +49,12 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Lch Xem 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Thnh vin            Kho hc          _5efb09 (4)'), 
     'course', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/span_ (4)'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/span__1_2_3_4'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/li_Software Engineering (4)'))
+WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/li_Software Engineering_1_2_3'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Software Engineering (4)'), 
-    '2', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Software Engineering'), 
+    '3', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/a_Show more (3)'))
 

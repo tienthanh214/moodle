@@ -30,7 +30,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Local Moodle Log i
 
 WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the site/button_Log in (13)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/a_SE (11)'))
+WebUI.click(findTestObject('Page_Nh ca ti/span_Software Engineering'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (12)'))
 
@@ -77,7 +77,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Local Moodle Log i
 
 WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the site/button_Log in (13)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_SE (2)'))
+WebUI.click(findTestObject('Page_Nh ca ti/span_Software Engineering'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_Assignment Full Bi tp'))
 
