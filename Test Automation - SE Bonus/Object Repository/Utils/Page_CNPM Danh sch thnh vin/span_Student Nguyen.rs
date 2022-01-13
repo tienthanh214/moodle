@@ -13,6 +13,10 @@
          <key>CSS</key>
          <value>#form_autocomplete_suggestions-1641965227117-0 > span > span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Student Nguyen' or . = 'Student Nguyen')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

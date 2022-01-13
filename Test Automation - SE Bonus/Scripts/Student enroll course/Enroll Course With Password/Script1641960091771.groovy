@@ -38,5 +38,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_SE3/input_Mt khu n
 
 WebUI.click(findTestObject('Object Repository/Page_SE3/input_Mt khu ng k_submitbutton'))
 
+WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering 3/a_Software Engineering 3_action-menu-toggle-2'))
+
+WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering 3/a_Rt tn ti khi kho hc SE3'))
+
+WebUI.navigateToUrl('http://localhost/enrol/self/unenrolself.php?enrolid=12')
+
+WebUI.click(findTestObject('Object Repository/Page_T ng k (Hc vin)/button_Tip tc'))
+
 WebUI.closeBrowser()
 

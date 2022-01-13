@@ -30,7 +30,7 @@ WebUI.click(findTestObject('Object Repository/Create User by CSV/Page_Moodle Khu
 WebUI.click(findTestObject('Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Tp tin_userfilechoose_1'))
 
 WebUI.uploadFile(findTestObject('Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/input_nh km_repo_upload_file'), 
-    'E:\\xampp\\htdocs\\moodle\\Test Automation - SE Bonus\\upload data\\example.csv')
+    '\\upload data\\example.csv')
 
 WebUI.click(findTestObject('Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/button_ng ti tp ny'))
 

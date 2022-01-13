@@ -43,9 +43,6 @@ WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/
 
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/input_Danh sch thnh vin_yui_3_17_2_1_164190_a20bc6'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/select_Ngi qun l            Gio vin        _4311d9'), 
-    '3', true)
-
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span__1'))
 
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_Teacher Nguyen'))
