@@ -91,7 +91,17 @@ WebUI.click(findTestObject('Object Repository/Create New User/Page_A Nguyn H s c
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_A Nguyn H s cng khai/a_Thot'))
 
-WebUI.callTestCase(findTestCase('Admin Site/Login with Admin'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Create New User/Page_Local Moodle/a_Log in'))
+
+WebUI.setText(findTestObject('Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Username_username'), 
+    'admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Password_password'), 
+    'bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5')
+
+WebUI.click(findTestObject('Object Repository/Create New User/Page_Local Moodle Log in to the site/button_Log in'))
+
+WebUI.click(findTestObject('Object Repository/Create New User/Page_Nh ca ti/span_Qun tr khu vc'))
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin'))
 
@@ -99,7 +109,7 @@ WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/i_Vit Nam_icon fa fa-trash fa-fw'))
 
-WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/button_Xo'))
+WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/button_Xo_1'))
 
 WebUI.closeBrowser()
 

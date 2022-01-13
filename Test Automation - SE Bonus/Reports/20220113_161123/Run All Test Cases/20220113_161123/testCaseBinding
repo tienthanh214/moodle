@@ -1,0 +1,20 @@
+{"testCaseName":"Test Cases/Admin Site/Login with Admin","testCaseId":"Test Cases/Admin Site/Login with Admin"}
+{"testCaseName":"Test Cases/Admin Site/Change full site name","testCaseId":"Test Cases/Admin Site/Change full site name"}
+{"testCaseName":"Test Cases/Admin Site/Turn on Maintaince mode","testCaseId":"Test Cases/Admin Site/Turn on Maintaince mode"}
+{"testCaseName":"Test Cases/Create New User/Create Normal User","testCaseId":"Test Cases/Create New User/Create Normal User"}
+{"testCaseName":"Test Cases/Create New User/Create New User Password Fail","testCaseId":"Test Cases/Create New User/Create New User Password Fail"}
+{"testCaseName":"Test Cases/Create New User/Create New User With Full Information","testCaseId":"Test Cases/Create New User/Create New User With Full Information"}
+{"testCaseName":"Test Cases/Create New User/Create Teacher","testCaseId":"Test Cases/Create New User/Create Teacher"}
+{"testCaseName":"Test Cases/Create New User/Spam Create User","testCaseId":"Test Cases/Create New User/Spam Create User"}
+{"testCaseName":"Test Cases/Create User by CSV/Create By CSV Success","testCaseId":"Test Cases/Create User by CSV/Create By CSV Success"}
+{"testCaseName":"Test Cases/Create User by CSV/Create by CSV warning","testCaseId":"Test Cases/Create User by CSV/Create by CSV warning"}
+{"testCaseName":"Test Cases/Teacher and Grade/Grade for student","testCaseId":"Test Cases/Teacher and Grade/Grade for student"}
+{"testCaseName":"Test Cases/Teacher and Grade/Grade in grade report site","testCaseId":"Test Cases/Teacher and Grade/Grade in grade report site"}
+{"testCaseName":"Test Cases/Teacher and Grade/Other Teacher View Grade","testCaseId":"Test Cases/Teacher and Grade/Other Teacher View Grade"}
+{"testCaseName":"Test Cases/Create assignment/Create Assignment Set Availability","testCaseId":"Test Cases/Create assignment/Create Assignment Set Availability"}
+{"testCaseName":"Test Cases/Create assignment/Create Assignment Set Full","testCaseId":"Test Cases/Create assignment/Create Assignment Set Full"}
+{"testCaseName":"Test Cases/Create assignment/Create Assignment Set Online Text","testCaseId":"Test Cases/Create assignment/Create Assignment Set Online Text"}
+{"testCaseName":"Test Cases/Create assignment/Create Assignment Set Type File","testCaseId":"Test Cases/Create assignment/Create Assignment Set Type File"}
+{"testCaseName":"Test Cases/Create assignment/Create Simple Assignment","testCaseId":"Test Cases/Create assignment/Create Simple Assignment"}
+{"testCaseName":"Test Cases/Create event on calendar/Create Simple Event","testCaseId":"Test Cases/Create event on calendar/Create Simple Event"}
+{"testCaseName":"Test Cases/Create event on calendar/Create Event Set Full","testCaseId":"Test Cases/Create event on calendar/Create Event Set Full"}

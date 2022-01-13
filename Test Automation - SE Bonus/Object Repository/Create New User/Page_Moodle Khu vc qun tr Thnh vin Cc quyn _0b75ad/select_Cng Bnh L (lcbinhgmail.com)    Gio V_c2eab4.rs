@@ -6,10 +6,6 @@
    <elementGuidId>37f8e115-f395-420e-a7ed-5c109a4df5a9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#addselect</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@name = 'addselect[]' and @id = 'addselect' and (text() = '
   
@@ -24,6 +20,10 @@
     Quản trị Thành viên (admin@mdl.com)
   
 ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#addselect</value>
       </entry>
       <entry>
          <key>XPATH</key>

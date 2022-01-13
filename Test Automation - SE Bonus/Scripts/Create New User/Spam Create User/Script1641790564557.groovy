@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Admin Site/Login with Admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-for (def index : (1..5)) {
+for (def index : (1..3)) {
     WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr My ch Ch  bo tr/span_Qun tr khu vc'))
 
     WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin'))

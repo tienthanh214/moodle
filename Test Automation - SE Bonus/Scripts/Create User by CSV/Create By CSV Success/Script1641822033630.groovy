@@ -27,12 +27,13 @@ WebUI.click(findTestObject('Object Repository/Create User by CSV/Page_Moodle Khu
 
 WebUI.click(findTestObject('Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Tm kim/a_Nhp danh sch thnh vin'))
 
-WebUI.click(findTestObject('Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Tp tin_userfilechoose_1'))
+WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Tp tin_userfilechoose'))
 
-WebUI.uploadFile(findTestObject('Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/input_nh km_repo_upload_file'), 
-    '\\upload data\\example.csv')
+WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/span_Tp tin ring t'))
 
-WebUI.click(findTestObject('Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/button_ng ti tp ny'))
+WebUI.click(findTestObject('Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/div_Wikimedia_yui_3_17_2_1_1642067879076_656'))
+
+WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/button_Chn tp ny'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/select_,                                    t'), 
     'comma', true)

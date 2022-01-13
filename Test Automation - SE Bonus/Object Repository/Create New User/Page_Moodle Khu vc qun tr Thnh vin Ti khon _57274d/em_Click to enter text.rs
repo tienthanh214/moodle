@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1641442305859_770']/span/span/em</value>
+         <value>//a[@id='yui_3_17_2_1_1642069056468_763']/span/span/em</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641442305859_770&quot;)/span[1]/span[1]/em[1]</value>
+      <value>id(&quot;yui_3_17_2_1_1642069056468_763&quot;)/span[1]/span[1]/em[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641442305859_770']/span/span/em</value>
+      <value>//a[@id='yui_3_17_2_1_1642069056468_763']/span/span/em</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bắt buộc thay đổi mật khẩu'])[1]/preceding::em[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bắt buộc'])[1]/preceding::em[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,26 +85,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//em</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641375718034_779']/span/span/em</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641375298810_787']/span/span/em</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641292236714_772']/span/span/em</value>
    </webElementXpaths>
 </WebElementEntity>

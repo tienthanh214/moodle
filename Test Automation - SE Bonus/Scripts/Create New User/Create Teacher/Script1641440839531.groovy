@@ -47,7 +47,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Create New User/Page
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_a ch_submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Qun tr khu vc'))
+WebUI.click(findTestObject('Object Repository/Create New User/Page_Nh ca ti/span_Qun tr khu vc'))
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin'))
 
@@ -55,27 +55,27 @@ WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Cc quyn _0b75ad/a_Gio vin bin son'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Cc quyn _0b75ad/select_Cng Bnh L (lcbinhgmail.com)    Gio V_c2eab4'), 
-    '15', true)
+WebUI.setText(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Cc quyn _0b75ad/input_Tm kim_addselect_searchtext'), 
+    'teacher1')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Cc quyn _0b75ad/select_Cng Bnh L (lcbinhgmail.com)    Gio V_c2eab4'), 
-    '15', true)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Cc quyn _0b75ad/select_Gio Vin Nguyn (teacher1gmail.com)_1'), 
+    0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Cc quyn _0b75ad/input_Khp k t tm kim  bt c mc c hin th no_add'))
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Cc quyn _0b75ad/a_Qun tr Thnh vin'))
 
-WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Cc quyn _0b75ad/span_Thot'))
+WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Cc quyn _0b75ad/a_Thot'))
 
-WebUI.click(findTestObject('Object Repository/Create New User/Page_Local Moodle/a_Log in'))
+WebUI.click(findTestObject('Object Repository/Create New User/Page_New Moodle Site/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/Create New User/Page_New Moodle Site Log in to the site/input_Username_username'), 
     'teacher1')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Create New User/Page_New Moodle Site Log in to the site/input_Password_password'), 
     'cvW8qx4B2o1gIDzvWT+0mQ==')
 
-WebUI.click(findTestObject('Object Repository/Create New User/Page_Local Moodle Log in to the site/button_Log in'))
+WebUI.click(findTestObject('Object Repository/Create New User/Page_New Moodle Site Log in to the site/button_Log in'))
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Nh ca ti/span_Qun tr khu vc'))
 
@@ -86,15 +86,15 @@ WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/span_Thot'))
 
-WebUI.click(findTestObject('Object Repository/Create New User/Page_Local Moodle/a_Log in'))
+WebUI.click(findTestObject('Object Repository/Create New User/Page_New Moodle Site/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/Create New User/Page_New Moodle Site Log in to the site/input_Username_username'), 
     'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Create New User/Page_New Moodle Site Log in to the site/input_Password_password'), 
     'bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5')
 
-WebUI.click(findTestObject('Object Repository/Create New User/Page_Local Moodle Log in to the site/button_Log in'))
+WebUI.click(findTestObject('Object Repository/Create New User/Page_New Moodle Site Log in to the site/button_Log in'))
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Nh ca ti/span_Qun tr khu vc'))
 

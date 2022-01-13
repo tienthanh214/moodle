@@ -6,6 +6,10 @@
    <elementGuidId>542b004e-070e-4bbf-938a-ba76fca92bb9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'http://localhost/admin/roles/assign.php?contextid=1' and (text() = 'Bổ nhiệm vai trò hệ thống' or . = 'Bổ nhiệm vai trò hệ thống')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
       </entry>
       <entry>
@@ -13,7 +17,7 @@
          <value>//div[@id='linkusers']/div/div[3]/div[2]/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

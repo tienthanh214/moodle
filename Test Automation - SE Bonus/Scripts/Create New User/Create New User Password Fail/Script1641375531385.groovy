@@ -27,9 +27,6 @@ WebUI.navigateToUrl('http://localhost/user/editadvanced.php?id=-1')
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_Tn ti khon_username'))
 
-WebUI.setText(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/div_1 1'), 
-    '1 <p>1</p>')
-
 WebUI.setText(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_Tn ti khon_username'), 
     'test_fail')
 

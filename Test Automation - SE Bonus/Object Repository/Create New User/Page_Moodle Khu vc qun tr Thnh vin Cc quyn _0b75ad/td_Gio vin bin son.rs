@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Nguyễn'])[1]/preceding::td[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Robert Le'])[1]/preceding::td[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

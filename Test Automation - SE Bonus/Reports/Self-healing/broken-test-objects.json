@@ -1558,6 +1558,236 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Bin son Bi tp/button_Lu nhng thay i (2)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Tp tin_userfilechoose_1",
+      "brokenLocator": "//input[@id\u003d\u0027filepicker-button-61dc0bfe4003d\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Tp tin_userfilechoose_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/input_nh km_repo_upload_file",
+      "brokenLocator": "//input[@id\u003d\u0027yui_3_17_2_1_1641809910521_573\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/input_nh km_repo_upload_file_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr -_346a94/button_Lu cc thay i",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642064755647_379\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mặc định: Xoá rỗng\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr -_346a94/button_Lu cc thay i_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr My ch Ch  bo tr/span_Qun tr khu vc",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027nav-drawer\u0027]/nav[2]/ul/li/a/div/div/span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr My ch Ch  bo tr/span_Qun tr khu vc_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/a_Click to enter text",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641440991320_766\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mật khẩu mới\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/a_Click to enter text_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/a_Ty bin_1",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641374275535_70\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Tùy biến\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/a_Ty bin_1_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/i_Vit Nam_icon fa fa-trash fa-fw",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641786958280_555\u0027]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[2]/td[6]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/i_Vit Nam_icon fa fa-trash fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/button_Xo",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61dbae520cd2020\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027modal-footer\u0027]/div/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/button_Xo_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Tp tin_userfilechoose_1_2",
+      "brokenLocator": "//input[@id\u003d\u0027filepicker-button-61dff25a7aafa\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Tp tin_userfilechoose_1_2_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Tp tin_userfilechoose",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Tp tin_userfilechoose_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/span_Tp tin ring t",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1642066391828_601\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027URL downloader\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/span_Tp tin ring t_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/a_M rng tt c",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641375718034_760\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Mở rộng tất cả\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/a_M rng tt c_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/em_Click to enter text",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641442305859_770\u0027]/span/span/em",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mật khẩu mới\u0027])[1]/following::em[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/em_Click to enter text_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/a_- Ko th khng c h tr_yui_3_17_2_1_16414382_45899b",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027- Kéo thả không được hỗ trợ\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/a_- Ko th khng c h tr_yui_3_17_2_1_16414382_45899b_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/span_Tp tin ring t",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1641438294284_1658\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027URL downloader\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/span_Tp tin ring t_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/div_Wikimedia_yui_3_17_2_1_1641438294284_1691",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641438294284_1691\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/a/div/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/div_Wikimedia_yui_3_17_2_1_1641438294284_1691_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/button_Chn tp ny",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1641438294284_1779\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Chọn giấy phép\u0027])[2]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/button_Chn tp ny_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/a_Thot",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641376127163_564\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027action-menu-1-menu\u0027]/a[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/a_Thot_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/div_Wikimedia_yui_3_17_2_1_1642067879076_656",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642067879076_656\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/div_Wikimedia_yui_3_17_2_1_1642067879076_656_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/button_Chn tp ny",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642066391828_732\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Chọn giấy phép\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/button_Chn tp ny_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/button_Tip tc",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61dc075c376d320\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[2]/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/button_Tip tc_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Qun tr khu vc",
+      "brokenLocator": "//ul[@id\u003d\u0027yui_3_17_2_1_1641791703856_22\u0027]/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Thành viên\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Qun tr khu vc_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/div_Wikimedia_yui_3_17_2_1_1642067879076_664",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642067879076_664\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[2]/div/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/div_Wikimedia_yui_3_17_2_1_1642067879076_664_position.png"
     }
   ]
 }

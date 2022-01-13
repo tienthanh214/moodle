@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//input[@id='filepicker-button-61dff394121d6']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#filepicker-button-61dc37d4cdf2d</value>
+         <value>#filepicker-button-61dff394121d6</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>filepicker-button-61dc37d4cdf2d</value>
+      <value>filepicker-button-61dff394121d6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,21 +63,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;filepicker-button-61dc37d4cdf2d&quot;)</value>
+      <value>id(&quot;filepicker-button-61dff394121d6&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='filepicker-button-61dc37d4cdf2d']</value>
+      <value>//input[@id='filepicker-button-61dff394121d6']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641822164919_108']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1642066836401_108']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,19 +85,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset/div[2]/div/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='filepicker-button-61dc06ed377d3']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641809645114_108']/input</value>
    </webElementXpaths>
 </WebElementEntity>

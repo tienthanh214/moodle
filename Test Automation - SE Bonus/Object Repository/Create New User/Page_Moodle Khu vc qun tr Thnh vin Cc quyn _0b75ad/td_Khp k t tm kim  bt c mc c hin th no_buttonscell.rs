@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//td[@id='buttonscell']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='yui_3_17_2_1_1641784357302_98']/td[2]</value>
+      <value>//tr[@id='yui_3_17_2_1_1642083617841_103']/td[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,12 +85,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//tr[@id='yui_3_17_2_1_1641442485710_98']/td[2]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,6 +6,10 @@
    <elementGuidId>3cd0db47-b729-4567-9e58-2196a2de0213</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'add' and @id = 'add' and @type = 'submit' and @title = 'Thêm']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#add</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//input[@id='add']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
