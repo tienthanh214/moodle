@@ -1788,6 +1788,66 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/div_Wikimedia_yui_3_17_2_1_1642067879076_664_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (7)",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1642087881011_619\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Thêm tập tin ở đây\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (7)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/img_Thng tin v  Bi hc hot ng_icon icon (1)",
+      "brokenLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div[3]/div/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[contains(@src,\u0027http://localhost/theme/image.php/boost/assign/1640965830/icon\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/img_Thng tin v  Bi hc hot ng_icon icon (1)_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (13) (1)",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e045c6a5d771\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//header[@id\u003d\u0027page-header\u0027]/div/div/div/div[2]/div[2]/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (13) (1)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (7) (1)",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1642087881011_619\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Thêm tập tin ở đây\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (7) (1)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/span_PA1 Bi tp (1)",
+      "brokenLocator": "//li[@id\u003d\u0027module-4\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Chủ đề 1\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/span_PA1 Bi tp (1)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/img_Thng tin v  Bi hc hot ng_icon icon (1) (1)",
+      "brokenLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div[3]/div/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[contains(@src,\u0027http://localhost/theme/image.php/boost/assign/1640965830/icon\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/img_Thng tin v  Bi hc hot ng_icon icon (1) (1)_img.png"
     }
   ]
 }
