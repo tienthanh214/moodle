@@ -26,30 +26,33 @@ WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Local Moodl
 WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/input_Username_username'), 
     'lcbinh')
 
-WebUI.setEncryptedText(findTestObject('Admin Site/Page_Local Moodle Log in to the site/input_Password_password'), 'o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2')
+WebUI.setEncryptedText(findTestObject('Object Repository/Admin Site/Page_Local Moodle Log in to the site/input_Password_password'), 
+    'o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2')
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Nh ca ti/div_Hnh nh kha hc'))
+WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Nh ca ti/span_Test View Grade'))
 
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Test 1 Bi tp'))
+WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Test Bi tp'))
 
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test 1/a_im'))
+WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test/a_im'))
 
-WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test 1 - ang chm/input_Grade out of 100_grade'), 
+WebUI.navigateToUrl('http://localhost/mod/assign/view.php?id=10&action=grader')
+
+WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/input_Grade out of 100_grade'), 
     '50')
 
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test 1 - ang chm/button_Lu v xem trang tip theo'))
+WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/button_Lu v xem trang tip theo'))
 
-WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test 1 - ang chm/input_Grade out of 100_grade'), 
+WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/input_Grade out of 100_grade'), 
     '100')
 
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test 1 - ang chm/button_Lu v xem trang tip theo'))
+WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/button_Lu v xem trang tip theo'))
 
-WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test 1 - ang chm/input_Grade out of 100_grade'), 
+WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/input_Grade out of 100_grade'), 
     '1')
 
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test 1 - ang chm/button_Lu v xem trang tip theo'))
+WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/button_Lu v xem trang tip theo'))
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test 1 - ang chm/a_Kho hc Test View Grade'))
 

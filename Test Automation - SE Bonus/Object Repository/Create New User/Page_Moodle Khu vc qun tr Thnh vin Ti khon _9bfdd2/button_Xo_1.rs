@@ -6,12 +6,12 @@
    <elementGuidId>04ffec0b-48de-4681-9f4b-5e26d3f7a80d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#single_button61e005b0c645a20</value>
+         <key>XPATH</key>
+         <value>//button[@id='single_button61e0f3a20d6e520']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='single_button61e005b0c645a20']</value>
+         <key>CSS</key>
+         <value>#single_button61e0f3a20d6e520</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>single_button61e005b0c645a20</value>
+      <value>single_button61e0f3a20d6e520</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;single_button61e005b0c645a20&quot;)</value>
+      <value>id(&quot;single_button61e0f3a20d6e520&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='single_button61e005b0c645a20']</value>
+      <value>//button[@id='single_button61e0f3a20d6e520']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

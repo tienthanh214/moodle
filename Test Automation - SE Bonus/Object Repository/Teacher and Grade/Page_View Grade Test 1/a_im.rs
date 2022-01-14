@@ -10,11 +10,15 @@
          <value>a.btn.btn-primary.ml-1</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Điểm' or . = 'Điểm')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//section[@id='region-main']/div[2]/div[3]/center/div/a[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <value>btn btn-primary ml-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

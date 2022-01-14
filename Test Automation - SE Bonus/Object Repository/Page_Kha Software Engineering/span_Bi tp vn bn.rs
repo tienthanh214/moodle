@@ -6,15 +6,18 @@
    <elementGuidId>74891317-e844-44e0-8abf-426f94d9a748</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Bài tập văn bản' or . = 'Bài tập văn bản')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//li[@id='module-21']/div/div/div[2]/div/a/span</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

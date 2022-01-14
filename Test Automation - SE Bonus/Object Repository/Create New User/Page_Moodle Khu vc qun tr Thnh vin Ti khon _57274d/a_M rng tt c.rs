@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//a[@id='yui_3_17_2_1_1641375718034_760']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and @id = 'yui_3_17_2_1_1641375718034_760' and (text() = 'Mở rộng tất cả' or . = 'Mở rộng tất cả')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

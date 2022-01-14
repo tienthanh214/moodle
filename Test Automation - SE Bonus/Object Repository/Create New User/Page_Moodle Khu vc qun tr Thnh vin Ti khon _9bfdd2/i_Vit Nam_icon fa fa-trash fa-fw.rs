@@ -6,11 +6,11 @@
    <elementGuidId>8b7aaa3c-a5dd-45ea-99eb-59778d0fc477</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//table[@id='users']/tbody/tr/td[6]/a/i</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1641786958280_555']/i</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -48,20 +48,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641786958280_555&quot;)/i[@class=&quot;icon fa fa-trash fa-fw&quot;]</value>
+      <value>id(&quot;users&quot;)/tbody[1]/tr[1]/td[@class=&quot;cell c5&quot;]/a[1]/i[@class=&quot;icon fa fa-trash fa-fw&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='yui_3_17_2_1_1641786958280_555']/i</value>
+      <value>//table[@id='users']/tbody/tr/td[6]/a/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[6]/a/i</value>
+      <value>//td[6]/a/i</value>
    </webElementXpaths>
 </WebElementEntity>

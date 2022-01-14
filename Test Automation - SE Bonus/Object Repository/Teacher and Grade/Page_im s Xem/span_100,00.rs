@@ -10,6 +10,10 @@
          <value>#u28i3 > span.gradevalue</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '100,00' or . = '100,00')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//td[@id='u28i3']/span</value>
       </entry>

@@ -4,3 +4,4 @@ server/moodle/config.php
 server/tmp/
 server/php/
 server/mysql/
+server/moodledata/temp/

@@ -82,7 +82,7 @@ WebUI.setText(findTestObject('Object Repository/Students check events on calenda
     'hs01')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Password_password'), 
-    'RigbBhfdqOBGP4y92+oMSw==')
+    'o5TCnEIIWq2SeGQhIMNXLQ==')
 
 WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/button_Log in'))
 

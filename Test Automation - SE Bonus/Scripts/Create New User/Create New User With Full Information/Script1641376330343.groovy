@@ -125,7 +125,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Create New User/Page_Lo
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Local Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Create New User/Page_Nh ca ti/a_Qun tr khu vc'))
+WebUI.click(findTestObject('Create New User/Page_Nh ca ti/span_Qun tr khu vc'))
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin'))
 

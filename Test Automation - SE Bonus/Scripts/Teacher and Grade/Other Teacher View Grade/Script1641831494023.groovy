@@ -30,7 +30,7 @@ WebUI.setEncryptedText(findTestObject('Admin Site/Page_Local Moodle Log in to th
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Nh ca ti/span_View Grade'))
+WebUI.click(findTestObject('Teacher and Grade/Page_Nh ca ti/span_Test View Grade'))
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Test ch  2 Bi tp'))
 
@@ -41,8 +41,7 @@ WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_View Grad
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/button_Lu v xem trang tip theo'))
 
-WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/input_Grade out of 100_grade'), 
-    '56')
+WebUI.setText(findTestObject('Teacher and Grade/Page_View Grade Test ch  2 - ang chm/input_Grade out of 100_grade'), '56')
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/button_Lu v xem trang tip theo'))
 
@@ -50,6 +49,8 @@ WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_View Grad
     '89')
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/button_Lu v xem trang tip theo'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/a_Kho hc Test View Grade'))
 
@@ -66,7 +67,7 @@ WebUI.setEncryptedText(findTestObject('Admin Site/Page_Local Moodle Log in to th
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Nh ca ti/span_View Grade'))
+WebUI.click(findTestObject('Teacher and Grade/Page_Nh ca ti/span_Test View Grade'))
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_im s'))
 

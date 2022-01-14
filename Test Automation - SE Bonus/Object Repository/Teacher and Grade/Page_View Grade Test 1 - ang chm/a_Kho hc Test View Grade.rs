@@ -6,12 +6,12 @@
    <elementGuidId>770a19b7-356e-4ee7-97ff-4caa66d7c71c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1641829766477_2314</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='yui_3_17_2_1_1641829766477_2314']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1641829766477_2314</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

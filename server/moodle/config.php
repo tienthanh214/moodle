@@ -19,7 +19,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'http://localhost';
-$CFG->dataroot  = 'D:\\Cong-Binh Le\\xampp\\htdocs\\moodle\\server\\moodledata';
+$CFG->dataroot  = 'E:\\xampp\\htdocs\\moodle\\server\\moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;

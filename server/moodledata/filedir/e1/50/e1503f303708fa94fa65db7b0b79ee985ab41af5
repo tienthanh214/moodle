@@ -1,0 +1,14 @@
+username,firstname,lastname,email,password
+student,Student,Nguyen,student@gmail.com,123Uyen@
+teacher,Teacher,Nguyen,teacher@gmail.com,123Uyen@
+robertle,Robert,Le,abc1@gmail.com,NgocLam@123
+hocvien,Lam,Le,abc2@gmail.com,NgocLam@123
+lcbinh,Cong Binh,Le,lcbinh@gmail.com,78963214500@Moodle
+ndtthanh,Thanh,Nguyen,ndtthanh@gmail.com,Test@12345
+student1,Student,One,s1@example.com,Test@12345
+student2,Student,Two,s2@example.com,123
+student3,Student,Three,s3@example.com,Test@12345
+hs01,Nguyen Van,A,abc@xyz.com,123456789@Hs
+hs02,Nguyen Van,B,bcd@xyz.com,123456789@Hs
+gv01,Nguyen Van,C,abcd@xyz.com,123456789@Gv
+hs01,Nguyen Van,A,nva@xyz.com,78963214500@Hs

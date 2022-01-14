@@ -1848,6 +1848,636 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/img_Thng tin v  Bi hc hot ng_icon icon (1) (1)_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm",
+      "brokenLocator": "//div[@id\u003d\u0027course-info-container-2-4\u0027]/div/div/a/span[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tên khóa học\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher creates announcements/Page_Kha Nhp mn Cng ngh phn mm/span_Cc thng bo Din n",
+      "brokenLocator": "//li[@id\u003d\u0027module-1\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Chung\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher creates announcements/Page_Kha Nhp mn Cng ngh phn mm/span_Cc thng bo Din n_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thng bo  c cp nht",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641300376051_496\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Công Bình Lê\u0027])[2]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thng bo  c cp nht_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo  c cp nht/a_Chnh sa",
+      "brokenLocator": "//article[@id\u003d\u0027p10\u0027]/div/div/div/div[2]/div[2]/div/a[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo  c cp nht/a_Chnh sa_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Students check events on calendar/Page_Nh ca ti/span_Nhp mn cng ngh phn mm",
+      "brokenLocator": "//div[@id\u003d\u0027course-info-container-2-3\u0027]/div/div/a/span[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tên khóa học\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Nh ca ti/span_Nhp mn cng ngh phn mm_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61d76053207d61\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//header[@id\u003d\u0027page-header\u0027]/div/div/div/div[2]/div[2]/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1641504861877_735\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Thêm tập tin ở đây\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/div_Bi tp",
+      "brokenLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div[3]/div/a/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bài học\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/div_Bi tp_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Students check events on calendar/Page_Nh ca ti/a_14",
+      "brokenLocator": "//a[@id\u003d\u0027calendar-day-popover-link-1-2022-13-4\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u002714\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Nh ca ti/a_14_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th Su, 14 Thng Ging 2022/a_Thm bi np",
+      "brokenLocator": "//div[@id\u003d\u0027calendar-day-61d730798b7de61d730796c43320\u0027]/div[2]/div[2]/div/div/div[3]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Xuất lịch biểu\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th Su, 14 Thng Ging 2022/a_Thm bi np_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/button_Xo_1",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e005b0c645a20\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027modal-footer\u0027]/div/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/button_Xo_1_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Nh ca ti/a_Qun tr khu vc",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642071390652_179\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Các khoá học của tôi\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Nh ca ti/a_Qun tr khu vc_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin",
+      "brokenLocator": "//section[@id\u003d\u0027region-main\u0027]/div/ul/li[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Thành viên\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_KhoaPhngBan_department",
+      "brokenLocator": "//input[@id\u003d\u0027id_department\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027id_department\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_KhoaPhngBan_department_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/i_Vit Nam_yui_3_17_2_1_1642094997900_564",
+      "brokenLocator": "//i[@id\u003d\u0027yui_3_17_2_1_1642094997900_564\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[6]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/i_Vit Nam_yui_3_17_2_1_1642094997900_564_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/i_Vit Nam_yui_3_17_2_1_1642096245171_45",
+      "brokenLocator": "//i[@id\u003d\u0027yui_3_17_2_1_1642096245171_45\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[6]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/i_Vit Nam_yui_3_17_2_1_1642096245171_45_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _1ca8e5/button_C",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61dbffc756bbb20\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027modal-footer\u0027]/div/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _1ca8e5/button_C_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/span_Qun tr khu vc",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642132322464_307\u0027]/div/div/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SE\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/span_Qun tr khu vc_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/i_Cha ln no_yui_3_17_2_1_1642132363326_560",
+      "brokenLocator": "//i[@id\u003d\u0027yui_3_17_2_1_1642132363326_560\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[2]/td[6]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/i_Cha ln no_yui_3_17_2_1_1642132363326_560_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/td_1,00",
+      "brokenLocator": "//td[@id\u003d\u0027u30i2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027s3@example.com\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/td_1,00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/td_100,00",
+      "brokenLocator": "//td[@id\u003d\u0027u29i2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027s2@example.com\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/td_100,00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Test ch  2 Bi tp",
+      "brokenLocator": "//li[@id\u003d\u0027module-4\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Chủ đề 2\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Test ch  2 Bi tp_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/i_Test ch  1_icon fa fa-pencil fa-fw",
+      "brokenLocator": "//a[@id\u003d\u0027action_link61dc593a2cdc428\u0027]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//th[4]/a[3]/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/i_Test ch  1_icon fa fa-pencil fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/input_Override for Student Replace_override_3_28",
+      "brokenLocator": "//input[@id\u003d\u0027override_3_28\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[4]/form/table/tbody/tr/td[5]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/input_Override for Student Replace_override_3_28_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/input_Grade for Student Replace_finalgrade_3_28",
+      "brokenLocator": "//input[@id\u003d\u0027finalgrade_3_28\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[3]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/input_Grade for Student Replace_finalgrade_3_28_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/input_Override for Student Three_override_3_30",
+      "brokenLocator": "//input[@id\u003d\u0027override_3_30\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[2]/td[5]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/input_Override for Student Three_override_3_30_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/input_Grade for Student Three_finalgrade_3_30",
+      "brokenLocator": "//input[@id\u003d\u0027finalgrade_3_30\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[2]/td[3]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/input_Grade for Student Three_finalgrade_3_30_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/input_Override for Student Two_override_3_29",
+      "brokenLocator": "//input[@id\u003d\u0027override_3_29\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[3]/td[5]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/input_Override for Student Two_override_3_29_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/input_Grade for Student Two_finalgrade_3_29",
+      "brokenLocator": "//input[@id\u003d\u0027finalgrade_3_29\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tr[3]/td[3]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/input_Grade for Student Two_finalgrade_3_29_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_Saving grades/button_Tip tc",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61dc5970393933\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027page\u0027]/section/div/div[3]/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_Saving grades/button_Tip tc_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/span_100,00",
+      "brokenLocator": "//td[@id\u003d\u0027u28i3\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027s1@example.com\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/span_100,00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/span_60,00",
+      "brokenLocator": "//td[@id\u003d\u0027u30i3\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027s3@example.com\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/span_60,00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/span_25,00",
+      "brokenLocator": "//td[@id\u003d\u0027u29i3\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027s2@example.com\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/span_25,00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Test ch  1 Bi tp",
+      "brokenLocator": "//li[@id\u003d\u0027module-3\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Chủ đề 1\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Test ch  1 Bi tp_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_100,00",
+      "brokenLocator": "//a[@id\u003d\u0027action_link61dc59c1ddee921\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027100,00\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_100,00_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641830816830_543\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027►\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a__link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_25,00",
+      "brokenLocator": "//a[@id\u003d\u0027action_link61dc59cf9045721\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u002725,00\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_25,00_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_60,00",
+      "brokenLocator": "//a[@id\u003d\u0027action_link61dc59d7f39f820\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u002760,00\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_60,00_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_Nh ca ti/span_Test View Grade",
+      "brokenLocator": "//div[@id\u003d\u0027course-info-container-6-8\u0027]/div/div/a/span[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tên khóa học\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_Nh ca ti/span_Test View Grade_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/button_Lu v xem trang tip theo",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1641831592528_557\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Lưu những thay đổi\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/button_Lu v xem trang tip theo_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/a_Kho hc Test View Grade",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641831592528_2762\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Khoá học: Test View Grade\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/a_Kho hc Test View Grade_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/span_11,00",
+      "brokenLocator": "//td[@id\u003d\u0027u28i4\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027s1@example.com\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/span_11,00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/input_Grade out of 100_grade",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027id_grade\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/input_Grade out of 100_grade_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/span_89,00",
+      "brokenLocator": "//td[@id\u003d\u0027u30i4\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027s3@example.com\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/span_89,00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/button_Lu v xem trang tip theo",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642142506882_572\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Lưu những thay đổi\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/button_Lu v xem trang tip theo_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_im s Xem/span_56,00",
+      "brokenLocator": "//td[@id\u003d\u0027u29i4\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027s2@example.com\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_im s Xem/span_56,00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/a_Bi tp (5)",
+      "brokenLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div[3]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bài học\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/a_Bi tp (5)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (12)",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61dda179335d11\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//header[@id\u003d\u0027page-header\u0027]/div/div/div/div[2]/div[2]/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (12)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (6)",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1641914748145_619\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Thêm tập tin ở đây\u0027])[3]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (6)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/div_Thng tin v  Bi hc hot ng_optionicon mt-_6d37dc (3)",
+      "brokenLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div[3]/div/a/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bài học\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/div_Thng tin v  Bi hc hot ng_optionicon mt-_6d37dc (3)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Bin son Bi tp/input_Cc loi tp tin c chp nhn_yui_3_17_2_1__c57195",
+      "brokenLocator": "//input[@id\u003d\u0027yui_3_17_2_1_1641914753929_1712\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Bin son Bi tp/input_Cc loi tp tin c chp nhn_yui_3_17_2_1__c57195_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Bin son Bi tp/input_All file types_yui_3_17_2_1_164191475_b6e702",
+      "brokenLocator": "//input[@id\u003d\u0027yui_3_17_2_1_1641914753929_1743\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Bin son Bi tp/input_All file types_yui_3_17_2_1_164191475_b6e702_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Bin son Bi tp/input_tgz_yui_3_17_2_1_1641914753929_1776",
+      "brokenLocator": "//input[@id\u003d\u0027yui_3_17_2_1_1641914753929_1776\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[13]/label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Bin son Bi tp/input_tgz_yui_3_17_2_1_1641914753929_1776_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Bin son Bi tp/button_Lu nhng thay i (3)",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1641914753929_1784\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027.cpp\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Bin son Bi tp/button_Lu nhng thay i (3)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/span_Assignment Full Bi tp",
+      "brokenLocator": "//li[@id\u003d\u0027module-26\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Assignment Full\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/span_Assignment Full Bi tp_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (10)",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61dd9879112831\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//header[@id\u003d\u0027page-header\u0027]/div/div/div/div[2]/div[2]/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (10)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/button_Thm hot ng hoc ti nguyn (4)",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1641912444286_622\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Thêm tập tin ở đây\u0027])[3]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/button_Thm hot ng hoc ti nguyn (4)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/div_Thng tin v  Bi hc hot ng_optionicon mt-_6d37dc (1)",
+      "brokenLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div[3]/div/a/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bài học\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/div_Thng tin v  Bi hc hot ng_optionicon mt-_6d37dc (1)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/span_Bi tp vn bn",
+      "brokenLocator": "//li[@id\u003d\u0027module-21\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Opened:\u0027])[1]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/span_Bi tp vn bn_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SE Bi tp vn bn/button_Thm bi np",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61dd98c7396f020\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[3]/div[2]/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SE Bi tp vn bn/button_Thm bi np_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/div_Thng tin v  Bi hc hot ng_optionicon mt-_6d37dc (2)",
+      "brokenLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div[3]/div/a/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bài học\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/div_Thng tin v  Bi hc hot ng_optionicon mt-_6d37dc (2)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/span_Type File Bi tp",
+      "brokenLocator": "//li[@id\u003d\u0027module-23\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Type File\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/span_Type File Bi tp_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SE Type File/button_Thm bi np",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61dd9aceb7f6120\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[3]/div[2]/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_SE Type File/button_Thm bi np_idRelative.png"
     }
   ]
 }

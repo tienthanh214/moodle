@@ -10,6 +10,10 @@
          <value>#u28i2</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'u28i2' and (text() = '50,00' or . = '50,00')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//td[@id='u28i2']</value>
       </entry>

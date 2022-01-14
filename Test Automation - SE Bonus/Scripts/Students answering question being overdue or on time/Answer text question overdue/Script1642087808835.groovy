@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the si
 
 WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Trang ch h thng (3) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Local Moodle/a_Software Engineering (1)'))
+WebUI.click(findTestObject('Page_Local Moodle/a_Software Engineering'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (13) (1)'))
 
@@ -87,7 +87,7 @@ WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the si
 
 WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Trang ch h thng (3) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Local Moodle/a_Software Engineering (1)'))
+WebUI.click(findTestObject('Page_Local Moodle/a_Software Engineering'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_PA1 Bi tp (1)'))
 

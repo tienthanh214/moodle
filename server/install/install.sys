@@ -1,4 +1,4 @@
-DIR = D:\Github\moodle\server
+DIR = E:\xampp\htdocs\moodle\server
 xampp = ?.?.?
 server = 1.8.0
 perl = 0
