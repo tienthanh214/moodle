@@ -12,48 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>98d80378-52f0-4ea1-b00b-cd95df5f3cec</testSuiteGuid>
    <testCaseLink>
-      <guid>4ff55037-2558-47b7-8304-3c34a4e00a41</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create assignment/Create Assignment Set Availability</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3b062bf8-3065-420e-86c9-3bef726dc1e9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create assignment/Create Assignment Set Full</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d4491586-200a-4332-9c65-6ce904aacec0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create assignment/Create Assignment Set Online Text</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c8e9168a-21ce-4bd3-969b-8562c0de465b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create assignment/Create Assignment Set Type File</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4af24153-4acb-4dba-9080-72819e194e1a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create assignment/Create Simple Assignment</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>eb40cdca-d92a-4a4b-b46e-e96439b096bf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create event on calendar/Create Simple Event</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6c8f5a89-67b0-4200-8719-766d4f18ed63</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create event on calendar/Create Event Set Full</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>385b0431-683c-4f2c-b034-9f46e9b98247</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -148,5 +106,107 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher and Grade/Other Teacher View Grade</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ff55037-2558-47b7-8304-3c34a4e00a41</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create assignment/Create Assignment Set Availability</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3b062bf8-3065-420e-86c9-3bef726dc1e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create assignment/Create Assignment Set Full</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4491586-200a-4332-9c65-6ce904aacec0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create assignment/Create Assignment Set Online Text</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c8e9168a-21ce-4bd3-969b-8562c0de465b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create assignment/Create Assignment Set Type File</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4af24153-4acb-4dba-9080-72819e194e1a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create assignment/Create Simple Assignment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eb40cdca-d92a-4a4b-b46e-e96439b096bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create event on calendar/Create Simple Event</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6c8f5a89-67b0-4200-8719-766d4f18ed63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create event on calendar/Create Event Set Full</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95c0ed1c-0b08-4c7f-b668-e4a5725f738f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create event on calendar/Create Event Set Description</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6df10715-80ac-4ca2-8724-3b37c69313de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create event on calendar/Create Event Set Full</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1bf71afa-1a20-445f-82c4-839fafe360d0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create event on calendar/Create Event Set Time Minute And Repeat</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8ad08c57-b6a4-4da0-b448-818ddd73807f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create event on calendar/Create Event Set Time</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>21c81261-7e79-4160-b312-bd46435efde4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create event on calendar/Create Simple Event</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>106447c2-8def-4001-bf7b-64aed874333b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student enroll course/Enroll Course With Password</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4f53421-bbbc-4973-9674-63730732e388</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student enroll course/Enroll Course</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>73e47075-7a64-4519-9e87-17d0c53fbb42</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Texting/Multiple messages</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f9028cdb-e4cf-47b5-8287-6a8848a80d2a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Texting/Receive text message from multiple users</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e56c599-3b6c-4424-a2df-d68e730c574e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Texting/Student texts teacher</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

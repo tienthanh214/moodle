@@ -75,7 +75,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Students check events o
 
 WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Nh ca ti/span_Nhp mn cng ngh phn mm_1'))
+WebUI.click(findTestObject('Students check events on calendar/Page_Nh ca ti/span_Nhp mn cng ngh phn mm'))
 
 WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/span_Bn bc ch  Din n'))
 

@@ -83,6 +83,9 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Students check event
 
 WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/input_M_timeopenenabled'))
 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/select_1        2        3        4        _45ea30_1'), 
+    '8', true)
+
 WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/input_Upon activity completion_submitbutton'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Students check events on calendar/Page_Cu hi thm d/h2_Cu hi thm d'), 
@@ -102,22 +105,14 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Students check events o
 
 WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/button_Log in'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Students check events on calendar/Page_Nh ca ti/a_7'))
+WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Nh ca ti/a_8'))
 
-WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Nh ca ti/a_7'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th By, 8 Thng Ging 2022/a_i ti hot ng'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th Su, 7 Thng Ging 2022/a_i ti hot ng'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th Su, 7 Thng Ging 2022/a_i ti hot ng'), 
-    'Đi tới hoạt động')
-
-WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th Su, 7 Thng Ging 2022/a_i ti hot ng'))
+WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th By, 8 Thng Ging 2022/a_i ti hot ng'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Students check events on calendar/Page_Cu hi thm d/h2_Cu hi thm d'), 
     'Câu hỏi thăm dò')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Students check events on calendar/Page_Cu hi thm d/p_Ni dung cu hi'), 
-    'Nội dung câu hỏi')
 
 WebUI.closeBrowser()
 
