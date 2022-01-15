@@ -156,12 +156,6 @@
       <testCaseId>Test Cases/Create event on calendar/Create Event Set Description</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6df10715-80ac-4ca2-8724-3b37c69313de</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create event on calendar/Create Event Set Full</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1bf71afa-1a20-445f-82c4-839fafe360d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -174,10 +168,10 @@
       <testCaseId>Test Cases/Create event on calendar/Create Event Set Time</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>21c81261-7e79-4160-b312-bd46435efde4</guid>
+      <guid>d4f53421-bbbc-4973-9674-63730732e388</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create event on calendar/Create Simple Event</testCaseId>
+      <testCaseId>Test Cases/Student enroll course/Enroll Course</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>106447c2-8def-4001-bf7b-64aed874333b</guid>
@@ -186,10 +180,22 @@
       <testCaseId>Test Cases/Student enroll course/Enroll Course With Password</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d4f53421-bbbc-4973-9674-63730732e388</guid>
+      <guid>282b9d09-8ae8-472c-9cfb-bed74be94209</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Student enroll course/Enroll Course</testCaseId>
+      <testCaseId>Test Cases/Students check events on calendar/Asignment event</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>628b85e8-43c8-448f-868d-12b6dd54d5e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Students check events on calendar/Forum event</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d3a4647b-ee41-4dae-ab88-529e29ae4178</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Students check events on calendar/Quiz event</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>73e47075-7a64-4519-9e87-17d0c53fbb42</guid>
@@ -208,5 +214,59 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Texting/Student texts teacher</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8643256c-cade-48aa-a67d-678979f41739</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher creates announcements/Teacher create a list announcement</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b492474-c993-412a-aeba-dd7b1840d06c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher creates announcements/Teacher create a new announcement</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3b663e78-b756-4cd6-b245-ccd41aa267b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Teacher creates announcements/Teacher edit announcement</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a168bf36-bc8d-40e4-bf4e-9af26db43ffe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Students answering question being overdue or on time/Answer choice question on time</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ab1d01b2-3593-42f7-9c45-1dc34e248625</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Students answering question being overdue or on time/Answer choice question overdue</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8c8b51a2-a9f2-49d7-9fb9-1710d1f7bd2c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Students answering question being overdue or on time/Answer text question on time</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95f4fae4-6909-4953-8acc-71262e464b17</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Students answering question being overdue or on time/Answer text question overdue</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e1efc791-9590-48a3-b787-293a3141dda6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create course/Create course successfully</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>831c2b9c-29c9-42a2-938c-d66d835e493f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create course/Create course with existed shortname</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

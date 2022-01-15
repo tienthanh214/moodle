@@ -31,6 +31,18 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Texting/Page_Local Mood
 
 WebUI.click(findTestObject('Object Repository/Texting/Page_Local Moodle Log in to the site/button_Log in'))
 
+WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/i_See all_icon fa fa-comment fa-fw'))
+
+WebUI.setText(findTestObject('Object Repository/Texting/Page_Nh ca ti/input_Messages selected_form-control'), 'Thanh')
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_1'))
+
+WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_1'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L'))
+
+WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L'))
+
 WebUI.setText(findTestObject('Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_3e2d02'), 
     'Hi there')
 

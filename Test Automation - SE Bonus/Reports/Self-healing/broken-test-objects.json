@@ -2666,6 +2666,246 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_1",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641380790278_202\u0027]/div[4]/div/div/div/button/span/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/span/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641380790278_197\u0027]/div[6]/div/div/div/div[2]/div/a/h6",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Non-contacts\u0027])[1]/following::h6[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_3e2d02",
+      "brokenLocator": "//textarea[@id\u003d\u0027yui_3_17_2_1_1641382762786_207\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_3e2d02_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/i__icon fa fa-paper-plane fa-fw",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641382762786_208\u0027]/div/button[2]/span/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[2]/span/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/i__icon fa fa-paper-plane fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/i__yui_3_17_2_1_1641382762786_212",
+      "brokenLocator": "//i[@id\u003d\u0027yui_3_17_2_1_1641382762786_212\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[2]/span/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/i__yui_3_17_2_1_1641382762786_212_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/i_See all_yui_3_17_2_1_1641382882296_189",
+      "brokenLocator": "//i[@id\u003d\u0027yui_3_17_2_1_1641382882296_189\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/i_See all_yui_3_17_2_1_1641382882296_189_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/strong_Cng Bnh L",
+      "brokenLocator": "//div[@id\u003d\u0027view-overview-messages-target-61d583e23d87f61d583e22613e21\u0027]/div[2]/a/div/div/strong",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Private\u0027])[1]/following::strong[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/strong_Cng Bnh L_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/p_Hi there",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641382762786_197\u0027]/div[3]/div/div/div[4]/div/div[3]/div[3]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Làm lại\u0027])[3]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/p_Hi there_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_cec9a1",
+      "brokenLocator": "//textarea[@id\u003d\u0027yui_3_17_2_1_1641380790278_222\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_cec9a1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/p_I m Thanh",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641380790278_197\u0027]/div[3]/div/div/div[4]/div/div/div[3]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Làm lại\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/p_I m Thanh_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_1_2",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641380882152_209\u0027]/div[4]/div/div/div/button/span/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/span/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_1_2_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_5e8ada",
+      "brokenLocator": "//textarea[@id\u003d\u0027yui_3_17_2_1_1641380882152_229\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_5e8ada_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/i__icon fa fa-paper-plane fa-fw_1",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641380882152_230\u0027]/div/button[2]/span/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[2]/span/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/i__icon fa fa-paper-plane fa-fw_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/p_I m A",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641380882152_204\u0027]/div[3]/div/div/div[4]/div/div[5]/div[3]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Delete for me and for everyone else\u0027])[1]/preceding::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/p_I m A_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/span_I m A",
+      "brokenLocator": "//div[@id\u003d\u0027view-overview-messages-target-61d57c5b0cd3961d57c5ae95c521\u0027]/div[2]/a/div/p/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027I \u0027, \"\u0027\", \u0027m Thanh\u0027)])[1]/preceding::span[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/span_I m A_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/span_I m Thanh",
+      "brokenLocator": "//div[@id\u003d\u0027view-overview-messages-target-61d57c5b0cd3961d57c5ae95c521\u0027]/div[2]/a[2]/div/p/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027I \u0027, \"\u0027\", \u0027m A\u0027)])[1]/following::span[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/span_I m Thanh_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/strong_Tin Thnh Nguyn ng",
+      "brokenLocator": "//div[@id\u003d\u0027view-overview-messages-target-61d5836ab33eb61d5836a98d4621\u0027]/div[2]/a[2]/div/div/strong",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027I \u0027, \"\u0027\", \u0027m A\u0027)])[1]/following::strong[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/strong_Tin Thnh Nguyn ng_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/i_Lin lc_icon fa fa-chevron-left fa-fw",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641380955105_206\u0027]/div/a/div/span/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/div/div/div/a/div/span/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/i_Lin lc_icon fa fa-chevron-left fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/strong_Vn A Nguyn",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641380955105_202\u0027]/a/div/div/strong",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Private\u0027])[1]/following::strong[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/strong_Vn A Nguyn_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/span_Lin lc_dir-rtl-hide",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641380955105_257\u0027]/div/a/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Liên lạc\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/span_Lin lc_dir-rtl-hide_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Local Moodle/a_Log in",
+      "brokenLocator": "//div[@id\u003d\u0027page-wrapper\u0027]/nav/ul[2]/li[2]/div/span/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Home\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Local Moodle/a_Log in_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm",
+      "brokenLocator": "//div[@id\u003d\u0027course-info-container-2-4\u0027]/div/div/a/span[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm",
+      "brokenLocator": "//div[@id\u003d\u0027course-info-container-2-4\u0027]/div/div/a/span[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (13) (1)",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e045c6a5d771\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (13) (1)_position.png"
     }
   ]
 }

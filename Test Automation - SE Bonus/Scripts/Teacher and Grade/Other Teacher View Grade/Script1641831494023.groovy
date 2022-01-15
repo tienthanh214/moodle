@@ -63,7 +63,7 @@ WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Local Moodl
 WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/input_Username_username'), 
     'ndtthanh')
 
-WebUI.setEncryptedText(findTestObject('Admin Site/Page_Local Moodle Log in to the site/input_Password_password'), 'cvW8qx4B2o1gIDzvWT+0mQ==')
+WebUI.setEncryptedText(findTestObject('Admin Site/Page_Local Moodle Log in to the site/input_Password_password'), 'o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2')
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/button_Log in'))
 

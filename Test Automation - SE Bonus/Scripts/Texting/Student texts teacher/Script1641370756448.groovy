@@ -31,11 +31,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Texting/Page_Local Mood
 
 WebUI.click(findTestObject('Object Repository/Texting/Page_Local Moodle Log in to the site/button_Log in'))
 
-WebUI.rightClick(findTestObject('Object Repository/Texting/Page_Nh ca ti/a_0'))
-
 WebUI.verifyElementClickable(findTestObject('Object Repository/Texting/Page_Nh ca ti/i_See all_icon fa fa-comment fa-fw'))
 
-WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/a_0'))
+WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/i_See all_icon fa fa-comment fa-fw'))
 
 WebUI.setText(findTestObject('Object Repository/Texting/Page_Nh ca ti/input_Messages selected_form-control'), 'Lê')
 
@@ -63,8 +61,6 @@ WebUI.setText(findTestObject('Object Repository/Texting/Page_Local Moodle Log in
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Texting/Page_Local Moodle Log in to the site/input_Password_password'), 
     'o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2')
-
-WebUI.rightClick(findTestObject('Object Repository/Texting/Page_Local Moodle Log in to the site/button_Log in'))
 
 WebUI.click(findTestObject('Object Repository/Texting/Page_Local Moodle Log in to the site/button_Log in'))
 

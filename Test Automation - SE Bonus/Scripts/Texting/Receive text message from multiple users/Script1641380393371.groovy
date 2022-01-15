@@ -46,11 +46,7 @@ WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L
 WebUI.setText(findTestObject('Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_cec9a1'), 
     'I \'m Thanh')
 
-WebUI.rightClick(findTestObject('Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_cec9a1'))
-
 WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/i__icon fa fa-paper-plane fa-fw'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Texting/Page_Nh ca ti/p_I m Thanh'), 'I \'m Thanh')
 
 WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/a_Tin Thnh Nguyn ng'))
 
