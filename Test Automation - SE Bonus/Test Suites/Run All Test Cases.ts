@@ -269,4 +269,70 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create course/Create course with existed shortname</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>171704a1-f9b3-4711-b285-9e7d0f73449d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create course/Create course without fullname</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f8acfab9-e2b6-4f0c-91de-a027b093e827</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create course/Create course without shortname</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>faa51088-f0d1-4a19-86a1-c79ff40e6dc5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create course/Create course without type</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>516039a8-f2f7-4a41-bee6-fedadf9212d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create folder and quiz/Create folder without title</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>96b6accc-a727-4400-953c-c145b90bfd6e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create folder and quiz/Create folder</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1812d85e-3d34-42db-993d-df27c849d327</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create folder and quiz/Create quiz without title</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a716079-daff-4bec-8242-2c1a27562d59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create folder and quiz/Create quiz</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b213ef93-f4d7-40ee-8ed7-ee469e7a18bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/View course grade/Update grade with assignment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>41531604-f144-4fdd-bf01-1fee268802b1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/View course grade/Update grade without assignment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>331a6ef4-2b1d-49d3-8eda-a1777580cc7b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/View course grade/View grader report site</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eed6a637-0376-40d0-b2d1-eb459d140981</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
