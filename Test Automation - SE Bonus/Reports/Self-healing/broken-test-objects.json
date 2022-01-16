@@ -2909,6 +2909,39 @@
     },
     {
       "approved": true,
+<<<<<<< HEAD
+=======
+      "testObjectId": "Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/input_Grade out of 100_grade",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027text\u0027 and @name \u003d \u0027grade\u0027 and @id \u003d \u0027id_grade\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/input_Grade out of 100_grade_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_Kha Test View Grade/a_Cng Bnh L",
+      "brokenLocator": "//a[@id\u003d\u0027action-menu-toggle-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(@href, \u0027#\u0027)])[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_Kha Test View Grade/a_Cng Bnh L_href.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/input_Grade out of 100_grade",
+      "brokenLocator": "//input[@id\u003d\u0027id_grade\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027text\u0027 and @name \u003d \u0027grade\u0027 and @id \u003d \u0027id_grade\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/input_Grade out of 100_grade_BASIC.png"
+    },
+    {
+      "approved": true,
+>>>>>>> ebaf8dcd92bdfd3740bf559e10223162ab05e30b
       "testObjectId": "Object Repository/Students check events on calendar/Page_Bin son Bi tp/select_1        2        3        4        _45ea30",
       "brokenLocator": "",
       "brokenLocatorMethod": "XPATH",
@@ -2939,6 +2972,7 @@
     },
     {
       "approved": true,
+<<<<<<< HEAD
       "testObjectId": "Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th By, 8 Thng Ging 2022/a_i ti hot ng",
       "brokenLocator": "//div[@id\u003d\u0027calendar-day-61e176fb1c54c61e176fa289e520\u0027]/div[2]/div[2]/div[3]/div/div[3]/a",
       "brokenLocatorMethod": "XPATH",
@@ -2946,6 +2980,15 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th By, 8 Thng Ging 2022/a_i ti hot ng_neighbor.png"
+=======
+      "testObjectId": "Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1642165488702_701\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Thêm tập tin ở đây\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn_neighbor.png"
+>>>>>>> ebaf8dcd92bdfd3740bf559e10223162ab05e30b
     },
     {
       "approved": true,
@@ -3006,6 +3049,19 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/div_Bi tp_neighbor.png"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Utils/Page_CNPM Danh sch thnh vin/span__1",
+      "brokenLocator": "//span[@id\u003d\u0027form_autocomplete_downarrow-1641965227118\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027fitem_id_userlist\u0027]/div[2]/div[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Utils/Page_CNPM Danh sch thnh vin/span__1_idRelative.png"
+>>>>>>> ebaf8dcd92bdfd3740bf559e10223162ab05e30b
     }
   ]
 }
