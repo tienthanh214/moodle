@@ -54,7 +54,7 @@ $courseid = optional_param('course', SITEID, PARAM_INT);
 $view = optional_param('view', 'upcoming', PARAM_ALPHA);
 $day = optional_param('cal_d', 0, PARAM_INT);
 $mon = optional_param('cal_m', 0, PARAM_INT);
-$year = optional_param('cal_y', 0, PARAM_INT);
+$year = optional_param('cal_y', -1, PARAM_INT);
 $time = optional_param('time', 0, PARAM_INT);
 $lookahead = optional_param('lookahead', null, PARAM_INT);
 
