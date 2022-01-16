@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Create folder and quiz/Page_Local Moodle/a_Log in'))
 
-WebUI.setText(findTestObject('Create folder and quiz/Page_Local Moodle Log in to the site/input_Username_username'), 
-    'teacher')
+WebUI.setText(findTestObject('Object Repository/Create course/Page_New Moodle Site Log in to the site/input_Username_username'), 
+    'hs01')
 
-WebUI.setEncryptedText(findTestObject('Create folder and quiz/Page_Local Moodle Log in to the site/input_Password_password'), 
-    'ie7bep3f1gXYsgY0lkRhPw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Create course/Page_New Moodle Site Log in to the site/input_Password_password'), 
+    'o5TCnEIIWq2SeGQhIMNXLQ==')
 
 WebUI.click(findTestObject('Create folder and quiz/Page_Local Moodle Log in to the site/button_Log in'))
 

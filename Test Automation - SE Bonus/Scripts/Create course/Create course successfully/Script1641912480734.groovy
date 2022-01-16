@@ -71,29 +71,42 @@ WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/
 
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/button_Ghi danh ngi dng'))
 
-WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/input_Danh sch thnh vin_yui_3_17_2_1_164190_a20bc6'))
+WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/input_Danh sch thnh vin_btn btn-secondary my-1'))
 
-WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span__1'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create course/Page_CNPM Danh sch thnh vin/select_Ngi qun l            Gio vin        _4311d9'), 
+    '3', true)
 
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span_Teacher Nguyen'))
+WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_'))
 
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/button_Ghi danh ngi dng_1'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_CNPM Danh sch thnh vin/span_Nguyen Van A'))
+
+WebUI.click(findTestObject('Object Repository/Create course/Page_CNPM Danh sch thnh vin/button_Ghi danh ngi dng_1'))
 
 WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/a_Qun tr Thnh vin'))
 
 WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span_Thot'))
 
-WebUI.callTestCase(findTestCase('Utils/Login as teacher'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Create course/Page_New Moodle Site/a_Log in'))
 
-WebUI.click(findTestObject('Utils/Page_Nh ca ti (1)/span_Nhp mn Cng ngh phn mm'))
+WebUI.setText(findTestObject('Object Repository/Create course/Page_New Moodle Site Log in to the site/input_Username_username'), 
+    'hs01')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Create course/Page_New Moodle Site Log in to the site/input_Password_password'), 
+    'o5TCnEIIWq2SeGQhIMNXLQ==')
+
+WebUI.click(findTestObject('Object Repository/Create course/Page_New Moodle Site Log in to the site/button_Log in'))
+
+WebUI.click(findTestObject('Create course/Page_Nh ca ti/span_Trang ch h thng'))
+
+WebUI.click(findTestObject('Create course/Page_New Moodle Site/a_Nhp mn Cng ngh phn mm'))
 
 WebUI.click(findTestObject('Create course/Page_Kha Nhp mn Cng ngh phn mm/button_Bt ch  chnh sa'))
 
 WebUI.click(findTestObject('Create course/Page_Kha Nhp mn Cng ngh phn mm/button_Tt ch  chnh sa'))
 
-WebUI.click(findTestObject('Create course/Page_Kha Nhp mn Cng ngh phn mm/a_Teacher Nguyen'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/a_Nguyen Van A'))
 
-WebUI.click(findTestObject('Create course/Page_Kha Nhp mn Cng ngh phn mm/span_Thot'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/span_Thot'))
 
 WebUI.callTestCase(findTestCase('Utils/Login as student'), [:], FailureHandling.STOP_ON_FAILURE)
 

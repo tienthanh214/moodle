@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='form_autocomplete_suggestions-1642052805429']/li[4]/span/span</value>
+         <value>//ul[@id='form_autocomplete_suggestions-1642348739290']/li[7]/span/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -39,14 +39,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_autocomplete_suggestions-1642052805429&quot;)/li[4]/span[1]/span[1]</value>
+      <value>id(&quot;form_autocomplete_suggestions-1642348739290&quot;)/li[7]/span[1]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='form_autocomplete_suggestions-1642052805429']/li[4]/span/span</value>
+      <value>//ul[@id='form_autocomplete_suggestions-1642348739290']/li[7]/span/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +75,27 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Thanh Nguyen'])[2]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='form_autocomplete_suggestions-1642347800015']/li[7]/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='form_autocomplete_suggestions-1642052805429']/li[4]/span/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

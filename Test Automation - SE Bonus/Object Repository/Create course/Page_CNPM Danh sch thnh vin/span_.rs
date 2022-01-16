@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='form_autocomplete_downarrow-1641376934405']</value>
+         <value>//span[@id='form_autocomplete_downarrow-1642350427588']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#form_autocomplete_downarrow-1641376934405</value>
+         <value>#form_autocomplete_downarrow-1642350427588</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>form_autocomplete_downarrow-1641376934405</value>
+      <value>form_autocomplete_downarrow-1642350427588</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form_autocomplete_downarrow-1641376934405&quot;)</value>
+      <value>id(&quot;form_autocomplete_downarrow-1642350427588&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//span[@id='form_autocomplete_downarrow-1641376934405']</value>
+      <value>//span[@id='form_autocomplete_downarrow-1642350427588']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +106,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[3]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='form_autocomplete_downarrow-1642348739289']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='form_autocomplete_downarrow-1641376934405']</value>
    </webElementXpaths>
 </WebElementEntity>

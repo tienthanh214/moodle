@@ -25,23 +25,25 @@ WebUI.callTestCase(findTestCase('Utils/Create course CNPM'), [:], FailureHandlin
 
 WebUI.callTestCase(findTestCase('Utils/Login as teacher'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Create folder and quiz/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Nh ca ti/span_Trang ch h thng'))
+
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_New Moodle Site/a_Nhp mn Cng ngh phn mm'))
 
 WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Bt ch  chnh sa'))
 
 for (def index : (0..2)) {
     WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/span_Thm hot ng hoc ti nguyn'))
 
-    WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/div_Thng tin v  Phng chat hot ng_optionicon mt-2 mb-1 icon-size-5 icon-no-margin'))
+    WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/div_Thng tin v  Phng chat hot ng_optionicon_c1613a'))
 
     WebUI.setText(findTestObject('Create folder and quiz/Page_Bin son Th mc/input_Tn_name'), 'Doc')
 
     WebUI.click(findTestObject('Create folder and quiz/Page_Bin son Th mc/input_Upon activity completion_submitbutton2'))
 }
 
-WebUI.click(findTestObject('Create folder and quiz/Page_CNPM Doc/a_Teacher Nguyen'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/a_Nguyen Van A'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_CNPM Doc/a_Thot'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/span_Thot'))
 
 WebUI.callTestCase(findTestCase('Utils/Login as student'), [:], FailureHandling.STOP_ON_FAILURE)
 
