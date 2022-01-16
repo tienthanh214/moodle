@@ -2906,6 +2906,106 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (13) (1)_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Students check events on calendar/Page_Bin son Bi tp/select_1        2        3        4        _45ea30",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//select[@id\u003d\u0027id_duedate_day\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Bin son Bi tp/select_1        2        3        4        _45ea30_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Students check events on calendar/Page_Nh ca ti/a_28",
+      "brokenLocator": "//a[@id\u003d\u0027calendar-day-popover-link-1-2022-27-3\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u002728\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Nh ca ti/a_28_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Students check events on calendar/Page_Bn bc ch/a_Thm mt ch  tho lun mi",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641494373033_489\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mark as done\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Bn bc ch/a_Thm mt ch  tho lun mi_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th By, 8 Thng Ging 2022/a_i ti hot ng",
+      "brokenLocator": "//div[@id\u003d\u0027calendar-day-61e176fb1c54c61e176fa289e520\u0027]/div[2]/div[2]/div[3]/div/div[3]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Câu hỏi thăm dò đóng\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th By, 8 Thng Ging 2022/a_i ti hot ng_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thng bo mi",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1641377142667_495\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Thông báo mới\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thng bo mi_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e025a09a5401\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//header[@id\u003d\u0027page-header\u0027]/div/div/div/div[2]/div[2]/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1642078463952_611\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Thêm tập tin ở đây\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm_1",
+      "brokenLocator": "//div[@id\u003d\u0027course-info-container-2-7\u0027]/div/div/a/span[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tên khóa học\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Cu hi trc nghim Cu hi thm d_1",
+      "brokenLocator": "//li[@id\u003d\u0027module-10\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Mark as done\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Cu hi trc nghim Cu hi thm d_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/div_Bi tp",
+      "brokenLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div[3]/div/a/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bài học\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/div_Bi tp_neighbor.png"
     }
   ]
 }
