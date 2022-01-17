@@ -1,0 +1,1023 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Run All Test Cases,Edge Chromium 97,,,2022-01-16 19:21:09,2022-01-16 21:40:14,2h - 19m - 4.971s,FAILED
+,,,,,,,
+Test Cases/Admin Site/Login with Admin,Edge Chromium 97,If login with admin account administration site will present,,2022-01-16 19:21:11,2022-01-16 19:21:41,29.964s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:21:12,2022-01-16 19:21:22,9.692s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:21:22,2022-01-16 19:21:25,2.642s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:21:25,2022-01-16 19:21:27,2.770s,PASSED
+"setText(findTestObject(""Object Repository/Admin Site/Page_Local Moodle Log in to the site/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-16 19:21:27,2022-01-16 19:21:29,1.494s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin Site/Page_Local Moodle Log in to the site/input_Password_password""), ""bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5"")",Edge Chromium 97,,,2022-01-16 19:21:29,2022-01-16 19:21:30,1.366s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:21:30,2022-01-16 19:21:35,4.369s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Nh ca ti/span_Qun tr khu vc""))",Edge Chromium 97,,,2022-01-16 19:21:35,2022-01-16 19:21:40,5.273s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr Tm kim/a_Qun tr khu vc""), 0)",Edge Chromium 97,,,2022-01-16 19:21:40,2022-01-16 19:21:41,0.692s,PASSED
+,,,,,,,
+Test Cases/Admin Site/Change full site name,Edge Chromium 97,,,2022-01-16 19:21:41,2022-01-16 19:22:34,53.708s,PASSED
+"callTestCase(findTestCase(""Admin Site/Login with Admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 19:21:43,2022-01-16 19:22:06,22.778s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr Tm kim/a_Thit t trang ch""))",Edge Chromium 97,,,2022-01-16 19:22:06,2022-01-16 19:22:10,4.662s,PASSED
+"setText(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr Trang ch Thit t trang ch/input_fullname_s__fullname""), new_site_name)",Edge Chromium 97,,,2022-01-16 19:22:10,2022-01-16 19:22:12,1.541s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr Trang ch Thit t trang ch/button_Lu cc thay i""))",Edge Chromium 97,,,2022-01-16 19:22:12,2022-01-16 19:22:23,11.696s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr Trang ch Thit t trang ch/a_Qun tr Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:22:23,2022-01-16 19:22:25,1.212s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr Trang ch Thit t trang ch/span_Thot""))",Edge Chromium 97,,,2022-01-16 19:22:25,2022-01-16 19:22:26,1.345s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Admin Site/Page_New Moodle/h1_New Moodle_1""), new_site_name)",Edge Chromium 97,,,2022-01-16 19:22:26,2022-01-16 19:22:33,6.898s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:22:33,2022-01-16 19:22:34,1.300s,PASSED
+,,,,,,,
+Test Cases/Admin Site/Turn on Maintaince mode,Edge Chromium 97,,,2022-01-16 19:22:34,2022-01-16 19:23:38,1m - 3.502s,PASSED
+"callTestCase(findTestCase(""Admin Site/Login with Admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 19:22:35,2022-01-16 19:22:55,20.110s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr Tm kim/a_My ch""))",Edge Chromium 97,,,2022-01-16 19:22:55,2022-01-16 19:22:56,0.718s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr Tm kim/a_Ch  bo tr""))",Edge Chromium 97,,,2022-01-16 19:22:56,2022-01-16 19:22:59,2.855s,PASSED
+"navigateToUrl(""http://localhost/admin/settings.php?section=maintenancemode"")",Edge Chromium 97,,,2022-01-16 19:22:59,2022-01-16 19:23:01,2.188s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr/select_Tt            M""), ""1"", true)",Edge Chromium 97,,,2022-01-16 19:23:01,2022-01-16 19:23:04,2.658s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr/button_Lu cc thay i""))",Edge Chromium 97,,,2022-01-16 19:23:04,2022-01-16 19:23:09,5.131s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr -_346a94/a_Qun tr Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:23:09,2022-01-16 19:23:10,1.246s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr -_346a94/a_Thot""))",Edge Chromium 97,,,2022-01-16 19:23:10,2022-01-16 19:23:12,1.856s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Admin Site/Page_New Moodle Site - In maintenance mode/h2_The site is undergoing maintenance and i_04cd85""), ""The site is undergoing maintenance and is currently not available"")",Edge Chromium 97,,,2022-01-16 19:23:12,2022-01-16 19:23:13,0.699s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_New Moodle Site - In maintenance mode/a_Data retention summary""))",Edge Chromium 97,,,2022-01-16 19:23:13,2022-01-16 19:23:14,1.406s,PASSED
+"navigateToUrl(""http://localhost/admin/tool/dataprivacy/summary.php"")",Edge Chromium 97,,,2022-01-16 19:23:14,2022-01-16 19:23:15,0.794s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Registry configuration summary - In ma_a4478e/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:23:15,2022-01-16 19:23:16,1.500s,PASSED
+"setText(findTestObject(""Object Repository/Admin Site/Page_New Moodle Site Log in to the site - I_a50ac0/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-16 19:23:16,2022-01-16 19:23:18,1.020s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin Site/Page_New Moodle Site Log in to the site - I_a50ac0/input_Password_password""), ""bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5"")",Edge Chromium 97,,,2022-01-16 19:23:18,2022-01-16 19:23:18,0.836s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_New Moodle Site Log in to the site - I_a50ac0/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:23:18,2022-01-16 19:23:21,3.043s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Registry configuration summary - ang  _9bfae6/span_Qun tr khu vc""))",Edge Chromium 97,,,2022-01-16 19:23:21,2022-01-16 19:23:24,2.318s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr Tm kim - ang  ch  bo tr/a_My ch""))",Edge Chromium 97,,,2022-01-16 19:23:24,2022-01-16 19:23:24,0.644s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr Tm kim - ang  ch  bo tr/a_Ch  bo tr""))",Edge Chromium 97,,,2022-01-16 19:23:24,2022-01-16 19:23:27,3.124s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr -_346a94/select_Tt            M""), ""0"", true)",Edge Chromium 97,,,2022-01-16 19:23:27,2022-01-16 19:23:30,2.277s,PASSED
+"click(findTestObject(""Object Repository/Admin Site/Page_Moodle Khu vc qun tr My ch Ch  bo tr/button_Lu cc thay i""))",Edge Chromium 97,,,2022-01-16 19:23:30,2022-01-16 19:23:36,6.530s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:23:36,2022-01-16 19:23:38,1.521s,PASSED
+,,,,,,,
+Test Cases/Create New User/Create Normal User,Edge Chromium 97,,,2022-01-16 19:23:38,2022-01-16 19:25:57,2m - 18.962s,PASSED
+"callTestCase(findTestCase(""Admin Site/Login with Admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 19:23:40,2022-01-16 19:24:02,21.401s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr My ch Ch  bo tr/span_Qun tr khu vc""))",Edge Chromium 97,,,2022-01-16 19:24:02,2022-01-16 19:24:10,8.666s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:24:10,2022-01-16 19:24:11,0.706s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thm thnh vin mi""))",Edge Chromium 97,,,2022-01-16 19:24:11,2022-01-16 19:24:15,4.048s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_Tn ti khon_username""), ""test_1"")",Edge Chromium 97,,,2022-01-16 19:24:15,2022-01-16 19:24:17,1.882s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/a_Click to enter text""))",Edge Chromium 97,,,2022-01-16 19:24:17,2022-01-16 19:24:24,7.263s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_Mt khu mi_newpassword""), ""cvW8qx4B2o1gIDzvWT+0mQ=="")",Edge Chromium 97,,,2022-01-16 19:24:24,2022-01-16 19:24:25,1.232s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_Tn m v tn_firstname""), ""A"")",Edge Chromium 97,,,2022-01-16 19:24:25,2022-01-16 19:24:28,2.946s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_H_lastname""), ""Nguyễn"")",Edge Chromium 97,,,2022-01-16 19:24:28,2022-01-16 19:24:31,2.290s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_a ch th in t_email""), ""test_1@gmail.com"")",Edge Chromium 97,,,2022-01-16 19:24:31,2022-01-16 19:24:32,1.867s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/select_Du a ch th in t ca ti            Cho_daca4a""), ""0"", true)",Edge Chromium 97,,,2022-01-16 19:24:32,2022-01-16 19:24:35,2.392s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_TnhThnh ph_city""), ""Hồ Chí Minh"")",Edge Chromium 97,,,2022-01-16 19:24:35,2022-01-16 19:24:37,1.851s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/select_Chn quc gia.            Afghanistan _0db63d""), ""VN"", true)",Edge Chromium 97,,,2022-01-16 19:24:37,2022-01-16 19:24:49,12.091s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/a_Ty bin_1""))",Edge Chromium 97,,,2022-01-16 19:24:49,2022-01-16 19:24:56,7.055s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_KhoaPhngBan_department""), ""Công nghệ thông tin"")",Edge Chromium 97,,,2022-01-16 19:24:56,2022-01-16 19:24:57,1.276s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_a ch_submitbutton""))",Edge Chromium 97,,,2022-01-16 19:24:57,2022-01-16 19:25:03,5.455s,PASSED
+"navigateToUrl(""http://localhost/admin/user.php"")",Edge Chromium 97,,,2022-01-16 19:25:03,2022-01-16 19:25:04,1.529s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/a_Qun tr Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:25:04,2022-01-16 19:25:05,0.981s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/span_Thot""))",Edge Chromium 97,,,2022-01-16 19:25:05,2022-01-16 19:25:06,1.422s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:25:06,2022-01-16 19:25:08,1.146s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Username_username""), ""test_1"")",Edge Chromium 97,,,2022-01-16 19:25:08,2022-01-16 19:25:09,1.238s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Password_password""), ""cvW8qx4B2o1gIDzvWT+0mQ=="")",Edge Chromium 97,,,2022-01-16 19:25:09,2022-01-16 19:25:10,0.740s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:25:10,2022-01-16 19:25:12,2.842s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Nh ca ti/a_A Nguyn""))",Edge Chromium 97,,,2022-01-16 19:25:12,2022-01-16 19:25:15,2.098s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Nh ca ti/a_H s""))",Edge Chromium 97,,,2022-01-16 19:25:15,2022-01-16 19:25:17,2.149s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create New User/Page_A Nguyn H s cng khai/h1_A Nguyn""), ""A Nguyễn"")",Edge Chromium 97,,,2022-01-16 19:25:17,2022-01-16 19:25:17,0.718s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create New User/Page_A Nguyn H s cng khai/a_test_1gmail.com_1""), ""test_1@gmail.com"")",Edge Chromium 97,,,2022-01-16 19:25:17,2022-01-16 19:25:18,0.471s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create New User/Page_A Nguyn H s cng khai/dd_Vit Nam""), ""Việt Nam"")",Edge Chromium 97,,,2022-01-16 19:25:18,2022-01-16 19:25:18,0.563s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create New User/Page_A Nguyn H s cng khai/dd_H Ch Minh""), ""Hồ Chí Minh"")",Edge Chromium 97,,,2022-01-16 19:25:18,2022-01-16 19:25:19,0.525s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_A Nguyn H s cng khai/a_A Nguyn""))",Edge Chromium 97,,,2022-01-16 19:25:19,2022-01-16 19:25:20,0.863s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_A Nguyn H s cng khai/a_Thot""))",Edge Chromium 97,,,2022-01-16 19:25:20,2022-01-16 19:25:21,1.594s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:25:21,2022-01-16 19:25:23,1.275s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-16 19:25:23,2022-01-16 19:25:24,1.063s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Password_password""), ""bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5"")",Edge Chromium 97,,,2022-01-16 19:25:24,2022-01-16 19:25:25,0.837s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:25:25,2022-01-16 19:25:28,3.090s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Nh ca ti/span_Qun tr khu vc""))",Edge Chromium 97,,,2022-01-16 19:25:28,2022-01-16 19:25:34,5.859s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:25:34,2022-01-16 19:25:34,0.795s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Xem danh sch thnh vin""))",Edge Chromium 97,,,2022-01-16 19:25:34,2022-01-16 19:25:37,3.009s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/i_Vit Nam_yui_3_17_2_1_1642096245171_45""))",Edge Chromium 97,,,2022-01-16 19:25:37,2022-01-16 19:25:46,8.579s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _9bfdd2/button_Xo""))",Edge Chromium 97,,,2022-01-16 19:25:46,2022-01-16 19:25:55,9.486s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:25:55,2022-01-16 19:25:57,1.357s,PASSED
+,,,,,,,
+Test Cases/Create New User/Create New User Password Fail,Edge Chromium 97,,,2022-01-16 19:28:10,2022-01-16 19:28:53,43.259s,FAILED
+"callTestCase(findTestCase(""Admin Site/Login with Admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 19:28:10,2022-01-16 19:28:29,19.181s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:28:29,2022-01-16 19:28:30,0.895s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thm thnh vin mi""))",Edge Chromium 97,,,2022-01-16 19:28:30,2022-01-16 19:28:33,3.325s,PASSED
+"navigateToUrl(""http://localhost/user/editadvanced.php?id=-1"")",Edge Chromium 97,,,2022-01-16 19:28:33,2022-01-16 19:28:35,1.921s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_Tn ti khon_username""))",Edge Chromium 97,,,2022-01-16 19:28:35,2022-01-16 19:28:37,1.635s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_Tn ti khon_username""), ""test_fail"")",Edge Chromium 97,,,2022-01-16 19:28:37,2022-01-16 19:28:38,0.924s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_Tn m v tn_firstname""), ""1"")",Edge Chromium 97,,,2022-01-16 19:28:38,2022-01-16 19:28:39,0.891s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_H_lastname""), ""2"")",Edge Chromium 97,,,2022-01-16 19:28:39,2022-01-16 19:28:40,1.134s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_a ch th in t_email""), ""test_fail@gmail.com"")",Edge Chromium 97,,,2022-01-16 19:28:40,2022-01-16 19:28:41,1.212s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/em_Click to enter text""))",Edge Chromium 97,,,2022-01-16 19:28:41,2022-01-16 19:28:53,12.115s,FAILED
+,,,,,,,
+Test Cases/Create New User/Create New User With Full Information,Edge Chromium 97,,,2022-01-16 19:31:09,2022-01-16 19:31:54,44.265s,FAILED
+"callTestCase(findTestCase(""Admin Site/Login with Admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 19:31:09,2022-01-16 19:31:28,18.295s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:31:28,2022-01-16 19:31:28,0.699s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thm thnh vin mi""))",Edge Chromium 97,,,2022-01-16 19:31:28,2022-01-16 19:31:32,3.247s,PASSED
+"navigateToUrl(""http://localhost/user/editadvanced.php?id=-1"")",Edge Chromium 97,,,2022-01-16 19:31:32,2022-01-16 19:31:34,2.098s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/a_M rng tt c""))",Edge Chromium 97,,,2022-01-16 19:31:34,2022-01-16 19:31:41,6.779s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_Tn ti khon_username""), ""test_3"")",Edge Chromium 97,,,2022-01-16 19:31:41,2022-01-16 19:31:42,1.049s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/em_Click to enter text""))",Edge Chromium 97,,,2022-01-16 19:31:42,2022-01-16 19:31:54,12.074s,FAILED
+,,,,,,,
+Test Cases/Create New User/Create Teacher,Edge Chromium 97,,,2022-01-16 19:33:53,2022-01-16 19:34:34,40.765s,FAILED
+"callTestCase(findTestCase(""Admin Site/Login with Admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 19:33:53,2022-01-16 19:34:13,20.295s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:34:13,2022-01-16 19:34:14,0.737s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thm thnh vin mi""))",Edge Chromium 97,,,2022-01-16 19:34:14,2022-01-16 19:34:17,3.119s,PASSED
+"navigateToUrl(""http://localhost/user/editadvanced.php?id=-1"")",Edge Chromium 97,,,2022-01-16 19:34:17,2022-01-16 19:34:20,2.451s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/input_Tn ti khon_username""), ""teacher1"")",Edge Chromium 97,,,2022-01-16 19:34:20,2022-01-16 19:34:21,1.994s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _57274d/em_Click to enter text""))",Edge Chromium 97,,,2022-01-16 19:34:21,2022-01-16 19:34:34,12.078s,FAILED
+,,,,,,,
+Test Cases/Create New User/Spam Create User,Edge Chromium 97,use for loop to create 5 new user,,2022-01-16 19:34:34,2022-01-16 19:37:41,3m - 7.499s,PASSED
+"callTestCase(findTestCase(""Admin Site/Login with Admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 19:34:34,2022-01-16 19:34:51,16.946s,PASSED
+for (def index : (1..3)),Edge Chromium 97,,,2022-01-16 19:34:51,2022-01-16 19:36:58,2m - 6.861s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Qun tr Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:36:58,2022-01-16 19:36:59,0.861s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/span_Thot""))",Edge Chromium 97,,,2022-01-16 19:36:59,2022-01-16 19:37:00,1.296s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:37:00,2022-01-16 19:37:02,1.208s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Username_username""), ""test_2"")",Edge Chromium 97,,,2022-01-16 19:37:02,2022-01-16 19:37:03,0.969s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Password_password""), ""cvW8qx4B2o1gIDzvWT+0mQ=="")",Edge Chromium 97,,,2022-01-16 19:37:03,2022-01-16 19:37:03,0.634s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:37:03,2022-01-16 19:37:06,2.509s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Nh ca ti/a_A2 Nguyn""))",Edge Chromium 97,,,2022-01-16 19:37:06,2022-01-16 19:37:08,2.144s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Nh ca ti/span_Thot""))",Edge Chromium 97,,,2022-01-16 19:37:08,2022-01-16 19:37:10,1.593s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:37:10,2022-01-16 19:37:11,1.076s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-16 19:37:11,2022-01-16 19:37:12,0.965s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/input_Password_password""), ""bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5"")",Edge Chromium 97,,,2022-01-16 19:37:12,2022-01-16 19:37:12,0.702s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:37:12,2022-01-16 19:37:15,2.484s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Nh ca ti/span_Qun tr khu vc""))",Edge Chromium 97,,,2022-01-16 19:37:15,2022-01-16 19:37:19,3.769s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:37:19,2022-01-16 19:37:19,0.620s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Tm kim/a_Hnh ng trn hng lot thnh vin""))",Edge Chromium 97,,,2022-01-16 19:37:19,2022-01-16 19:37:21,2.284s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _1ca8e5/select_c cha        khng cha        bng vi _49cfad""), ""0"", true)",Edge Chromium 97,,,2022-01-16 19:37:21,2022-01-16 19:37:23,1.452s,PASSED
+"setText(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _1ca8e5/input_Tn y  value_realname""), ""Test"")",Edge Chromium 97,,,2022-01-16 19:37:23,2022-01-16 19:37:24,0.953s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _1ca8e5/input_a ch IP trc  value_addfilter""))",Edge Chromium 97,,,2022-01-16 19:37:24,2022-01-16 19:37:26,2.090s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _1ca8e5/input_Danh sch thnh vin c chn_addall""))",Edge Chromium 97,,,2022-01-16 19:37:26,2022-01-16 19:37:28,2.123s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _1ca8e5/select_Chn.        Xc nhn        Gi tin nhn_4dafb0""), ""delete"", true)",Edge Chromium 97,,,2022-01-16 19:37:28,2022-01-16 19:37:30,1.739s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _1ca8e5/input_Vi cc thnh vin c chn_doaction""))",Edge Chromium 97,,,2022-01-16 19:37:30,2022-01-16 19:37:32,2.113s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _1ca8e5/button_C""))",Edge Chromium 97,,,2022-01-16 19:37:32,2022-01-16 19:37:40,7.879s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:37:40,2022-01-16 19:37:41,1.329s,PASSED
+,,,,,,,
+Test Cases/Create User by CSV/Create By CSV Success,Edge Chromium 97,,,2022-01-16 19:37:41,2022-01-16 19:38:54,1m - 13.120s,PASSED
+"callTestCase(findTestCase(""Admin Site/Login with Admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 19:37:42,2022-01-16 19:37:57,15.659s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Tm kim/span_Qun tr khu vc""))",Edge Chromium 97,,,2022-01-16 19:37:57,2022-01-16 19:37:59,1.835s,PASSED
+"navigateToUrl(""http://localhost/admin/search.php"")",Edge Chromium 97,,,2022-01-16 19:37:59,2022-01-16 19:38:01,1.331s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:38:01,2022-01-16 19:38:01,0.568s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Tm kim/a_Nhp danh sch thnh vin""))",Edge Chromium 97,,,2022-01-16 19:38:01,2022-01-16 19:38:03,1.639s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Tp tin_userfilechoose""))",Edge Chromium 97,,,2022-01-16 19:38:03,2022-01-16 19:38:10,7.210s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/span_Tp tin ring t""))",Edge Chromium 97,,,2022-01-16 19:38:10,2022-01-16 19:38:17,6.744s,PASSED
+"click(findTestObject(""Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/div_Wikimedia_yui_3_17_2_1_1642067879076_656""))",Edge Chromium 97,,,2022-01-16 19:38:17,2022-01-16 19:38:24,6.736s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/button_Chn tp ny""))",Edge Chromium 97,,,2022-01-16 19:38:24,2022-01-16 19:38:30,6.731s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/select_,                                    t""), ""comma"", true)",Edge Chromium 97,,,2022-01-16 19:38:30,2022-01-16 19:38:32,1.529s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Xem trc cc dng_submitbutton""))",Edge Chromium 97,,,2022-01-16 19:38:32,2022-01-16 19:38:35,2.778s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Xem trc cc dng_submitbutton""))",Edge Chromium 97,,,2022-01-16 19:38:35,2022-01-16 19:38:37,2.624s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/button_Tip tc""))",Edge Chromium 97,,,2022-01-16 19:38:37,2022-01-16 19:38:45,8.130s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/a_Qun tr Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:38:45,2022-01-16 19:38:46,0.885s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/span_Thot""))",Edge Chromium 97,,,2022-01-16 19:38:46,2022-01-16 19:38:48,1.337s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:38:48,2022-01-16 19:38:49,1.016s,PASSED
+"setText(findTestObject(""Object Repository/Create User by CSV/Page_Local Moodle Log in to the site/input_Username_username""), ""student2"")",Edge Chromium 97,,,2022-01-16 19:38:49,2022-01-16 19:38:50,0.999s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create User by CSV/Page_Local Moodle Log in to the site/input_Password_password""), ""tzH6RvlfSTg="")",Edge Chromium 97,,,2022-01-16 19:38:50,2022-01-16 19:38:50,0.726s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:38:50,2022-01-16 19:38:52,1.882s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create User by CSV/Page_i mt khu/h1_Student Two""), ""Student Two"")",Edge Chromium 97,,,2022-01-16 19:38:52,2022-01-16 19:38:53,0.783s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:38:53,2022-01-16 19:38:54,1.244s,PASSED
+,,,,,,,
+Test Cases/Create User by CSV/Create by CSV warning,Edge Chromium 97,,,2022-01-16 19:38:54,2022-01-16 19:40:00,1m - 6.123s,PASSED
+"callTestCase(findTestCase(""Admin Site/Login with Admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 19:38:55,2022-01-16 19:39:10,15.234s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Tm kim/span_Qun tr khu vc""))",Edge Chromium 97,,,2022-01-16 19:39:10,2022-01-16 19:39:12,1.751s,PASSED
+"navigateToUrl(""http://localhost/admin/search.php"")",Edge Chromium 97,,,2022-01-16 19:39:12,2022-01-16 19:39:13,1.328s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Tm kim/a_Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:39:13,2022-01-16 19:39:14,0.764s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Tm kim/a_Nhp danh sch thnh vin""))",Edge Chromium 97,,,2022-01-16 19:39:14,2022-01-16 19:39:16,1.647s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Tp tin_userfilechoose""))",Edge Chromium 97,,,2022-01-16 19:39:16,2022-01-16 19:39:23,7.254s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/span_Tp tin ring t""))",Edge Chromium 97,,,2022-01-16 19:39:23,2022-01-16 19:39:30,6.951s,PASSED
+"click(findTestObject(""Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon Nhp danh sch thnh vin/div_Wikimedia_yui_3_17_2_1_1642067879076_664""))",Edge Chromium 97,,,2022-01-16 19:39:30,2022-01-16 19:39:37,6.880s,PASSED
+"click(findTestObject(""Object Repository/Create New User/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/button_Chn tp ny""))",Edge Chromium 97,,,2022-01-16 19:39:37,2022-01-16 19:39:44,6.732s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/select_,                                    t""), ""comma"", true)",Edge Chromium 97,,,2022-01-16 19:39:44,2022-01-16 19:39:45,1.565s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Xem trc cc dng_submitbutton""))",Edge Chromium 97,,,2022-01-16 19:39:45,2022-01-16 19:39:48,2.560s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/select_Add new only, skip existing users   _620e8d""), ""2"", true)",Edge Chromium 97,,,2022-01-16 19:39:48,2022-01-16 19:39:49,1.604s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/select_Khng c thay i            Override wi_69ddaa""), ""1"", true)",Edge Chromium 97,,,2022-01-16 19:39:49,2022-01-16 19:39:51,1.346s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/input_Xem trc cc dng_submitbutton""))",Edge Chromium 97,,,2022-01-16 19:39:51,2022-01-16 19:39:52,1.731s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/span_a ch th in t khng hp l""), ""Địa chỉ thư điện tử không hợp lệ"")",Edge Chromium 97,,,2022-01-16 19:39:52,2022-01-16 19:39:53,0.512s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/span_One--Replace""), ""One-->Replace"")",Edge Chromium 97,,,2022-01-16 19:39:53,2022-01-16 19:39:53,0.430s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/a_Qun tr Thnh vin""))",Edge Chromium 97,,,2022-01-16 19:39:53,2022-01-16 19:39:54,0.527s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Moodle Khu vc qun tr Thnh vin Ti khon _cb1c9d/span_Thot""))",Edge Chromium 97,,,2022-01-16 19:39:54,2022-01-16 19:39:55,1.141s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:39:55,2022-01-16 19:39:56,0.918s,PASSED
+"setText(findTestObject(""Object Repository/Create User by CSV/Page_Local Moodle Log in to the site/input_Username_username""), ""123"")",Edge Chromium 97,,,2022-01-16 19:39:56,2022-01-16 19:39:57,1.009s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create User by CSV/Page_Local Moodle Log in to the site/input_Password_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Edge Chromium 97,,,2022-01-16 19:39:57,2022-01-16 19:39:57,0.623s,PASSED
+"click(findTestObject(""Object Repository/Create User by CSV/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:39:57,2022-01-16 19:39:59,1.097s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Create User by CSV/Page_Local Moodle Log in to the site/div_Invalid login, please try again""), 0)",Edge Chromium 97,,,2022-01-16 19:39:59,2022-01-16 19:39:59,0.504s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:39:59,2022-01-16 19:40:00,1.248s,PASSED
+,,,,,,,
+Test Cases/Teacher and Grade/Grade for student,Edge Chromium 97,,,2022-01-16 19:40:00,2022-01-16 19:42:00,1m - 59.545s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:40:01,2022-01-16 19:40:05,3.740s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:40:05,2022-01-16 19:40:07,1.673s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:40:07,2022-01-16 19:40:08,1.175s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/input_Username_username""), ""lcbinh"")",Edge Chromium 97,,,2022-01-16 19:40:08,2022-01-16 19:40:09,0.928s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin Site/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2"")",Edge Chromium 97,,,2022-01-16 19:40:09,2022-01-16 19:40:09,0.689s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:40:09,2022-01-16 19:40:12,2.602s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Nh ca ti/span_Test View Grade""))",Edge Chromium 97,,,2022-01-16 19:40:12,2022-01-16 19:40:20,8.103s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Test Bi tp""))",Edge Chromium 97,,,2022-01-16 19:40:20,2022-01-16 19:40:24,3.429s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test/a_im""))",Edge Chromium 97,,,2022-01-16 19:40:24,2022-01-16 19:40:26,2.117s,PASSED
+"navigateToUrl(""http://localhost/mod/assign/view.php?id=10&action=grader"")",Edge Chromium 97,,,2022-01-16 19:40:26,2022-01-16 19:40:27,1.310s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/input_Grade out of 100_grade""), ""50"")",Edge Chromium 97,,,2022-01-16 19:40:27,2022-01-16 19:40:41,13.528s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/button_Lu v xem trang tip theo""))",Edge Chromium 97,,,2022-01-16 19:40:41,2022-01-16 19:40:47,6.766s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/input_Grade out of 100_grade""), ""100"")",Edge Chromium 97,,,2022-01-16 19:40:47,2022-01-16 19:41:01,13.508s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/button_Lu v xem trang tip theo""))",Edge Chromium 97,,,2022-01-16 19:41:01,2022-01-16 19:41:08,6.861s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/input_Grade out of 100_grade""), ""1"")",Edge Chromium 97,,,2022-01-16 19:41:08,2022-01-16 19:41:21,13.491s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test - ang chm/button_Lu v xem trang tip theo""))",Edge Chromium 97,,,2022-01-16 19:41:21,2022-01-16 19:41:28,6.793s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test 1 - ang chm/a_Kho hc Test View Grade""))",Edge Chromium 97,,,2022-01-16 19:41:28,2022-01-16 19:41:36,7.814s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_im s""))",Edge Chromium 97,,,2022-01-16 19:41:36,2022-01-16 19:41:38,2.709s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/td_50,00""), ""50,00"")",Edge Chromium 97,,,2022-01-16 19:41:38,2022-01-16 19:41:45,6.817s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/td_1,00""), ""1,00"")",Edge Chromium 97,,,2022-01-16 19:41:45,2022-01-16 19:41:52,6.691s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/td_100,00""), ""100,00"")",Edge Chromium 97,,,2022-01-16 19:41:52,2022-01-16 19:41:59,6.676s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:41:59,2022-01-16 19:42:00,1.230s,PASSED
+,,,,,,,
+Test Cases/Teacher and Grade/Grade in grade report site,Edge Chromium 97,,,2022-01-16 19:42:00,2022-01-16 19:44:48,2m - 48.106s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:42:01,2022-01-16 19:42:04,3.664s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:42:04,2022-01-16 19:42:06,1.848s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:42:06,2022-01-16 19:42:07,1.158s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/input_Username_username""), ""lcbinh"")",Edge Chromium 97,,,2022-01-16 19:42:07,2022-01-16 19:42:08,0.967s,PASSED
+"setEncryptedText(findTestObject(""Admin Site/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2"")",Edge Chromium 97,,,2022-01-16 19:42:08,2022-01-16 19:42:09,0.700s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:42:09,2022-01-16 19:42:12,2.926s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Nh ca ti/span_View Grade""))",Edge Chromium 97,,,2022-01-16 19:42:12,2022-01-16 19:42:20,8.063s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Kha Test View Grade/a_im s""))",Edge Chromium 97,,,2022-01-16 19:42:20,2022-01-16 19:42:22,2.114s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/i_Test ch  1_icon fa fa-pencil fa-fw""))",Edge Chromium 97,,,2022-01-16 19:42:22,2022-01-16 19:42:31,8.722s,PASSED
+"check(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/input_Override for Student Replace_override_3_28""))",Edge Chromium 97,,,2022-01-16 19:42:31,2022-01-16 19:42:38,6.787s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/input_Grade for Student Replace_finalgrade_3_28""), ""100"")",Edge Chromium 97,,,2022-01-16 19:42:38,2022-01-16 19:42:51,13.252s,PASSED
+"check(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/input_Override for Student Three_override_3_30""))",Edge Chromium 97,,,2022-01-16 19:42:51,2022-01-16 19:42:58,6.697s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/input_Grade for Student Three_finalgrade_3_30""), ""60"")",Edge Chromium 97,,,2022-01-16 19:42:58,2022-01-16 19:43:11,13.233s,PASSED
+"check(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/input_Override for Student Two_override_3_29""))",Edge Chromium 97,,,2022-01-16 19:43:11,2022-01-16 19:43:17,6.662s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/input_Grade for Student Two_finalgrade_3_29""), ""25"")",Edge Chromium 97,,,2022-01-16 19:43:17,2022-01-16 19:43:31,13.413s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/input_Insert value_btn btn-secondary""))",Edge Chromium 97,,,2022-01-16 19:43:31,2022-01-16 19:43:32,1.176s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Saving grades/button_Tip tc""))",Edge Chromium 97,,,2022-01-16 19:43:32,2022-01-16 19:43:40,7.590s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/a_Grader report""))",Edge Chromium 97,,,2022-01-16 19:43:40,2022-01-16 19:43:41,1.853s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/span_100,00""), ""100,00"")",Edge Chromium 97,,,2022-01-16 19:43:41,2022-01-16 19:43:48,6.696s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/span_60,00""), ""60,00"")",Edge Chromium 97,,,2022-01-16 19:43:48,2022-01-16 19:43:55,6.638s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/span_25,00""), ""25,00"")",Edge Chromium 97,,,2022-01-16 19:43:55,2022-01-16 19:44:02,6.731s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/span_Ch  1""))",Edge Chromium 97,,,2022-01-16 19:44:02,2022-01-16 19:44:03,1.394s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Test ch  1 Bi tp""))",Edge Chromium 97,,,2022-01-16 19:44:03,2022-01-16 19:44:11,7.891s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  1/a_im""))",Edge Chromium 97,,,2022-01-16 19:44:11,2022-01-16 19:44:13,1.668s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_100,00""), ""100,00"")",Edge Chromium 97,,,2022-01-16 19:44:13,2022-01-16 19:44:20,7.075s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_""))",Edge Chromium 97,,,2022-01-16 19:44:20,2022-01-16 19:44:26,6.804s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_25,00""), ""25,00"")",Edge Chromium 97,,,2022-01-16 19:44:26,2022-01-16 19:44:33,6.823s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_""))",Edge Chromium 97,,,2022-01-16 19:44:33,2022-01-16 19:44:40,6.733s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_60,00""), ""60,00"")",Edge Chromium 97,,,2022-01-16 19:44:40,2022-01-16 19:44:47,6.820s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:44:47,2022-01-16 19:44:48,1.266s,PASSED
+,,,,,,,
+Test Cases/Teacher and Grade/Other Teacher View Grade,Edge Chromium 97,,,2022-01-16 19:44:48,2022-01-16 19:46:38,1m - 50.289s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:44:49,2022-01-16 19:44:53,3.819s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:44:53,2022-01-16 19:44:54,1.757s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:44:54,2022-01-16 19:44:56,1.137s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/input_Username_username""), ""lcbinh"")",Edge Chromium 97,,,2022-01-16 19:44:56,2022-01-16 19:44:57,0.996s,PASSED
+"setEncryptedText(findTestObject(""Admin Site/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2"")",Edge Chromium 97,,,2022-01-16 19:44:57,2022-01-16 19:44:57,0.693s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:44:57,2022-01-16 19:45:00,2.437s,PASSED
+"click(findTestObject(""Teacher and Grade/Page_Nh ca ti/span_Test View Grade""))",Edge Chromium 97,,,2022-01-16 19:45:00,2022-01-16 19:45:07,7.807s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Test ch  2 Bi tp""))",Edge Chromium 97,,,2022-01-16 19:45:07,2022-01-16 19:45:16,8.042s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  2/a_im""))",Edge Chromium 97,,,2022-01-16 19:45:16,2022-01-16 19:45:17,1.604s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/input_Grade out of 100_grade""), ""11"")",Edge Chromium 97,,,2022-01-16 19:45:17,2022-01-16 19:45:21,4.074s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/button_Lu v xem trang tip theo""))",Edge Chromium 97,,,2022-01-16 19:45:21,2022-01-16 19:45:28,6.942s,PASSED
+"setText(findTestObject(""Teacher and Grade/Page_View Grade Test ch  2 - ang chm/input_Grade out of 100_grade""), ""56"")",Edge Chromium 97,,,2022-01-16 19:45:28,2022-01-16 19:45:31,2.586s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/button_Lu v xem trang tip theo""))",Edge Chromium 97,,,2022-01-16 19:45:31,2022-01-16 19:45:38,6.794s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/input_Grade out of 100_grade""), ""89"")",Edge Chromium 97,,,2022-01-16 19:45:38,2022-01-16 19:45:41,3.111s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/button_Lu v xem trang tip theo""))",Edge Chromium 97,,,2022-01-16 19:45:41,2022-01-16 19:45:48,6.856s,PASSED
+delay(5),Edge Chromium 97,,,2022-01-16 19:45:48,2022-01-16 19:45:53,5.046s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_View Grade Test ch  2 - ang chm/a_Kho hc Test View Grade""))",Edge Chromium 97,,,2022-01-16 19:45:53,2022-01-16 19:46:00,7.743s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Kha Test View Grade/a_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 19:46:00,2022-01-16 19:46:01,0.937s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Thot""))",Edge Chromium 97,,,2022-01-16 19:46:01,2022-01-16 19:46:03,1.297s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 19:46:03,2022-01-16 19:46:04,0.973s,PASSED
+"setText(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/input_Username_username""), ""ndtthanh"")",Edge Chromium 97,,,2022-01-16 19:46:04,2022-01-16 19:46:04,0.980s,PASSED
+"setEncryptedText(findTestObject(""Admin Site/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2"")",Edge Chromium 97,,,2022-01-16 19:46:04,2022-01-16 19:46:05,0.647s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 19:46:05,2022-01-16 19:46:07,2.144s,PASSED
+"click(findTestObject(""Teacher and Grade/Page_Nh ca ti/span_Test View Grade""))",Edge Chromium 97,,,2022-01-16 19:46:07,2022-01-16 19:46:15,7.941s,PASSED
+"click(findTestObject(""Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_im s""))",Edge Chromium 97,,,2022-01-16 19:46:15,2022-01-16 19:46:17,1.947s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/span_11,00""), ""11,00"")",Edge Chromium 97,,,2022-01-16 19:46:17,2022-01-16 19:46:24,6.606s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/span_89,00""), ""89,00"")",Edge Chromium 97,,,2022-01-16 19:46:24,2022-01-16 19:46:30,6.653s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher and Grade/Page_im s Xem/span_56,00""), ""56,00"")",Edge Chromium 97,,,2022-01-16 19:46:30,2022-01-16 19:46:37,6.668s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:46:37,2022-01-16 19:46:38,1.251s,PASSED
+,,,,,,,
+Test Cases/Create assignment/Create Assignment Set Availability,Edge Chromium 97,Thiết lập availability,,2022-01-16 19:46:38,2022-01-16 19:47:43,1m - 5.000s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:46:39,2022-01-16 19:46:43,3.649s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:46:43,2022-01-16 19:46:45,1.834s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (8)""))",Edge Chromium 97,,,2022-01-16 19:46:45,2022-01-16 19:46:46,1.231s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (8)""), ""robertle"")",Edge Chromium 97,,,2022-01-16 19:46:46,2022-01-16 19:46:47,0.956s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (8)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 19:46:47,2022-01-16 19:46:47,0.642s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (8)""))",Edge Chromium 97,,,2022-01-16 19:46:47,2022-01-16 19:46:50,2.673s,PASSED
+"click(findTestObject(""Page_Nh ca ti/span_Software Engineering""))",Edge Chromium 97,,,2022-01-16 19:46:50,2022-01-16 19:46:54,3.448s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (7)""))",Edge Chromium 97,,,2022-01-16 19:46:54,2022-01-16 19:47:02,8.102s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (4)""))",Edge Chromium 97,,,2022-01-16 19:47:02,2022-01-16 19:47:09,6.992s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Bi tp (5)""))",Edge Chromium 97,,,2022-01-16 19:47:09,2022-01-16 19:47:20,11.645s,PASSED
+"setText(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Tn bi tp_name (7)""), ""Availability"")",Edge Chromium 97,,,2022-01-16 19:47:20,2022-01-16 19:47:22,1.871s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Bin son Bi tp/select_1        2        3        4        _45ea30""), ""12"", true)",Edge Chromium 97,,,2022-01-16 19:47:22,2022-01-16 19:47:24,1.990s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Bin son Bi tp/select_1        2        3        4        _45ea30_1""), ""19"", true)",Edge Chromium 97,,,2022-01-16 19:47:24,2022-01-16 19:47:26,2.085s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Bin son Bi tp/select_1        2        3        4        _45ea30_1_2""), ""20"", true)",Edge Chromium 97,,,2022-01-16 19:47:26,2022-01-16 19:47:28,2.012s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Upon activity completion_submitbutton2 (7)""))",Edge Chromium 97,,,2022-01-16 19:47:28,2022-01-16 19:47:31,2.880s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Robert Le (7)""))",Edge Chromium 97,,,2022-01-16 19:47:31,2022-01-16 19:47:32,1.271s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Thot (6)""))",Edge Chromium 97,,,2022-01-16 19:47:32,2022-01-16 19:47:34,1.213s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (8)""))",Edge Chromium 97,,,2022-01-16 19:47:34,2022-01-16 19:47:35,1.035s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (8)""), ""hocvien"")",Edge Chromium 97,,,2022-01-16 19:47:35,2022-01-16 19:47:36,1.043s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (8)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 19:47:36,2022-01-16 19:47:36,0.677s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (8)""))",Edge Chromium 97,,,2022-01-16 19:47:36,2022-01-16 19:47:39,2.429s,PASSED
+"click(findTestObject(""Page_Nh ca ti/span_Software Engineering""))",Edge Chromium 97,,,2022-01-16 19:47:39,2022-01-16 19:47:42,3.283s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:47:42,2022-01-16 19:47:43,1.274s,PASSED
+,,,,,,,
+Test Cases/Create assignment/Create Assignment Set Full,Edge Chromium 97,,,2022-01-16 19:47:43,2022-01-16 19:49:25,1m - 41.699s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:47:44,2022-01-16 19:47:48,3.760s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:47:48,2022-01-16 19:47:50,1.809s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (13)""))",Edge Chromium 97,,,2022-01-16 19:47:50,2022-01-16 19:47:51,1.194s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (13)""), ""robertle"")",Edge Chromium 97,,,2022-01-16 19:47:51,2022-01-16 19:47:52,1.070s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (13)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 19:47:52,2022-01-16 19:47:53,0.649s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (13)""))",Edge Chromium 97,,,2022-01-16 19:47:53,2022-01-16 19:47:55,2.619s,PASSED
+"click(findTestObject(""Page_Nh ca ti/span_Software Engineering""))",Edge Chromium 97,,,2022-01-16 19:47:55,2022-01-16 19:47:58,3.183s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (12)""))",Edge Chromium 97,,,2022-01-16 19:47:58,2022-01-16 19:48:06,8.029s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (6)""))",Edge Chromium 97,,,2022-01-16 19:48:06,2022-01-16 19:48:13,6.882s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/div_Thng tin v  Bi hc hot ng_optionicon mt-_6d37dc (3)""))",Edge Chromium 97,,,2022-01-16 19:48:13,2022-01-16 19:48:23,9.526s,PASSED
+"setText(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Tn bi tp_name (12)""), ""Assignment Full"")",Edge Chromium 97,,,2022-01-16 19:48:23,2022-01-16 19:48:25,1.959s,PASSED
+"setText(findTestObject(""Object Repository/Page_Bin son Bi tp/div_To assignment y""), ""<p dir=""ltr"" style=""text-align: left;"">Tạo assignment đầy đủ.</p>"")",Edge Chromium 97,,,2022-01-16 19:48:25,2022-01-16 19:48:27,1.734s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Bin son Bi tp/select_1        2        3        4        _45ea30 (1)""), ""12"", true)",Edge Chromium 97,,,2022-01-16 19:48:27,2022-01-16 19:48:29,1.990s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Bin son Bi tp/select_1        2        3        4        _45ea30_1 (1)""), ""20"", true)",Edge Chromium 97,,,2022-01-16 19:48:29,2022-01-16 19:48:31,2.065s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Bin son Bi tp/select_1        2        3        4        _45ea30_1_2 (1)""), ""21"", true)",Edge Chromium 97,,,2022-01-16 19:48:31,2022-01-16 19:48:33,2.067s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Bin son Bi tp/select_1            2            3         _f84cd8 (1)""), ""15"", true)",Edge Chromium 97,,,2022-01-16 19:48:33,2022-01-16 19:48:35,1.812s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Cc loi tp tin c chp nhn_yui_3_17_2_1__c57195""))",Edge Chromium 97,,,2022-01-16 19:48:35,2022-01-16 19:48:41,6.817s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_All file types_yui_3_17_2_1_164191475_b6e702""))",Edge Chromium 97,,,2022-01-16 19:48:41,2022-01-16 19:48:48,6.979s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_tgz_yui_3_17_2_1_1641914753929_1776""))",Edge Chromium 97,,,2022-01-16 19:48:48,2022-01-16 19:48:55,6.774s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/button_Lu nhng thay i (3)""))",Edge Chromium 97,,,2022-01-16 19:48:55,2022-01-16 19:49:02,6.935s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Upon activity completion_submitbutton2 (12)""))",Edge Chromium 97,,,2022-01-16 19:49:02,2022-01-16 19:49:05,2.676s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Robert Le (12)""))",Edge Chromium 97,,,2022-01-16 19:49:05,2022-01-16 19:49:06,1.285s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Thot (11)""))",Edge Chromium 97,,,2022-01-16 19:49:06,2022-01-16 19:49:07,1.244s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (13)""))",Edge Chromium 97,,,2022-01-16 19:49:07,2022-01-16 19:49:08,0.927s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (13)""), ""hocvien"")",Edge Chromium 97,,,2022-01-16 19:49:08,2022-01-16 19:49:09,0.985s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (13)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 19:49:09,2022-01-16 19:49:10,0.674s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (13)""))",Edge Chromium 97,,,2022-01-16 19:49:10,2022-01-16 19:49:12,2.464s,PASSED
+"click(findTestObject(""Page_Nh ca ti/span_Software Engineering""))",Edge Chromium 97,,,2022-01-16 19:49:12,2022-01-16 19:49:16,3.643s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/span_Assignment Full Bi tp""))",Edge Chromium 97,,,2022-01-16 19:49:16,2022-01-16 19:49:24,7.870s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:49:24,2022-01-16 19:49:25,1.282s,PASSED
+,,,,,,,
+Test Cases/Create assignment/Create Assignment Set Online Text,Edge Chromium 97,,,2022-01-16 19:49:25,2022-01-16 19:50:34,1m - 9.083s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:49:26,2022-01-16 19:49:29,3.683s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:49:29,2022-01-16 19:49:31,1.791s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (11)""))",Edge Chromium 97,,,2022-01-16 19:49:31,2022-01-16 19:49:32,1.190s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (11)""), ""robertle"")",Edge Chromium 97,,,2022-01-16 19:49:32,2022-01-16 19:49:33,0.977s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (11)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 19:49:33,2022-01-16 19:49:34,0.721s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (11)""))",Edge Chromium 97,,,2022-01-16 19:49:34,2022-01-16 19:49:37,3.004s,PASSED
+"click(findTestObject(""Page_Nh ca ti/span_Software Engineering""))",Edge Chromium 97,,,2022-01-16 19:49:37,2022-01-16 19:49:40,3.242s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (10)""))",Edge Chromium 97,,,2022-01-16 19:49:40,2022-01-16 19:49:48,7.805s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/button_Thm hot ng hoc ti nguyn (4)""))",Edge Chromium 97,,,2022-01-16 19:49:48,2022-01-16 19:49:55,7.033s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/div_Thng tin v  Bi hc hot ng_optionicon mt-_6d37dc (1)""))",Edge Chromium 97,,,2022-01-16 19:49:55,2022-01-16 19:50:05,9.501s,PASSED
+"setText(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Tn bi tp_name (10)""), ""Bài tập văn bản"")",Edge Chromium 97,,,2022-01-16 19:50:05,2022-01-16 19:50:07,1.851s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Vn bn trc tuyn_assignsubmission_onlin_3ee3b4 (1)""))",Edge Chromium 97,,,2022-01-16 19:50:07,2022-01-16 19:50:07,0.607s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Np tp tin_assignsubmission_file_enabled (1)""))",Edge Chromium 97,,,2022-01-16 19:50:07,2022-01-16 19:50:08,0.594s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_M_assignsubmission_onlinetext_wordlim_e70110 (1)""))",Edge Chromium 97,,,2022-01-16 19:50:08,2022-01-16 19:50:08,0.588s,PASSED
+"setText(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Gii hn t_assignsubmission_onlinetext__581726 (1)""), ""300"")",Edge Chromium 97,,,2022-01-16 19:50:08,2022-01-16 19:50:09,1.087s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Upon activity completion_submitbutton2 (10)""))",Edge Chromium 97,,,2022-01-16 19:50:09,2022-01-16 19:50:12,2.366s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Robert Le (10)""))",Edge Chromium 97,,,2022-01-16 19:50:12,2022-01-16 19:50:13,1.267s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Thot (9)""))",Edge Chromium 97,,,2022-01-16 19:50:13,2022-01-16 19:50:14,1.245s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (11)""))",Edge Chromium 97,,,2022-01-16 19:50:14,2022-01-16 19:50:15,1.036s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (11)""), ""hocvien"")",Edge Chromium 97,,,2022-01-16 19:50:15,2022-01-16 19:50:16,0.977s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (11)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 19:50:16,2022-01-16 19:50:17,0.633s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (11)""))",Edge Chromium 97,,,2022-01-16 19:50:17,2022-01-16 19:50:19,2.485s,PASSED
+"click(findTestObject(""Page_Nh ca ti/span_Software Engineering""))",Edge Chromium 97,,,2022-01-16 19:50:19,2022-01-16 19:50:23,3.244s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/span_Bi tp vn bn""))",Edge Chromium 97,,,2022-01-16 19:50:23,2022-01-16 19:50:24,1.707s,PASSED
+"click(findTestObject(""Object Repository/Page_SE Bi tp vn bn/button_Thm bi np""))",Edge Chromium 97,,,2022-01-16 19:50:24,2022-01-16 19:50:33,8.417s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:50:33,2022-01-16 19:50:34,1.312s,PASSED
+,,,,,,,
+Test Cases/Create assignment/Create Assignment Set Type File,Edge Chromium 97,,,2022-01-16 19:50:34,2022-01-16 19:52:07,1m - 32.344s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:50:35,2022-01-16 19:50:39,3.790s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:50:39,2022-01-16 19:50:40,1.771s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (12)""))",Edge Chromium 97,,,2022-01-16 19:50:40,2022-01-16 19:50:42,1.153s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (12)""), ""robertle"")",Edge Chromium 97,,,2022-01-16 19:50:42,2022-01-16 19:50:43,0.938s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (12)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 19:50:43,2022-01-16 19:50:43,0.650s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (12)""))",Edge Chromium 97,,,2022-01-16 19:50:43,2022-01-16 19:50:46,2.576s,PASSED
+"click(findTestObject(""Page_Nh ca ti/span_Software Engineering""))",Edge Chromium 97,,,2022-01-16 19:50:46,2022-01-16 19:50:49,3.388s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (11)""))",Edge Chromium 97,,,2022-01-16 19:50:49,2022-01-16 19:50:57,7.770s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/button_Thm hot ng hoc ti nguyn (5)""))",Edge Chromium 97,,,2022-01-16 19:50:57,2022-01-16 19:51:04,6.835s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/div_Thng tin v  Bi hc hot ng_optionicon mt-_6d37dc (2)""))",Edge Chromium 97,,,2022-01-16 19:51:04,2022-01-16 19:51:13,9.377s,PASSED
+"setText(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Tn bi tp_name (11)""), ""Type File"")",Edge Chromium 97,,,2022-01-16 19:51:13,2022-01-16 19:51:15,1.954s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Cc loi tp tin c chp nhn_yui_3_17_2_1__69c1f3""))",Edge Chromium 97,,,2022-01-16 19:51:15,2022-01-16 19:51:22,6.888s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Cc loi tp tin c chp nhn_yui_3_17_2_1__e7c937""))",Edge Chromium 97,,,2022-01-16 19:51:22,2022-01-16 19:51:29,6.760s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/button_Lu nhng thay i (2)""))",Edge Chromium 97,,,2022-01-16 19:51:29,2022-01-16 19:51:36,6.904s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Upon activity completion_submitbutton2 (11)""))",Edge Chromium 97,,,2022-01-16 19:51:36,2022-01-16 19:51:38,2.669s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Robert Le (11)""))",Edge Chromium 97,,,2022-01-16 19:51:38,2022-01-16 19:51:40,1.272s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Thot (10)""))",Edge Chromium 97,,,2022-01-16 19:51:40,2022-01-16 19:51:41,1.291s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (12)""))",Edge Chromium 97,,,2022-01-16 19:51:41,2022-01-16 19:51:42,0.913s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (12)""), ""hocvien"")",Edge Chromium 97,,,2022-01-16 19:51:42,2022-01-16 19:51:43,0.917s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (12)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 19:51:43,2022-01-16 19:51:43,0.662s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (12)""))",Edge Chromium 97,,,2022-01-16 19:51:43,2022-01-16 19:51:46,2.468s,PASSED
+"click(findTestObject(""Page_Nh ca ti/span_Software Engineering""))",Edge Chromium 97,,,2022-01-16 19:51:46,2022-01-16 19:51:49,3.538s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/span_Type File Bi tp""))",Edge Chromium 97,,,2022-01-16 19:51:49,2022-01-16 19:51:57,7.786s,PASSED
+"click(findTestObject(""Object Repository/Page_SE Type File/button_Thm bi np""))",Edge Chromium 97,,,2022-01-16 19:51:57,2022-01-16 19:52:05,8.014s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:52:05,2022-01-16 19:52:07,1.296s,PASSED
+,,,,,,,
+Test Cases/Create assignment/Create Simple Assignment,Edge Chromium 97,,,2022-01-16 19:52:07,2022-01-16 19:53:02,55.041s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:52:07,2022-01-16 19:52:11,3.706s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:52:11,2022-01-16 19:52:13,1.851s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (7)""))",Edge Chromium 97,,,2022-01-16 19:52:13,2022-01-16 19:52:14,1.122s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (7)""), ""robertle"")",Edge Chromium 97,,,2022-01-16 19:52:14,2022-01-16 19:52:15,0.983s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (7)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 19:52:15,2022-01-16 19:52:16,0.672s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (7)""))",Edge Chromium 97,,,2022-01-16 19:52:16,2022-01-16 19:52:19,3.055s,PASSED
+"click(findTestObject(""Page_Nh ca ti/span_Software Engineering""))",Edge Chromium 97,,,2022-01-16 19:52:19,2022-01-16 19:52:22,3.355s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (6)""))",Edge Chromium 97,,,2022-01-16 19:52:22,2022-01-16 19:52:30,7.858s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/button_Thm hot ng hoc ti nguyn (2)""))",Edge Chromium 97,,,2022-01-16 19:52:30,2022-01-16 19:52:37,7.067s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Bi tp (4)""))",Edge Chromium 97,,,2022-01-16 19:52:37,2022-01-16 19:52:46,9.128s,PASSED
+"setText(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Tn bi tp_name (6)""), ""Assignment 1"")",Edge Chromium 97,,,2022-01-16 19:52:46,2022-01-16 19:52:48,1.827s,PASSED
+"click(findTestObject(""Object Repository/Page_Bin son Bi tp/input_Upon activity completion_submitbutton2 (6)""))",Edge Chromium 97,,,2022-01-16 19:52:48,2022-01-16 19:52:51,2.454s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Robert Le (6)""))",Edge Chromium 97,,,2022-01-16 19:52:51,2022-01-16 19:52:52,1.243s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/a_Thot (5)""))",Edge Chromium 97,,,2022-01-16 19:52:52,2022-01-16 19:52:53,1.191s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (7)""))",Edge Chromium 97,,,2022-01-16 19:52:53,2022-01-16 19:52:54,1.105s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (7)""), ""hocvien"")",Edge Chromium 97,,,2022-01-16 19:52:54,2022-01-16 19:52:55,0.939s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (7)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 19:52:55,2022-01-16 19:52:56,0.636s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (7)""))",Edge Chromium 97,,,2022-01-16 19:52:56,2022-01-16 19:52:58,2.473s,PASSED
+"click(findTestObject(""Page_Nh ca ti/span_Software Engineering""))",Edge Chromium 97,,,2022-01-16 19:52:58,2022-01-16 19:53:02,3.438s,PASSED
+,,,,,,,
+Test Cases/Create event on calendar/Create Simple Event,Edge Chromium 97,,,2022-01-16 19:53:02,2022-01-16 19:53:57,54.921s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:53:02,2022-01-16 19:53:07,4.884s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:53:07,2022-01-16 19:53:09,1.812s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (1)""))",Edge Chromium 97,,,2022-01-16 19:53:09,2022-01-16 19:53:10,1.141s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (1)""), ""admin"")",Edge Chromium 97,,,2022-01-16 19:53:10,2022-01-16 19:53:11,0.991s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (1)""), ""bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5"")",Edge Chromium 97,,,2022-01-16 19:53:11,2022-01-16 19:53:12,0.668s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (1)""))",Edge Chromium 97,,,2022-01-16 19:53:12,2022-01-16 19:53:15,3.440s,PASSED
+"click(findTestObject(""Object Repository/Page_Nh ca ti/a_Lch""))",Edge Chromium 97,,,2022-01-16 19:53:15,2022-01-16 19:53:20,4.917s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_S kin mi_1""))",Edge Chromium 97,,,2022-01-16 19:53:20,2022-01-16 19:53:27,6.786s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Tiu  s kin_name""), ""Seminar Project 1"")",Edge Chromium 97,,,2022-01-16 19:53:27,2022-01-16 19:53:30,3.350s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Thng Ging        Thng Hai        Thn_b248db""), ""2"", true)",Edge Chromium 97,,,2022-01-16 19:53:30,2022-01-16 19:53:32,1.614s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Thnh vin            Kho hc          _5efb09""), ""course"", true)",Edge Chromium 97,,,2022-01-16 19:53:32,2022-01-16 19:53:33,1.380s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/span__1_2_3_4""))",Edge Chromium 97,,,2022-01-16 19:53:33,2022-01-16 19:53:40,6.753s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/li_Software Engineering_1_2_3""))",Edge Chromium 97,,,2022-01-16 19:53:40,2022-01-16 19:53:47,6.745s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Software Engineering""), ""3"", true)",Edge Chromium 97,,,2022-01-16 19:53:47,2022-01-16 19:53:48,1.459s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_Lu_1""))",Edge Chromium 97,,,2022-01-16 19:53:48,2022-01-16 19:53:55,6.833s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:53:55,2022-01-16 19:53:57,1.277s,PASSED
+,,,,,,,
+Test Cases/Create event on calendar/Create Event Set Full,Edge Chromium 97,,,2022-01-16 19:53:57,2022-01-16 19:55:09,1m - 12.437s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:53:57,2022-01-16 19:54:01,3.777s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:54:01,2022-01-16 19:54:03,1.776s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (16)""))",Edge Chromium 97,,,2022-01-16 19:54:03,2022-01-16 19:54:04,1.123s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (16)""), ""admin"")",Edge Chromium 97,,,2022-01-16 19:54:04,2022-01-16 19:54:05,0.946s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (16)""), ""bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5"")",Edge Chromium 97,,,2022-01-16 19:54:05,2022-01-16 19:54:06,0.651s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (16)""))",Edge Chromium 97,,,2022-01-16 19:54:06,2022-01-16 19:54:08,2.768s,PASSED
+"click(findTestObject(""Object Repository/Page_Nh ca ti/a_Lch (3)""))",Edge Chromium 97,,,2022-01-16 19:54:08,2022-01-16 19:54:13,4.108s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_S kin mi (3)""))",Edge Chromium 97,,,2022-01-16 19:54:13,2022-01-16 19:54:19,6.968s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Tiu  s kin_name (3)""), ""Seminar"")",Edge Chromium 97,,,2022-01-16 19:54:19,2022-01-16 19:54:23,3.329s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_1        2        3        4        _45ea30 (3)""), ""16"", true)",Edge Chromium 97,,,2022-01-16 19:54:23,2022-01-16 19:54:25,1.882s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b (2)""), ""8"", true)",Edge Chromium 97,,,2022-01-16 19:54:25,2022-01-16 19:54:26,1.756s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b_1 (2)""), ""15"", true)",Edge Chromium 97,,,2022-01-16 19:54:26,2022-01-16 19:54:29,2.457s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Thnh vin            Kho hc          _5efb09 (3)""), ""course"", true)",Edge Chromium 97,,,2022-01-16 19:54:29,2022-01-16 19:54:30,1.304s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/span__1_2_3_4""))",Edge Chromium 97,,,2022-01-16 19:54:30,2022-01-16 19:54:37,6.946s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/li_Software Engineering_1_2_3""))",Edge Chromium 97,,,2022-01-16 19:54:37,2022-01-16 19:54:44,6.676s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Software Engineering""), ""3"", true)",Edge Chromium 97,,,2022-01-16 19:54:44,2022-01-16 19:54:45,1.454s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/a_Show more (2)""))",Edge Chromium 97,,,2022-01-16 19:54:45,2022-01-16 19:54:52,6.795s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/p""))",Edge Chromium 97,,,2022-01-16 19:54:52,2022-01-16 19:54:53,0.719s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/div_Gii p thc mc  n""), ""Giải đáp thắc mắc đồ án"")",Edge Chromium 97,,,2022-01-16 19:54:53,2022-01-16 19:54:54,1.394s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Ti_duration (1)""))",Edge Chromium 97,,,2022-01-16 19:54:54,2022-01-16 19:54:55,0.617s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_1        2        3        4        _45ea30_1 (1)""), ""16"", true)",Edge Chromium 97,,,2022-01-16 19:54:55,2022-01-16 19:54:57,1.930s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b_1_2 (1)""), ""11"", true)",Edge Chromium 97,,,2022-01-16 19:54:57,2022-01-16 19:54:59,1.866s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b_1_2_3 (1)""), ""0"", true)",Edge Chromium 97,,,2022-01-16 19:54:59,2022-01-16 19:55:01,2.262s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_Lu (3)""))",Edge Chromium 97,,,2022-01-16 19:55:01,2022-01-16 19:55:08,6.701s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:55:08,2022-01-16 19:55:09,1.381s,PASSED
+,,,,,,,
+Test Cases/Create event on calendar/Create Event Set Description,Edge Chromium 97,,,2022-01-16 19:55:09,2022-01-16 19:56:14,1m - 4.965s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:55:10,2022-01-16 19:55:14,3.669s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:55:14,2022-01-16 19:55:15,1.788s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (14)""))",Edge Chromium 97,,,2022-01-16 19:55:15,2022-01-16 19:55:16,1.166s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (14)""), ""admin"")",Edge Chromium 97,,,2022-01-16 19:55:16,2022-01-16 19:55:18,1.032s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (14)""), ""bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5"")",Edge Chromium 97,,,2022-01-16 19:55:18,2022-01-16 19:55:18,0.671s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (14)""))",Edge Chromium 97,,,2022-01-16 19:55:18,2022-01-16 19:55:21,2.852s,PASSED
+"click(findTestObject(""Object Repository/Page_Nh ca ti/a_Lch (1)""))",Edge Chromium 97,,,2022-01-16 19:55:21,2022-01-16 19:55:25,3.951s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_S kin mi (1)""))",Edge Chromium 97,,,2022-01-16 19:55:25,2022-01-16 19:55:32,6.844s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Tiu  s kin_name (1)""), ""Seminar Project"")",Edge Chromium 97,,,2022-01-16 19:55:32,2022-01-16 19:55:35,3.127s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_1        2        3        4        _45ea30 (1)""), ""14"", true)",Edge Chromium 97,,,2022-01-16 19:55:35,2022-01-16 19:55:37,2.071s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b""), ""9"", true)",Edge Chromium 97,,,2022-01-16 19:55:37,2022-01-16 19:55:39,1.758s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b_1""), ""0"", true)",Edge Chromium 97,,,2022-01-16 19:55:39,2022-01-16 19:55:41,2.175s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Thnh vin            Kho hc          _5efb09 (1)""), ""course"", true)",Edge Chromium 97,,,2022-01-16 19:55:41,2022-01-16 19:55:42,1.338s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/span__1_2_3_4""))",Edge Chromium 97,,,2022-01-16 19:55:42,2022-01-16 19:55:49,6.993s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/li_Software Engineering_1_2_3""))",Edge Chromium 97,,,2022-01-16 19:55:49,2022-01-16 19:55:56,6.813s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Software Engineering""), ""3"", true)",Edge Chromium 97,,,2022-01-16 19:55:56,2022-01-16 19:55:58,1.509s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/a_Show more""))",Edge Chromium 97,,,2022-01-16 19:55:58,2022-01-16 19:56:04,6.835s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/div_Gii p thc mc v  n""), ""Giải đáp thắc mắc về đồ án"")",Edge Chromium 97,,,2022-01-16 19:56:04,2022-01-16 19:56:06,1.451s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_Lu (1)""))",Edge Chromium 97,,,2022-01-16 19:56:06,2022-01-16 19:56:13,6.752s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:56:13,2022-01-16 19:56:14,1.283s,PASSED
+,,,,,,,
+Test Cases/Create event on calendar/Create Event Set Time Minute And Repeat,Edge Chromium 97,,,2022-01-16 19:56:14,2022-01-16 19:57:22,1m - 8.395s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:56:15,2022-01-16 19:56:18,3.693s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:56:18,2022-01-16 19:56:20,1.786s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (17)""))",Edge Chromium 97,,,2022-01-16 19:56:20,2022-01-16 19:56:21,1.192s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (17)""), ""admin"")",Edge Chromium 97,,,2022-01-16 19:56:21,2022-01-16 19:56:22,0.998s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (17)""), ""bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5"")",Edge Chromium 97,,,2022-01-16 19:56:22,2022-01-16 19:56:23,0.673s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (17)""))",Edge Chromium 97,,,2022-01-16 19:56:23,2022-01-16 19:56:26,3.240s,PASSED
+"click(findTestObject(""Object Repository/Page_Nh ca ti/a_Lch (4)""))",Edge Chromium 97,,,2022-01-16 19:56:26,2022-01-16 19:56:31,4.481s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_S kin mi (4)""))",Edge Chromium 97,,,2022-01-16 19:56:31,2022-01-16 19:56:38,7.015s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Tiu  s kin_name (4)""), ""Seminar"")",Edge Chromium 97,,,2022-01-16 19:56:38,2022-01-16 19:56:41,2.968s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_1        2        3        4        _45ea30 (4)""), ""14"", true)",Edge Chromium 97,,,2022-01-16 19:56:41,2022-01-16 19:56:43,1.975s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b (3)""), ""7"", true)",Edge Chromium 97,,,2022-01-16 19:56:43,2022-01-16 19:56:45,1.804s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b_1 (3)""), ""30"", true)",Edge Chromium 97,,,2022-01-16 19:56:45,2022-01-16 19:56:47,2.737s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Thnh vin            Kho hc          _5efb09 (4)""), ""course"", true)",Edge Chromium 97,,,2022-01-16 19:56:47,2022-01-16 19:56:49,1.343s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/span__1_2_3_4""))",Edge Chromium 97,,,2022-01-16 19:56:49,2022-01-16 19:56:55,6.803s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/li_Software Engineering_1_2_3""))",Edge Chromium 97,,,2022-01-16 19:56:55,2022-01-16 19:57:02,6.676s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Software Engineering""), ""3"", true)",Edge Chromium 97,,,2022-01-16 19:57:02,2022-01-16 19:57:04,1.565s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/a_Show more (3)""))",Edge Chromium 97,,,2022-01-16 19:57:04,2022-01-16 19:57:10,6.715s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Ti_duration (2)""))",Edge Chromium 97,,,2022-01-16 19:57:10,2022-01-16 19:57:11,0.611s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Thi lng tnh bng pht_duration (1)""))",Edge Chromium 97,,,2022-01-16 19:57:11,2022-01-16 19:57:12,0.554s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Thi lng tnh bng pht_timedurationminutes""), ""120"")",Edge Chromium 97,,,2022-01-16 19:57:12,2022-01-16 19:57:13,1.072s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Thi lng tnh bng pht_repeat""))",Edge Chromium 97,,,2022-01-16 19:57:13,2022-01-16 19:57:13,0.581s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Lp li hng tun, to ra tt c_repeats""), ""2"")",Edge Chromium 97,,,2022-01-16 19:57:13,2022-01-16 19:57:14,0.967s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_Lu (4)""))",Edge Chromium 97,,,2022-01-16 19:57:14,2022-01-16 19:57:21,6.824s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:57:21,2022-01-16 19:57:22,1.364s,PASSED
+,,,,,,,
+Test Cases/Create event on calendar/Create Event Set Time,Edge Chromium 97,,,2022-01-16 19:57:22,2022-01-16 19:58:34,1m - 11.558s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:57:23,2022-01-16 19:57:27,3.794s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:57:27,2022-01-16 19:57:29,1.812s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (15)""))",Edge Chromium 97,,,2022-01-16 19:57:29,2022-01-16 19:57:30,1.142s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (15)""), ""admin"")",Edge Chromium 97,,,2022-01-16 19:57:30,2022-01-16 19:57:31,0.922s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (15)""), ""bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5"")",Edge Chromium 97,,,2022-01-16 19:57:31,2022-01-16 19:57:32,0.682s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (15)""))",Edge Chromium 97,,,2022-01-16 19:57:32,2022-01-16 19:57:34,2.765s,PASSED
+"click(findTestObject(""Object Repository/Page_Nh ca ti/a_Lch (2)""))",Edge Chromium 97,,,2022-01-16 19:57:34,2022-01-16 19:57:39,4.412s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_S kin mi (2)""))",Edge Chromium 97,,,2022-01-16 19:57:39,2022-01-16 19:57:46,6.808s,PASSED
+"setText(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Tiu  s kin_name (2)""), ""Seminar"")",Edge Chromium 97,,,2022-01-16 19:57:46,2022-01-16 19:57:49,3.307s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_1        2        3        4        _45ea30 (2)""), ""15"", true)",Edge Chromium 97,,,2022-01-16 19:57:49,2022-01-16 19:57:51,2.070s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b (1)""), ""14"", true)",Edge Chromium 97,,,2022-01-16 19:57:51,2022-01-16 19:57:53,1.815s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b_1 (1)""), ""30"", true)",Edge Chromium 97,,,2022-01-16 19:57:53,2022-01-16 19:57:55,2.656s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Thnh vin            Kho hc          _5efb09 (2)""), ""course"", true)",Edge Chromium 97,,,2022-01-16 19:57:55,2022-01-16 19:57:57,1.255s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/span__1_2_3_4""))",Edge Chromium 97,,,2022-01-16 19:57:57,2022-01-16 19:58:03,6.689s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/li_Software Engineering_1_2_3""))",Edge Chromium 97,,,2022-01-16 19:58:03,2022-01-16 19:58:10,6.919s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Software Engineering""), ""3"", true)",Edge Chromium 97,,,2022-01-16 19:58:10,2022-01-16 19:58:12,1.442s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/a_Show more (1)""))",Edge Chromium 97,,,2022-01-16 19:58:12,2022-01-16 19:58:19,6.775s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Ti_duration""))",Edge Chromium 97,,,2022-01-16 19:58:19,2022-01-16 19:58:19,0.618s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_1        2        3        4        _45ea30_1""), ""15"", true)",Edge Chromium 97,,,2022-01-16 19:58:19,2022-01-16 19:58:21,1.940s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b_1_2""), ""16"", true)",Edge Chromium 97,,,2022-01-16 19:58:21,2022-01-16 19:58:23,1.878s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_00        01        02        03    _f6e37b_1_2_3""), ""30"", true)",Edge Chromium 97,,,2022-01-16 19:58:23,2022-01-16 19:58:26,2.807s,PASSED
+"click(findTestObject(""Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_Lu (2)""))",Edge Chromium 97,,,2022-01-16 19:58:26,2022-01-16 19:58:33,6.829s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 19:58:33,2022-01-16 19:58:34,1.300s,PASSED
+,,,,,,,
+Test Cases/Student enroll course/Enroll Course,Edge Chromium 97,,,2022-01-16 19:59:54,2022-01-16 20:00:21,27.179s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 19:59:54,2022-01-16 19:59:59,5.160s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 19:59:59,2022-01-16 20:00:01,1.806s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (23)""))",Edge Chromium 97,,,2022-01-16 20:00:01,2022-01-16 20:00:02,1.167s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (23)""), ""hocvien"")",Edge Chromium 97,,,2022-01-16 20:00:02,2022-01-16 20:00:03,1.001s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (23)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 20:00:03,2022-01-16 20:00:04,0.648s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (23)""))",Edge Chromium 97,,,2022-01-16 20:00:04,2022-01-16 20:00:06,2.481s,PASSED
+"click(findTestObject(""Object Repository/Page_Nh ca ti/span_Trang ch h thng (2)""))",Edge Chromium 97,,,2022-01-16 20:00:06,2022-01-16 20:00:10,3.756s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Software Engineering 2""))",Edge Chromium 97,,,2022-01-16 20:00:10,2022-01-16 20:00:12,1.313s,PASSED
+"click(findTestObject(""Object Repository/Page_SE2/input_Khng yu cu mt khu ng k_submitbutton (1)""))",Edge Chromium 97,,,2022-01-16 20:00:12,2022-01-16 20:00:21,9.829s,FAILED
+,,,,,,,
+Test Cases/Student enroll course/Enroll Course With Password,Edge Chromium 97,,,2022-01-16 20:00:21,2022-01-16 20:01:11,49.328s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:00:23,2022-01-16 20:00:28,5.244s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:00:28,2022-01-16 20:00:30,2.137s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (22)""))",Edge Chromium 97,,,2022-01-16 20:00:30,2022-01-16 20:00:31,1.288s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (22)""), ""hocvien"")",Edge Chromium 97,,,2022-01-16 20:00:31,2022-01-16 20:00:32,1.004s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (22)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 20:00:32,2022-01-16 20:00:33,0.656s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (22)""))",Edge Chromium 97,,,2022-01-16 20:00:33,2022-01-16 20:00:36,2.875s,PASSED
+"click(findTestObject(""Object Repository/Page_Nh ca ti/span_Trang ch h thng (1)""))",Edge Chromium 97,,,2022-01-16 20:00:36,2022-01-16 20:00:40,3.785s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Software Engineering 3""))",Edge Chromium 97,,,2022-01-16 20:00:40,2022-01-16 20:00:41,1.610s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_SE3/input_Mt khu ng k_enrolpassword""), ""tzH6RvlfSTg="")",Edge Chromium 97,,,2022-01-16 20:00:41,2022-01-16 20:00:48,6.797s,PASSED
+"click(findTestObject(""Object Repository/Page_SE3/input_Mt khu ng k_submitbutton""))",Edge Chromium 97,,,2022-01-16 20:00:48,2022-01-16 20:00:52,3.873s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering 3/a_Software Engineering 3_action-menu-toggle-2""))",Edge Chromium 97,,,2022-01-16 20:00:52,2022-01-16 20:00:53,0.679s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering 3/a_Rt tn ti khi kho hc SE3""))",Edge Chromium 97,,,2022-01-16 20:00:53,2022-01-16 20:01:00,7.490s,PASSED
+"navigateToUrl(""http://localhost/enrol/self/unenrolself.php?enrolid=12"")",Edge Chromium 97,,,2022-01-16 20:01:00,2022-01-16 20:01:01,0.633s,PASSED
+"click(findTestObject(""Object Repository/Page_T ng k (Hc vin)/button_Tip tc""))",Edge Chromium 97,,,2022-01-16 20:01:01,2022-01-16 20:01:09,8.337s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 20:01:09,2022-01-16 20:01:11,1.616s,PASSED
+,,,,,,,
+Test Cases/Students check events on calendar/Asignment event,Edge Chromium 97,,,2022-01-16 20:01:11,2022-01-16 20:03:29,2m - 18.149s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:01:12,2022-01-16 20:01:16,3.792s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:01:16,2022-01-16 20:01:17,1.701s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:01:17,2022-01-16 20:01:18,1.134s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Username_username""), ""gv01"")",Edge Chromium 97,,,2022-01-16 20:01:18,2022-01-16 20:01:19,0.931s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Password_password""), ""RigbBhfdqOAWw2eOk0+aVg=="")",Edge Chromium 97,,,2022-01-16 20:01:19,2022-01-16 20:01:20,0.680s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:01:20,2022-01-16 20:01:22,2.370s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Students check events on calendar/Page_Nh ca ti/span_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:01:22,2022-01-16 20:01:24,1.719s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Nh ca ti/span_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:01:24,2022-01-16 20:01:26,1.997s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa""))",Edge Chromium 97,,,2022-01-16 20:01:26,2022-01-16 20:01:33,6.826s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa""), ""Bật chế độ chỉnh sửa"")",Edge Chromium 97,,,2022-01-16 20:01:33,2022-01-16 20:01:39,6.527s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa""))",Edge Chromium 97,,,2022-01-16 20:01:39,2022-01-16 20:01:47,7.772s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn""), ""Thêm hoạt động hoặc tài nguyên"")",Edge Chromium 97,,,2022-01-16 20:01:47,2022-01-16 20:01:54,6.860s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn""))",Edge Chromium 97,,,2022-01-16 20:01:54,2022-01-16 20:02:01,6.774s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/div_Bi tp""))",Edge Chromium 97,,,2022-01-16 20:02:01,2022-01-16 20:02:08,6.880s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/div_Bi tp""), ""Bài tập"")",Edge Chromium 97,,,2022-01-16 20:02:08,2022-01-16 20:02:14,6.568s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/div_Bi tp""))",Edge Chromium 97,,,2022-01-16 20:02:14,2022-01-16 20:02:24,9.250s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Bi tp/input_Tn bi tp_name""), ""Bài tập quiz"")",Edge Chromium 97,,,2022-01-16 20:02:24,2022-01-16 20:02:26,1.960s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Bi tp/p_Kim tra tnh nng""))",Edge Chromium 97,,,2022-01-16 20:02:26,2022-01-16 20:02:26,0.574s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Bi tp/div_Kim tra tnh nng""), ""Kiểm tra tính năng"")",Edge Chromium 97,,,2022-01-16 20:02:26,2022-01-16 20:02:28,1.454s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Bi tp/select_1        2        3        4        _45ea30""), ""28"", true)",Edge Chromium 97,,,2022-01-16 20:02:28,2022-01-16 20:02:38,10.319s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Bi tp/input_Upon activity completion_submitbutton""), """")",Edge Chromium 97,,,2022-01-16 20:02:38,2022-01-16 20:02:38,0.492s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Bi tp/input_Upon activity completion_submitbutton""))",Edge Chromium 97,,,2022-01-16 20:02:38,2022-01-16 20:02:39,0.425s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Bi tp/input_Upon activity completion_submitbutton""))",Edge Chromium 97,,,2022-01-16 20:02:39,2022-01-16 20:02:41,2.434s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Students check events on calendar/Page_NM CNPM Bi tp quiz/div_Kim tra tnh nng""), ""Kiểm tra tính năng"")",Edge Chromium 97,,,2022-01-16 20:02:41,2022-01-16 20:02:42,0.965s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_NM CNPM Bi tp quiz/a_Van Luyen Le""))",Edge Chromium 97,,,2022-01-16 20:02:42,2022-01-16 20:02:43,0.701s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_NM CNPM Bi tp quiz/span_Thot""))",Edge Chromium 97,,,2022-01-16 20:02:43,2022-01-16 20:02:44,1.289s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:02:44,2022-01-16 20:02:45,0.982s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Username_username""), ""hs01"")",Edge Chromium 97,,,2022-01-16 20:02:45,2022-01-16 20:02:46,0.891s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq2SeGQhIMNXLQ=="")",Edge Chromium 97,,,2022-01-16 20:02:46,2022-01-16 20:02:47,0.684s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:02:47,2022-01-16 20:02:49,2.225s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Students check events on calendar/Page_Nh ca ti/a_28""))",Edge Chromium 97,,,2022-01-16 20:02:49,2022-01-16 20:02:57,7.734s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Nh ca ti/a_28""))",Edge Chromium 97,,,2022-01-16 20:02:57,2022-01-16 20:03:05,7.962s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th Su, 14 Thng Ging 2022/a_Thm bi np""), ""Thêm bài nộp"")",Edge Chromium 97,,,2022-01-16 20:03:05,2022-01-16 20:03:11,6.827s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th Su, 14 Thng Ging 2022/a_Thm bi np""))",Edge Chromium 97,,,2022-01-16 20:03:11,2022-01-16 20:03:18,6.547s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th Su, 14 Thng Ging 2022/a_Thm bi np""))",Edge Chromium 97,,,2022-01-16 20:03:18,2022-01-16 20:03:26,7.751s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Students check events on calendar/Page_NM CNPM Bi tp quiz - Sa bi lm/h2_Bi tp quiz""), ""Bài tập quiz"")",Edge Chromium 97,,,2022-01-16 20:03:26,2022-01-16 20:03:27,1.290s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Students check events on calendar/Page_NM CNPM Bi tp quiz - Sa bi lm/div_Kim tra tnh nng""), ""Kiểm tra tính năng"")",Edge Chromium 97,,,2022-01-16 20:03:27,2022-01-16 20:03:28,0.570s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 20:03:28,2022-01-16 20:03:29,1.287s,PASSED
+,,,,,,,
+Test Cases/Students check events on calendar/Forum event,Edge Chromium 97,,,2022-01-16 20:05:13,2022-01-16 20:06:58,1m - 44.280s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:05:13,2022-01-16 20:05:18,5.016s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:05:18,2022-01-16 20:05:20,1.773s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:05:20,2022-01-16 20:05:21,1.164s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Username_username""), ""gv01"")",Edge Chromium 97,,,2022-01-16 20:05:21,2022-01-16 20:05:22,1.004s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Password_password""), ""RigbBhfdqOBGP4y92+oMSw=="")",Edge Chromium 97,,,2022-01-16 20:05:22,2022-01-16 20:05:23,0.638s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:05:23,2022-01-16 20:05:24,1.152s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Username_username""), ""gv01"")",Edge Chromium 97,,,2022-01-16 20:05:24,2022-01-16 20:05:25,1.033s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Password_password""), ""RigbBhfdqOAWw2eOk0+aVg=="")",Edge Chromium 97,,,2022-01-16 20:05:25,2022-01-16 20:05:26,0.637s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:05:26,2022-01-16 20:05:28,2.249s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Nh ca ti/span_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:05:28,2022-01-16 20:05:36,8.031s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa""))",Edge Chromium 97,,,2022-01-16 20:05:36,2022-01-16 20:05:43,6.791s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa""))",Edge Chromium 97,,,2022-01-16 20:05:43,2022-01-16 20:05:51,7.868s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn""))",Edge Chromium 97,,,2022-01-16 20:05:51,2022-01-16 20:05:58,6.917s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/div_Din n""), ""Diễn đàn"")",Edge Chromium 97,,,2022-01-16 20:05:58,2022-01-16 20:05:59,1.257s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/div_Din n""))",Edge Chromium 97,,,2022-01-16 20:05:59,2022-01-16 20:06:02,2.948s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Din n/input_Tn  din n_name""), ""Bàn bạc chủ đề"")",Edge Chromium 97,,,2022-01-16 20:06:02,2022-01-16 20:06:04,1.683s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Din n/div_Bn bc ch""), ""Bàn bạc chủ đề<br><br>"")",Edge Chromium 97,,,2022-01-16 20:06:04,2022-01-16 20:06:05,1.358s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Din n/input_Upon activity completion_submitbutton""))",Edge Chromium 97,,,2022-01-16 20:06:05,2022-01-16 20:06:05,0.430s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Din n/input_Upon activity completion_submitbutton""))",Edge Chromium 97,,,2022-01-16 20:06:05,2022-01-16 20:06:08,2.755s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Bn bc ch/a_Van Luyen Le""))",Edge Chromium 97,,,2022-01-16 20:06:08,2022-01-16 20:06:09,1.209s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Bn bc ch/a_Thot""))",Edge Chromium 97,,,2022-01-16 20:06:09,2022-01-16 20:06:17,7.548s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:06:17,2022-01-16 20:06:18,0.946s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Username_username""), ""hs02"")",Edge Chromium 97,,,2022-01-16 20:06:18,2022-01-16 20:06:19,1.065s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Password_password""), ""RigbBhfdqOBGP4y92+oMSw=="")",Edge Chromium 97,,,2022-01-16 20:06:19,2022-01-16 20:06:19,0.620s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:06:19,2022-01-16 20:06:22,2.197s,PASSED
+"click(findTestObject(""Students check events on calendar/Page_Nh ca ti/span_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:06:22,2022-01-16 20:06:29,7.677s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/span_Bn bc ch  Din n""))",Edge Chromium 97,,,2022-01-16 20:06:29,2022-01-16 20:06:38,8.167s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Students check events on calendar/Page_Bn bc ch/a_Thm mt ch  tho lun mi""))",Edge Chromium 97,,,2022-01-16 20:06:38,2022-01-16 20:06:44,6.680s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Bn bc ch/a_Thm mt ch  tho lun mi""))",Edge Chromium 97,,,2022-01-16 20:06:44,2022-01-16 20:06:51,6.780s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bn bc ch/input_Tiu_subject""), ""hello world"")",Edge Chromium 97,,,2022-01-16 20:06:51,2022-01-16 20:06:52,1.133s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bn bc ch/div_Hello world""), ""<p dir=""ltr"" style=""text-align: left;"">Hello world</p>"")",Edge Chromium 97,,,2022-01-16 20:06:52,2022-01-16 20:06:54,1.453s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Bn bc ch/input_Ni dung_submitbutton""))",Edge Chromium 97,,,2022-01-16 20:06:54,2022-01-16 20:06:56,2.740s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 20:06:56,2022-01-16 20:06:58,1.346s,PASSED
+,,,,,,,
+Test Cases/Students check events on calendar/Quiz event,Edge Chromium 97,,,2022-01-16 20:06:58,2022-01-16 20:08:40,1m - 42.130s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:06:58,2022-01-16 20:07:02,3.732s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:07:02,2022-01-16 20:07:04,1.846s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:07:04,2022-01-16 20:07:05,1.126s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Username_username""), ""gv01"")",Edge Chromium 97,,,2022-01-16 20:07:05,2022-01-16 20:07:06,0.961s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Password_password""), ""RigbBhfdqOAWw2eOk0+aVg=="")",Edge Chromium 97,,,2022-01-16 20:07:06,2022-01-16 20:07:07,0.633s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:07:07,2022-01-16 20:07:09,2.224s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Students check events on calendar/Page_Nh ca ti/span_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:07:09,2022-01-16 20:07:11,2.471s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Nh ca ti/span_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:07:11,2022-01-16 20:07:13,1.533s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa""))",Edge Chromium 97,,,2022-01-16 20:07:13,2022-01-16 20:07:21,7.565s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn""))",Edge Chromium 97,,,2022-01-16 20:07:21,2022-01-16 20:07:27,6.961s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/a_Cc hot ng""))",Edge Chromium 97,,,2022-01-16 20:07:27,2022-01-16 20:07:29,1.830s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/a_Ti nguyn""))",Edge Chromium 97,,,2022-01-16 20:07:29,2022-01-16 20:07:30,0.571s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/a_Cc hot ng""))",Edge Chromium 97,,,2022-01-16 20:07:30,2022-01-16 20:07:30,0.523s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Kha Nhp mn cng ngh phn mm/div_Cu hi thm d""))",Edge Chromium 97,,,2022-01-16 20:07:30,2022-01-16 20:07:34,3.154s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/input_Tn cu hi_name""), ""Câu hỏi thăm dò"")",Edge Chromium 97,,,2022-01-16 20:07:34,2022-01-16 20:07:35,1.631s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/div_Ni dung cu hi""), ""<p dir=""ltr"" style=""text-align: left;"">Nội dung câu hỏi</p>"")",Edge Chromium 97,,,2022-01-16 20:07:35,2022-01-16 20:07:37,1.643s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/input_Phng n khng_option0""), ""1"")",Edge Chromium 97,,,2022-01-16 20:07:37,2022-01-16 20:07:38,0.894s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/input_Phng n khng_option1""), ""2"")",Edge Chromium 97,,,2022-01-16 20:07:38,2022-01-16 20:07:39,0.935s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/input_Phng n khng_option2""), ""3"")",Edge Chromium 97,,,2022-01-16 20:07:39,2022-01-16 20:07:40,1.016s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/input_Phng n khng_option3""), ""4"")",Edge Chromium 97,,,2022-01-16 20:07:40,2022-01-16 20:07:41,0.983s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/input_Phng n khng_option4""), ""5"")",Edge Chromium 97,,,2022-01-16 20:07:41,2022-01-16 20:07:42,0.989s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/select_Khng            C""), ""1"", true)",Edge Chromium 97,,,2022-01-16 20:07:42,2022-01-16 20:07:43,1.330s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/select_Khng            C""), ""0"", true)",Edge Chromium 97,,,2022-01-16 20:07:43,2022-01-16 20:07:44,1.322s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/a_Hiu lc""))",Edge Chromium 97,,,2022-01-16 20:07:44,2022-01-16 20:07:51,6.805s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/input_M_timecloseenabled""))",Edge Chromium 97,,,2022-01-16 20:07:51,2022-01-16 20:07:52,0.662s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/select_1        2        3        4        _45ea30""), ""8"", true)",Edge Chromium 97,,,2022-01-16 20:07:52,2022-01-16 20:07:54,1.837s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/input_M_timeopenenabled""))",Edge Chromium 97,,,2022-01-16 20:07:54,2022-01-16 20:07:54,0.525s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/select_1        2        3        4        _45ea30_1""), ""8"", true)",Edge Chromium 97,,,2022-01-16 20:07:54,2022-01-16 20:07:56,2.183s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Bin son Cu hi thm d/input_Upon activity completion_submitbutton""))",Edge Chromium 97,,,2022-01-16 20:07:56,2022-01-16 20:07:58,1.965s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Students check events on calendar/Page_Cu hi thm d/h2_Cu hi thm d""), ""Câu hỏi thăm dò"")",Edge Chromium 97,,,2022-01-16 20:07:58,2022-01-16 20:07:59,0.904s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Cu hi thm d/a_Van Luyen Le""))",Edge Chromium 97,,,2022-01-16 20:07:59,2022-01-16 20:08:00,0.664s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Cu hi thm d/a_Thot""))",Edge Chromium 97,,,2022-01-16 20:08:00,2022-01-16 20:08:02,1.857s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:08:02,2022-01-16 20:08:03,0.906s,PASSED
+"setText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Username_username""), ""hs01"")",Edge Chromium 97,,,2022-01-16 20:08:03,2022-01-16 20:08:04,0.966s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq2SeGQhIMNXLQ=="")",Edge Chromium 97,,,2022-01-16 20:08:04,2022-01-16 20:08:04,0.651s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:08:04,2022-01-16 20:08:06,2.233s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Nh ca ti/a_8""))",Edge Chromium 97,,,2022-01-16 20:08:06,2022-01-16 20:08:15,8.473s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th By, 8 Thng Ging 2022/a_i ti hot ng""))",Edge Chromium 97,,,2022-01-16 20:08:15,2022-01-16 20:08:24,9.368s,PASSED
+"click(findTestObject(""Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th By, 8 Thng Ging 2022/a_i ti hot ng""))",Edge Chromium 97,,,2022-01-16 20:08:24,2022-01-16 20:08:32,7.551s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Students check events on calendar/Page_Cu hi thm d/h2_Cu hi thm d""), ""Câu hỏi thăm dò"")",Edge Chromium 97,,,2022-01-16 20:08:32,2022-01-16 20:08:38,6.642s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 20:08:38,2022-01-16 20:08:40,1.308s,PASSED
+,,,,,,,
+Test Cases/Texting/Multiple messages,Edge Chromium 97,,,2022-01-16 20:08:40,2022-01-16 20:11:15,2m - 35.104s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:08:41,2022-01-16 20:08:44,3.852s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:08:44,2022-01-16 20:08:47,2.641s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:08:47,2022-01-16 20:08:50,2.594s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/input_Username_username""), ""lcbinh"")",Edge Chromium 97,,,2022-01-16 20:08:50,2022-01-16 20:08:51,1.639s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2"")",Edge Chromium 97,,,2022-01-16 20:08:51,2022-01-16 20:08:53,1.328s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:08:53,2022-01-16 20:08:57,4.352s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_See all_icon fa fa-comment fa-fw""))",Edge Chromium 97,,,2022-01-16 20:08:57,2022-01-16 20:09:04,7.272s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Nh ca ti/input_Messages selected_form-control""), ""Thanh"")",Edge Chromium 97,,,2022-01-16 20:09:04,2022-01-16 20:09:06,2.014s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_1""))",Edge Chromium 97,,,2022-01-16 20:09:06,2022-01-16 20:09:13,6.642s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_1""))",Edge Chromium 97,,,2022-01-16 20:09:13,2022-01-16 20:09:20,6.732s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 20:09:20,2022-01-16 20:09:27,6.904s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 20:09:27,2022-01-16 20:09:33,6.794s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_3e2d02""), ""Hi there"")",Edge Chromium 97,,,2022-01-16 20:09:33,2022-01-16 20:09:47,13.486s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i__icon fa fa-paper-plane fa-fw""))",Edge Chromium 97,,,2022-01-16 20:09:47,2022-01-16 20:09:54,6.788s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_3e2d02""), ""How can I help you"")",Edge Chromium 97,,,2022-01-16 20:09:54,2022-01-16 20:10:07,13.204s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i__yui_3_17_2_1_1641382762786_212""))",Edge Chromium 97,,,2022-01-16 20:10:07,2022-01-16 20:10:13,6.667s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_3e2d02""), ""Are you ok?"")",Edge Chromium 97,,,2022-01-16 20:10:13,2022-01-16 20:10:27,13.532s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i__yui_3_17_2_1_1641382762786_212""))",Edge Chromium 97,,,2022-01-16 20:10:27,2022-01-16 20:10:34,6.711s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/a_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 20:10:34,2022-01-16 20:10:37,3.186s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/span_Thot""))",Edge Chromium 97,,,2022-01-16 20:10:37,2022-01-16 20:10:38,1.244s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:10:38,2022-01-16 20:10:39,0.920s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/input_Username_username""), ""ndtthanh"")",Edge Chromium 97,,,2022-01-16 20:10:39,2022-01-16 20:10:40,0.913s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2"")",Edge Chromium 97,,,2022-01-16 20:10:40,2022-01-16 20:10:41,0.611s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:10:41,2022-01-16 20:10:43,2.231s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_See all_icon fa fa-comment fa-fw""))",Edge Chromium 97,,,2022-01-16 20:10:43,2022-01-16 20:10:50,7.182s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_See all_yui_3_17_2_1_1641382882296_189""))",Edge Chromium 97,,,2022-01-16 20:10:50,2022-01-16 20:10:57,7.010s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Texting/Page_Nh ca ti/strong_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 20:10:57,2022-01-16 20:11:04,6.799s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/strong_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 20:11:04,2022-01-16 20:11:11,6.914s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Texting/Page_Nh ca ti/p_Hi there""), ""Hi there"")",Edge Chromium 97,,,2022-01-16 20:11:11,2022-01-16 20:11:12,1.527s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Texting/Page_Nh ca ti/p_How can I help you""), ""How can I help you"")",Edge Chromium 97,,,2022-01-16 20:11:12,2022-01-16 20:11:13,0.480s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Texting/Page_Nh ca ti/p_Are you ok""), ""Are you ok?"")",Edge Chromium 97,,,2022-01-16 20:11:13,2022-01-16 20:11:13,0.512s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 20:11:13,2022-01-16 20:11:15,1.695s,PASSED
+,,,,,,,
+Test Cases/Texting/Receive text message from multiple users,Edge Chromium 97,,,2022-01-16 20:17:53,2022-01-16 20:19:44,1m - 50.540s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:17:53,2022-01-16 20:17:59,5.658s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:17:59,2022-01-16 20:18:02,3.189s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:18:02,2022-01-16 20:18:04,1.479s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/input_Username_username""), ""ndtthanh"")",Edge Chromium 97,,,2022-01-16 20:18:04,2022-01-16 20:18:05,0.978s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2"")",Edge Chromium 97,,,2022-01-16 20:18:05,2022-01-16 20:18:06,0.850s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:18:06,2022-01-16 20:18:08,2.909s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_See all_icon fa fa-comment fa-fw""))",Edge Chromium 97,,,2022-01-16 20:18:08,2022-01-16 20:18:16,7.661s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Nh ca ti/input_Messages selected_form-control""), ""Lê"")",Edge Chromium 97,,,2022-01-16 20:18:16,2022-01-16 20:18:18,1.635s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_1""))",Edge Chromium 97,,,2022-01-16 20:18:18,2022-01-16 20:18:24,6.702s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_1""))",Edge Chromium 97,,,2022-01-16 20:18:24,2022-01-16 20:18:31,6.844s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 20:18:31,2022-01-16 20:18:38,6.890s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 20:18:38,2022-01-16 20:18:45,6.824s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_cec9a1""), ""I 'm Thanh"")",Edge Chromium 97,,,2022-01-16 20:18:45,2022-01-16 20:18:58,13.338s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i__icon fa fa-paper-plane fa-fw""))",Edge Chromium 97,,,2022-01-16 20:18:58,2022-01-16 20:19:05,6.669s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/a_Tin Thnh Nguyn ng""))",Edge Chromium 97,,,2022-01-16 20:19:05,2022-01-16 20:19:08,3.055s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/a_Thot""))",Edge Chromium 97,,,2022-01-16 20:19:08,2022-01-16 20:19:10,1.954s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:19:10,2022-01-16 20:19:12,1.790s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/input_Username_username""), ""hs01"")",Edge Chromium 97,,,2022-01-16 20:19:12,2022-01-16 20:19:13,1.040s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq2SeGQhIMNXLQ=="")",Edge Chromium 97,,,2022-01-16 20:19:13,2022-01-16 20:19:14,0.741s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:19:14,2022-01-16 20:19:17,3.835s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_See all_icon fa fa-comment fa-fw""))",Edge Chromium 97,,,2022-01-16 20:19:17,2022-01-16 20:19:24,7.067s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Nh ca ti/input_Messages selected_form-control""), ""Lê"")",Edge Chromium 97,,,2022-01-16 20:19:24,2022-01-16 20:19:26,1.379s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw_1_2""))",Edge Chromium 97,,,2022-01-16 20:19:26,2022-01-16 20:19:33,6.695s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 20:19:33,2022-01-16 20:19:44,11.334s,FAILED
+,,,,,,,
+Test Cases/Texting/Student texts teacher,Edge Chromium 97,,,2022-01-16 20:22:29,2022-01-16 20:23:21,51.941s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:22:29,2022-01-16 20:22:34,4.896s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:22:34,2022-01-16 20:22:36,1.912s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:22:36,2022-01-16 20:22:37,1.137s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/input_Username_username""), ""hs01"")",Edge Chromium 97,,,2022-01-16 20:22:37,2022-01-16 20:22:38,0.940s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq2SeGQhIMNXLQ=="")",Edge Chromium 97,,,2022-01-16 20:22:38,2022-01-16 20:22:39,0.689s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:22:39,2022-01-16 20:22:41,2.336s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_See all_icon fa fa-comment fa-fw""))",Edge Chromium 97,,,2022-01-16 20:22:41,2022-01-16 20:22:48,6.814s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_See all_icon fa fa-comment fa-fw""))",Edge Chromium 97,,,2022-01-16 20:22:48,2022-01-16 20:22:55,6.737s,PASSED
+"setText(findTestObject(""Object Repository/Texting/Page_Nh ca ti/input_Messages selected_form-control""), ""Lê"")",Edge Chromium 97,,,2022-01-16 20:22:55,2022-01-16 20:22:56,1.461s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw""))",Edge Chromium 97,,,2022-01-16 20:22:56,2022-01-16 20:23:03,6.780s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw""))",Edge Chromium 97,,,2022-01-16 20:23:03,2022-01-16 20:23:09,6.600s,PASSED
+"click(findTestObject(""Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 20:23:09,2022-01-16 20:23:21,11.626s,FAILED
+,,,,,,,
+Test Cases/Teacher creates announcements/Teacher create a list announcement,Edge Chromium 97,,,2022-01-16 20:29:08,2022-01-16 20:31:02,1m - 54.383s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:29:08,2022-01-16 20:29:15,7.121s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:29:15,2022-01-16 20:29:17,2.489s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:29:17,2022-01-16 20:29:19,1.600s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Username_username""), ""lcbinh"")",Edge Chromium 97,,,2022-01-16 20:29:19,2022-01-16 20:29:20,1.139s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2"")",Edge Chromium 97,,,2022-01-16 20:29:20,2022-01-16 20:29:21,1.000s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:29:21,2022-01-16 20:29:24,2.888s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:29:24,2022-01-16 20:29:33,9.015s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Kha Nhp mn Cng ngh phn mm/span_Cc thng bo Din n""))",Edge Chromium 97,,,2022-01-16 20:29:33,2022-01-16 20:29:42,9.089s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thm mt ch  mi""))",Edge Chromium 97,,,2022-01-16 20:29:42,2022-01-16 20:29:49,6.981s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/input_Tiu_subject""), ""Thông báo "")",Edge Chromium 97,,,2022-01-16 20:29:49,2022-01-16 20:29:50,1.024s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/input_Hu b_advancedadddiscussion""))",Edge Chromium 97,,,2022-01-16 20:29:50,2022-01-16 20:29:53,2.992s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thm mt ch  mi/input_Tiu_subject""), ""Thông báo dạng bullet"")",Edge Chromium 97,,,2022-01-16 20:29:53,2022-01-16 20:29:55,1.948s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thm mt ch  mi/button_Ni dung_yui_3_17_2_1_1641301275320_977""))",Edge Chromium 97,,,2022-01-16 20:29:55,2022-01-16 20:30:02,7.052s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thm mt ch  mi/div_Thng bo 1Thng bo 2Thng bo 3""), ""<p dir=""ltr"" style=""text-align: left;"" id=""yui_3_17_2_1_1641301275320_1445""><ul id=""yui_3_17_2_1_1641301275320_988""><li id=""yui_3_17_2_1_1641301275320_987"" style="""">Thông báo 1</li><li id=""yui_3_17_2_1_1641301275320_987"" style="""">Thông báo 2</li><li id=""yui_3_17_2_1_1641301275320_987"" style="""">Thông báo 3</li></ul></p>"")",Edge Chromium 97,,,2022-01-16 20:30:02,2022-01-16 20:30:08,6.210s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thm mt ch  mi/div_Thng bo 1Thng bo 2Thng bo 3""), ""<p dir=""ltr"" style=""text-align: left;"" id=""yui_3_17_2_1_1641301275320_1445""><ul id=""yui_3_17_2_1_1641301275320_988""><li id=""yui_3_17_2_1_1641301275320_987"" style="""">Thông báo 1</li><li id=""yui_3_17_2_1_1641301275320_987"" style="""">Thông báo 2</li><li id=""yui_3_17_2_1_1641301275320_987"" style="""">Thông báo 3</li></ul></p>"")",Edge Chromium 97,,,2022-01-16 20:30:08,2022-01-16 20:30:12,3.941s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thm mt ch  mi/input__submitbutton""))",Edge Chromium 97,,,2022-01-16 20:30:12,2022-01-16 20:30:15,2.835s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 20:30:15,2022-01-16 20:30:16,1.213s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thot""))",Edge Chromium 97,,,2022-01-16 20:30:16,2022-01-16 20:30:24,7.791s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:30:24,2022-01-16 20:30:25,1.246s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Username_username""), ""hs01"")",Edge Chromium 97,,,2022-01-16 20:30:25,2022-01-16 20:30:27,1.502s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq2SeGQhIMNXLQ=="")",Edge Chromium 97,,,2022-01-16 20:30:27,2022-01-16 20:30:28,1.164s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:30:28,2022-01-16 20:30:32,4.227s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:30:32,2022-01-16 20:30:41,8.266s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Kha Nhp mn Cng ngh phn mm/span_Cc thng bo Din n""))",Edge Chromium 97,,,2022-01-16 20:30:41,2022-01-16 20:30:48,7.874s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thng bo dng bullet""))",Edge Chromium 97,,,2022-01-16 20:30:48,2022-01-16 20:31:02,13.749s,FAILED
+,,,,,,,
+Test Cases/Teacher creates announcements/Teacher create a new announcement,Edge Chromium 97,,,2022-01-16 20:31:02,2022-01-16 20:32:38,1m - 35.894s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:31:03,2022-01-16 20:31:10,6.281s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:31:10,2022-01-16 20:31:12,2.573s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:31:12,2022-01-16 20:31:14,1.441s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/form_document.getElementById(anchor).value _70e5d4""))",Edge Chromium 97,,,2022-01-16 20:31:14,2022-01-16 20:31:14,0.655s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Username_username""), ""lcbinh"")",Edge Chromium 97,,,2022-01-16 20:31:14,2022-01-16 20:31:15,1.144s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2"")",Edge Chromium 97,,,2022-01-16 20:31:15,2022-01-16 20:31:17,1.331s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:31:17,2022-01-16 20:31:21,3.935s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:31:21,2022-01-16 20:31:28,6.957s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:31:28,2022-01-16 20:31:36,8.668s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Teacher creates announcements/Page_Kha Nhp mn Cng ngh phn mm/span_Cc thng bo Din n""))",Edge Chromium 97,,,2022-01-16 20:31:36,2022-01-16 20:31:43,6.970s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Kha Nhp mn Cng ngh phn mm/span_Cc thng bo Din n""))",Edge Chromium 97,,,2022-01-16 20:31:43,2022-01-16 20:31:52,8.593s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thm mt ch  mi""))",Edge Chromium 97,,,2022-01-16 20:31:52,2022-01-16 20:31:59,6.812s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thm mt ch  mi""))",Edge Chromium 97,,,2022-01-16 20:31:59,2022-01-16 20:32:06,7.083s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/input_Tiu_subject""), ""Thông báo mới"")",Edge Chromium 97,,,2022-01-16 20:32:06,2022-01-16 20:32:07,1.231s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/div_Hello world""), ""<p dir=""ltr"" style=""text-align: left;"">Hello world</p>"")",Edge Chromium 97,,,2022-01-16 20:32:07,2022-01-16 20:32:09,1.554s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/input_Ni dung_submitbutton""))",Edge Chromium 97,,,2022-01-16 20:32:09,2022-01-16 20:32:09,0.535s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/input_Ni dung_submitbutton""))",Edge Chromium 97,,,2022-01-16 20:32:09,2022-01-16 20:32:12,2.738s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thng bo mi""), ""Thông báo mới"")",Edge Chromium 97,,,2022-01-16 20:32:12,2022-01-16 20:32:20,7.816s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thng bo mi""))",Edge Chromium 97,,,2022-01-16 20:32:20,2022-01-16 20:32:26,6.749s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thng bo mi""))",Edge Chromium 97,,,2022-01-16 20:32:26,2022-01-16 20:32:35,8.569s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo mi/h3_Thng bo mi""), ""Thông báo mới"")",Edge Chromium 97,,,2022-01-16 20:32:35,2022-01-16 20:32:36,0.680s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 20:32:36,2022-01-16 20:32:38,2.376s,PASSED
+,,,,,,,
+Test Cases/Teacher creates announcements/Teacher edit announcement,Edge Chromium 97,,,2022-01-16 20:37:42,2022-01-16 20:39:20,1m - 37.791s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:37:42,2022-01-16 20:37:48,6.128s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:37:48,2022-01-16 20:37:51,2.111s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:37:51,2022-01-16 20:37:52,1.199s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Username_username""), ""lcbinh"")",Edge Chromium 97,,,2022-01-16 20:37:52,2022-01-16 20:37:53,1.059s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2"")",Edge Chromium 97,,,2022-01-16 20:37:53,2022-01-16 20:37:54,0.921s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:37:54,2022-01-16 20:37:57,3.055s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:37:57,2022-01-16 20:38:05,8.252s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Kha Nhp mn Cng ngh phn mm/span_Cc thng bo Din n""))",Edge Chromium 97,,,2022-01-16 20:38:05,2022-01-16 20:38:15,9.624s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thng bo  c cp nht""))",Edge Chromium 97,,,2022-01-16 20:38:15,2022-01-16 20:38:23,8.065s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo  c cp nht/a_Chnh sa""))",Edge Chromium 97,,,2022-01-16 20:38:23,2022-01-16 20:38:29,6.731s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo  c cp nht/a_Chnh sa""))",Edge Chromium 97,,,2022-01-16 20:38:29,2022-01-16 20:38:39,9.184s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo  c cp nht Thng bo  c cp nht/input_Tiu_subject""), ""Thông báo đã được chỉnh sửa"")",Edge Chromium 97,,,2022-01-16 20:38:39,2022-01-16 20:38:40,1.831s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo  c cp nht Thng bo  c cp nht/input__submitbutton""))",Edge Chromium 97,,,2022-01-16 20:38:40,2022-01-16 20:38:41,0.508s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo  c cp nht Thng bo  c cp nht/input__submitbutton""))",Edge Chromium 97,,,2022-01-16 20:38:41,2022-01-16 20:38:43,2.178s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo  c chnh sa/a_Cng Bnh L""))",Edge Chromium 97,,,2022-01-16 20:38:43,2022-01-16 20:38:44,0.726s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo  c chnh sa/a_Thot""))",Edge Chromium 97,,,2022-01-16 20:38:44,2022-01-16 20:38:45,1.516s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:38:45,2022-01-16 20:38:47,1.233s,PASSED
+"setText(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Username_username""), ""hs01"")",Edge Chromium 97,,,2022-01-16 20:38:47,2022-01-16 20:38:48,1.034s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Password_password""), ""o5TCnEIIWq2SeGQhIMNXLQ=="")",Edge Chromium 97,,,2022-01-16 20:38:48,2022-01-16 20:38:49,0.824s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:38:49,2022-01-16 20:38:51,2.677s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:38:51,2022-01-16 20:38:59,8.082s,PASSED
+"click(findTestObject(""Object Repository/Teacher creates announcements/Page_Kha Nhp mn Cng ngh phn mm/span_Cc thng bo Din n""))",Edge Chromium 97,,,2022-01-16 20:38:59,2022-01-16 20:39:07,7.686s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thng bo  c chnh sa""), ""Thông báo đã được chỉnh sửa"")",Edge Chromium 97,,,2022-01-16 20:39:07,2022-01-16 20:39:20,13.147s,FAILED
+,,,,,,,
+Test Cases/Students answering question being overdue or on time/Answer choice question on time,Edge Chromium 97,,,2022-01-16 20:44:50,2022-01-16 20:46:34,1m - 44.286s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:44:50,2022-01-16 20:44:55,5.504s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:44:55,2022-01-16 20:44:58,2.136s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:44:58,2022-01-16 20:44:59,1.237s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Username_username""), ""gv01"")",Edge Chromium 97,,,2022-01-16 20:44:59,2022-01-16 20:45:00,0.905s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Password_password""), ""RigbBhfdqOAWw2eOk0+aVg=="")",Edge Chromium 97,,,2022-01-16 20:45:00,2022-01-16 20:45:00,0.670s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:45:00,2022-01-16 20:45:03,2.627s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:45:03,2022-01-16 20:45:10,6.879s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:45:10,2022-01-16 20:45:18,8.119s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa""))",Edge Chromium 97,,,2022-01-16 20:45:18,2022-01-16 20:45:25,6.821s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa""))",Edge Chromium 97,,,2022-01-16 20:45:25,2022-01-16 20:45:33,7.962s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn""))",Edge Chromium 97,,,2022-01-16 20:45:33,2022-01-16 20:45:40,7.036s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/div_Cu hi thm d""), ""Câu hỏi thăm dò"")",Edge Chromium 97,,,2022-01-16 20:45:40,2022-01-16 20:45:42,2.566s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/div_Cu hi thm d""))",Edge Chromium 97,,,2022-01-16 20:45:42,2022-01-16 20:45:46,3.437s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Cu hi thm d/input_Tn cu hi_name""), ""Câu hỏi trắc nghiệm"")",Edge Chromium 97,,,2022-01-16 20:45:46,2022-01-16 20:45:47,1.624s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Cu hi thm d/input_Phng n khng_option0""), ""a"")",Edge Chromium 97,,,2022-01-16 20:45:47,2022-01-16 20:45:48,0.994s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Cu hi thm d/input_Phng n khng_option1""), ""b"")",Edge Chromium 97,,,2022-01-16 20:45:48,2022-01-16 20:45:50,1.079s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Cu hi thm d/input_Phng n khng_option2""), ""c"")",Edge Chromium 97,,,2022-01-16 20:45:50,2022-01-16 20:45:51,1.278s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Cu hi thm d/input_Phng n khng_option3""), ""d"")",Edge Chromium 97,,,2022-01-16 20:45:51,2022-01-16 20:45:52,1.026s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Cu hi thm d/input_Gii hn khng_option_add_fields""))",Edge Chromium 97,,,2022-01-16 20:45:52,2022-01-16 20:45:52,0.460s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Cu hi thm d/input_Gii hn khng_option_add_fields""))",Edge Chromium 97,,,2022-01-16 20:45:52,2022-01-16 20:45:55,2.692s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Cu hi thm d/input_Upon activity completion_submitbutton2""))",Edge Chromium 97,,,2022-01-16 20:45:55,2022-01-16 20:45:58,2.611s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Cu hi trc nghim Cu hi thm d""))",Edge Chromium 97,,,2022-01-16 20:45:58,2022-01-16 20:45:59,1.182s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/a_Van A Nguyen""))",Edge Chromium 97,,,2022-01-16 20:45:59,2022-01-16 20:46:00,0.789s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/a_Thot""))",Edge Chromium 97,,,2022-01-16 20:46:00,2022-01-16 20:46:01,1.415s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:46:01,2022-01-16 20:46:02,1.036s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Username_username""), ""hs02"")",Edge Chromium 97,,,2022-01-16 20:46:02,2022-01-16 20:46:03,0.943s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Password_password""), ""RigbBhfdqOBGP4y92+oMSw=="")",Edge Chromium 97,,,2022-01-16 20:46:03,2022-01-16 20:46:04,0.710s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:46:04,2022-01-16 20:46:07,3.528s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm_1""))",Edge Chromium 97,,,2022-01-16 20:46:07,2022-01-16 20:46:15,7.973s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Cu hi trc nghim Cu hi thm d_1""))",Edge Chromium 97,,,2022-01-16 20:46:15,2022-01-16 20:46:24,9.003s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Cu hi trc nghim/input__answer""))",Edge Chromium 97,,,2022-01-16 20:46:24,2022-01-16 20:46:34,10.018s,FAILED
+,,,,,,,
+Test Cases/Students answering question being overdue or on time/Answer choice question overdue,Edge Chromium 97,,,2022-01-16 20:46:34,2022-01-16 20:47:21,47.024s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:46:36,2022-01-16 20:46:45,9.136s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:46:45,2022-01-16 20:46:50,4.934s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:46:50,2022-01-16 20:46:53,2.833s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Username_username""), ""hs02"")",Edge Chromium 97,,,2022-01-16 20:46:53,2022-01-16 20:46:55,2.737s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Password_password""), ""RigbBhfdqOBGP4y92+oMSw=="")",Edge Chromium 97,,,2022-01-16 20:46:55,2022-01-16 20:46:57,2.148s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:46:57,2022-01-16 20:47:04,6.299s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Trang ch h thng""))",Edge Chromium 97,,,2022-01-16 20:47:04,2022-01-16 20:47:09,5.402s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle/a_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:47:09,2022-01-16 20:47:13,3.491s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Cu hi trc nghim Cu hi thm d""))",Edge Chromium 97,,,2022-01-16 20:47:13,2022-01-16 20:47:16,3.195s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Cu hi trc nghim/div_Hin khng th xem c kt qu""), ""Hiện không thể xem được kết quả."")",Edge Chromium 97,,,2022-01-16 20:47:16,2022-01-16 20:47:17,0.909s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 20:47:17,2022-01-16 20:47:21,4.428s,PASSED
+,,,,,,,
+Test Cases/Students answering question being overdue or on time/Answer text question on time,Edge Chromium 97,,,2022-01-16 20:52:20,2022-01-16 20:53:54,1m - 34.446s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:52:20,2022-01-16 20:52:25,5.384s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:52:25,2022-01-16 20:52:28,2.331s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:52:28,2022-01-16 20:52:29,1.380s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Username_username""), ""gv01"")",Edge Chromium 97,,,2022-01-16 20:52:29,2022-01-16 20:52:30,0.963s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Password_password""), ""RigbBhfdqOAWw2eOk0+aVg=="")",Edge Chromium 97,,,2022-01-16 20:52:30,2022-01-16 20:52:31,0.823s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:52:31,2022-01-16 20:52:34,3.452s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:52:34,2022-01-16 20:52:41,7.012s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:52:41,2022-01-16 20:52:49,8.081s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa""))",Edge Chromium 97,,,2022-01-16 20:52:49,2022-01-16 20:52:58,8.278s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn""))",Edge Chromium 97,,,2022-01-16 20:52:58,2022-01-16 20:53:05,6.937s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn""))",Edge Chromium 97,,,2022-01-16 20:53:05,2022-01-16 20:53:11,6.818s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/div_Bi tp""))",Edge Chromium 97,,,2022-01-16 20:53:11,2022-01-16 20:53:18,6.725s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/div_Bi tp""))",Edge Chromium 97,,,2022-01-16 20:53:18,2022-01-16 20:53:28,9.284s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Bi tp/input_Tn bi tp_name""), ""Trả lời câu hỏi trực tiếp"")",Edge Chromium 97,,,2022-01-16 20:53:28,2022-01-16 20:53:30,2.063s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Bi tp/div_Tr li cu hi sau""), ""<p dir=""ltr"" style=""text-align: left;"">Trả lời câu hỏi sau</p>"")",Edge Chromium 97,,,2022-01-16 20:53:30,2022-01-16 20:53:31,1.703s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Bi tp/input_Vn bn trc tuyn_assignsubmission_onlin_3ee3b4""))",Edge Chromium 97,,,2022-01-16 20:53:31,2022-01-16 20:53:32,0.712s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Bin son Bi tp/input_Upon activity completion_submitbutton""))",Edge Chromium 97,,,2022-01-16 20:53:32,2022-01-16 20:53:35,2.631s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_NM CNPM Tr li cu hi trc tip/a_Van A Nguyen""))",Edge Chromium 97,,,2022-01-16 20:53:35,2022-01-16 20:53:36,1.271s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_NM CNPM Tr li cu hi trc tip/a_Thot""))",Edge Chromium 97,,,2022-01-16 20:53:36,2022-01-16 20:53:38,1.620s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle/a_Log in""))",Edge Chromium 97,,,2022-01-16 20:53:38,2022-01-16 20:53:39,1.084s,PASSED
+"setText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Username_username""), ""hs01"")",Edge Chromium 97,,,2022-01-16 20:53:39,2022-01-16 20:53:40,1.038s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Password_password""), ""RigbBhfdqOBGP4y92+oMSw=="")",Edge Chromium 97,,,2022-01-16 20:53:40,2022-01-16 20:53:41,0.892s,PASSED
+"click(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 20:53:41,2022-01-16 20:53:42,1.738s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm""))",Edge Chromium 97,,,2022-01-16 20:53:42,2022-01-16 20:53:54,12.199s,FAILED
+,,,,,,,
+Test Cases/Students answering question being overdue or on time/Answer text question overdue,Edge Chromium 97,,,2022-01-16 20:56:04,2022-01-16 20:56:46,41.723s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 20:56:04,2022-01-16 20:56:10,5.525s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 20:56:10,2022-01-16 20:56:12,2.460s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle/a_Log in (24) (1)""))",Edge Chromium 97,,,2022-01-16 20:56:12,2022-01-16 20:56:14,1.783s,PASSED
+"setText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Username_username (24) (1)""), ""robertle"")",Edge Chromium 97,,,2022-01-16 20:56:14,2022-01-16 20:56:15,1.082s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/input_Password_password (24) (1)""), ""e0iuw4o+VG38P/PfCbIZUw=="")",Edge Chromium 97,,,2022-01-16 20:56:15,2022-01-16 20:56:16,0.735s,PASSED
+"click(findTestObject(""Object Repository/Page_Local Moodle Log in to the site/button_Log in (24) (1)""))",Edge Chromium 97,,,2022-01-16 20:56:16,2022-01-16 20:56:20,3.818s,PASSED
+"click(findTestObject(""Object Repository/Page_Nh ca ti/span_Trang ch h thng (3) (1)""))",Edge Chromium 97,,,2022-01-16 20:56:20,2022-01-16 20:56:24,4.215s,PASSED
+"click(findTestObject(""Page_Local Moodle/a_Software Engineering""))",Edge Chromium 97,,,2022-01-16 20:56:24,2022-01-16 20:56:26,1.859s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (13) (1)""))",Edge Chromium 97,,,2022-01-16 20:56:26,2022-01-16 20:56:34,7.900s,PASSED
+"click(findTestObject(""Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (7) (1)""))",Edge Chromium 97,,,2022-01-16 20:56:34,2022-01-16 20:56:46,12.327s,FAILED
+,,,,,,,
+Test Cases/Create course/Create course successfully,Edge Chromium 97,,,2022-01-16 21:00:55,2022-01-16 21:02:15,1m - 20.564s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:00:55,2022-01-16 21:01:00,5.088s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:01:00,2022-01-16 21:01:02,2.196s,PASSED
+"callTestCase(findTestCase(""Utils/Login as admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:01:02,2022-01-16 21:01:12,9.833s,PASSED
+"click(findTestObject(""Utils/Page_Nh ca ti (1)/span_Qun tr khu vc""))",Edge Chromium 97,,,2022-01-16 21:01:12,2022-01-16 21:01:20,8.142s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Khu vc qun tr Tm kim/a_Kho hc""))",Edge Chromium 97,,,2022-01-16 21:01:20,2022-01-16 21:01:21,0.867s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Khu vc qun tr Tm kim/a_Thmsa cc kho hc""))",Edge Chromium 97,,,2022-01-16 21:01:21,2022-01-16 21:01:24,3.080s,PASSED
+"click(findTestObject(""Create course/Page_Qun l kha hc v danh mc kha hc/a_TaoKhoaHocMoi""))",Edge Chromium 97,,,2022-01-16 21:01:24,2022-01-16 21:01:34,10.458s,PASSED
+"setText(findTestObject(""Create course/Page_Moodle Thm kho hc mi/input_Tn y_fullname""), ""Nhập môn Công nghệ phần mềm"")",Edge Chromium 97,,,2022-01-16 21:01:34,2022-01-16 21:01:36,1.796s,PASSED
+"setText(findTestObject(""Create course/Page_Moodle Thm kho hc mi/input_Tn rt gn ca kho hc_shortname""), ""CNPM"")",Edge Chromium 97,,,2022-01-16 21:01:36,2022-01-16 21:01:37,1.080s,PASSED
+"selectOptionByValue(findTestObject(""Create course/Page_Moodle Thm kho hc mi/select_1        2        3        4        _45ea30""), ""10"", true)",Edge Chromium 97,,,2022-01-16 21:01:37,2022-01-16 21:01:40,2.539s,PASSED
+"selectOptionByValue(findTestObject(""Create course/Page_Moodle Thm kho hc mi/select_Thng Ging        Thng Hai        Thn_b248db""), ""9"", true)",Edge Chromium 97,,,2022-01-16 21:01:40,2022-01-16 21:01:42,1.671s,PASSED
+"selectOptionByValue(findTestObject(""Create course/Page_Moodle Thm kho hc mi/select_1900        1901        1902        _6405c9""), ""2021"", true)",Edge Chromium 97,,,2022-01-16 21:01:42,2022-01-16 21:01:48,6.006s,PASSED
+"selectOptionByValue(findTestObject(""Create course/Page_Moodle Thm kho hc mi/select_00        01        02        03    _f6e37b""), ""7"", true)",Edge Chromium 97,,,2022-01-16 21:01:48,2022-01-16 21:01:49,1.884s,PASSED
+"selectOptionByValue(findTestObject(""Create course/Page_Moodle Thm kho hc mi/select_00        01        02        03    _f6e37b_1""), ""15"", true)",Edge Chromium 97,,,2022-01-16 21:01:49,2022-01-16 21:01:52,2.792s,PASSED
+"selectOptionByValue(findTestObject(""Create course/Page_Moodle Thm kho hc mi/select_1        2        3        4        _45ea30_1""), ""15"", true)",Edge Chromium 97,,,2022-01-16 21:01:52,2022-01-16 21:01:54,1.918s,PASSED
+"selectOptionByValue(findTestObject(""Create course/Page_Moodle Thm kho hc mi/select_1900        1901        1902        _6405c9_1""), ""2022"", true)",Edge Chromium 97,,,2022-01-16 21:01:54,2022-01-16 21:02:00,5.946s,PASSED
+"selectOptionByValue(findTestObject(""Create course/Page_Moodle Thm kho hc mi/select_00        01        02        03    _f6e37b_1_2""), ""10"", true)",Edge Chromium 97,,,2022-01-16 21:02:00,2022-01-16 21:02:02,1.890s,PASSED
+"setText(findTestObject(""Create course/Page_Moodle Thm kho hc mi/input_M s ID kho hc_idnumber""), ""1234"")",Edge Chromium 97,,,2022-01-16 21:02:02,2022-01-16 21:02:03,0.887s,PASSED
+"click(findTestObject(""Object Repository/Utils/Page_Moodle Thm kho hc mi/input__saveanddisplay""))",Edge Chromium 97,,,2022-01-16 21:02:03,2022-01-16 21:02:06,3.495s,PASSED
+"click(findTestObject(""Object Repository/Utils/Page_CNPM Danh sch thnh vin/input_Danh sch thnh vin_btn btn-secondary my-1""))",Edge Chromium 97,,,2022-01-16 21:02:06,2022-01-16 21:02:15,8.974s,FAILED
+,,,,,,,
+Test Cases/Create course/Create course with existed shortname,Edge Chromium 97,,,2022-01-16 21:05:56,2022-01-16 21:06:45,48.498s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:05:56,2022-01-16 21:06:01,5.239s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:06:01,2022-01-16 21:06:03,1.958s,PASSED
+"callTestCase(findTestCase(""Utils/Login as admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:06:03,2022-01-16 21:06:10,6.771s,PASSED
+"click(findTestObject(""Object Repository/Create course/Page_Nh ca ti/span_Qun tr khu vc""))",Edge Chromium 97,,,2022-01-16 21:06:10,2022-01-16 21:06:16,5.606s,PASSED
+"click(findTestObject(""Object Repository/Create course/Page_Moodle Khu vc qun tr Tm kim/a_Kho hc""))",Edge Chromium 97,,,2022-01-16 21:06:16,2022-01-16 21:06:16,0.674s,PASSED
+"click(findTestObject(""Object Repository/Create course/Page_Moodle Khu vc qun tr Tm kim/a_Thmsa cc kho hc""))",Edge Chromium 97,,,2022-01-16 21:06:16,2022-01-16 21:06:19,2.369s,PASSED
+"click(findTestObject(""Object Repository/Create course/Page_Qun l kha hc v danh mc kha hc/a_To kha hc mi""))",Edge Chromium 97,,,2022-01-16 21:06:19,2022-01-16 21:06:29,9.956s,PASSED
+"setText(findTestObject(""Object Repository/Create course/Page_Moodle Thm kho hc mi/input_Tn y_fullname""), ""Nhập môn lập trình"")",Edge Chromium 97,,,2022-01-16 21:06:29,2022-01-16 21:06:31,1.851s,PASSED
+"setText(findTestObject(""Object Repository/Create course/Page_Moodle Thm kho hc mi/input_Tn rt gn ca kho hc_shortname""), ""NMLT"")",Edge Chromium 97,,,2022-01-16 21:06:31,2022-01-16 21:06:32,1.012s,PASSED
+"click(findTestObject(""Object Repository/Create course/Page_Moodle Thm kho hc mi/input__saveandreturn""))",Edge Chromium 97,,,2022-01-16 21:06:32,2022-01-16 21:06:35,3.288s,PASSED
+"click(findTestObject(""Object Repository/Create course/Page_Qun l kha hc v danh mc kha hc/a_To kha hc mi""))",Edge Chromium 97,,,2022-01-16 21:06:35,2022-01-16 21:06:43,8.352s,PASSED
+"setText(findTestObject(""Object Repository/Create course/Page_Moodle Thm kho hc mi/input_Tn y_fullname""), ""Nhập môn lập trình"")",Edge Chromium 97,,,2022-01-16 21:06:43,2022-01-16 21:06:45,1.405s,FAILED
+,,,,,,,
+Test Cases/Create course/Create course without fullname,Edge Chromium 97,,,2022-01-16 21:06:45,2022-01-16 21:07:35,50.045s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:06:46,2022-01-16 21:06:53,6.682s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:06:53,2022-01-16 21:06:55,2.542s,PASSED
+"callTestCase(findTestCase(""Utils/Login as admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:06:55,2022-01-16 21:07:07,11.506s,PASSED
+"click(findTestObject(""Utils/Page_Nh ca ti (1)/a_QuanTriKhuVuc""))",Edge Chromium 97,,,2022-01-16 21:07:07,2022-01-16 21:07:16,9.749s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Khu vc qun tr Tm kim/a_KhoaHoc""))",Edge Chromium 97,,,2022-01-16 21:07:16,2022-01-16 21:07:18,1.172s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Khu vc qun tr Tm kim/a_ThemSuaKhoaHoc""))",Edge Chromium 97,,,2022-01-16 21:07:18,2022-01-16 21:07:21,2.964s,PASSED
+"click(findTestObject(""Create course/Page_Qun l kha hc v danh mc kha hc/a_TaoKhoaHocMoi""))",Edge Chromium 97,,,2022-01-16 21:07:21,2022-01-16 21:07:31,10.196s,PASSED
+"setText(findTestObject(""Create course/Page_Moodle Thm kho hc mi/input_TenRutGon""), ""NMLT"")",Edge Chromium 97,,,2022-01-16 21:07:31,2022-01-16 21:07:32,1.533s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Thm kho hc mi/input__LuuVaQuayLai""))",Edge Chromium 97,,,2022-01-16 21:07:32,2022-01-16 21:07:33,0.765s,PASSED
+"verifyElementText(findTestObject(""Create course/Page_Moodle Thm kho hc mi/div_- ConThieuHoTenDayDu""), ""- Còn thiếu họ tên đầy đủ"")",Edge Chromium 97,,,2022-01-16 21:07:33,2022-01-16 21:07:34,0.636s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 21:07:34,2022-01-16 21:07:35,1.087s,PASSED
+,,,,,,,
+Test Cases/Create course/Create course without shortname,Edge Chromium 97,,,2022-01-16 21:07:35,2022-01-16 21:08:13,38.053s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:07:36,2022-01-16 21:07:40,4.050s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:07:40,2022-01-16 21:07:42,1.962s,PASSED
+"callTestCase(findTestCase(""Utils/Login as admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:07:42,2022-01-16 21:07:48,6.432s,PASSED
+"click(findTestObject(""Utils/Page_Nh ca ti (1)/a_QuanTriKhuVuc""))",Edge Chromium 97,,,2022-01-16 21:07:48,2022-01-16 21:07:54,5.670s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Khu vc qun tr Tm kim/a_KhoaHoc""))",Edge Chromium 97,,,2022-01-16 21:07:54,2022-01-16 21:07:55,1.207s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Khu vc qun tr Tm kim/a_ThemSuaKhoaHoc""))",Edge Chromium 97,,,2022-01-16 21:07:55,2022-01-16 21:07:57,2.302s,PASSED
+"click(findTestObject(""Create course/Page_Qun l kha hc v danh mc kha hc/a_TaoKhoaHocMoi""))",Edge Chromium 97,,,2022-01-16 21:07:57,2022-01-16 21:08:08,11.132s,PASSED
+"setText(findTestObject(""Create course/Page_Moodle Thm kho hc mi/input_TenDayDu""), ""Nhập môn Lập trình"")",Edge Chromium 97,,,2022-01-16 21:08:08,2022-01-16 21:08:10,1.684s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Thm kho hc mi/input__LuuVaQuayLai""))",Edge Chromium 97,,,2022-01-16 21:08:10,2022-01-16 21:08:11,0.681s,PASSED
+"verifyElementText(findTestObject(""Create course/Page_Moodle Thm kho hc mi/div_- ThieuTenTat""), ""- Thiếu tên tắt"")",Edge Chromium 97,,,2022-01-16 21:08:11,2022-01-16 21:08:11,0.532s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 21:08:11,2022-01-16 21:08:13,1.591s,PASSED
+,,,,,,,
+Test Cases/Create course/Create course without type,Edge Chromium 97,,,2022-01-16 21:08:13,2022-01-16 21:09:08,54.851s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:08:15,2022-01-16 21:08:21,6.375s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:08:21,2022-01-16 21:08:24,3.151s,PASSED
+"callTestCase(findTestCase(""Utils/Login as admin""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:08:24,2022-01-16 21:08:32,7.419s,PASSED
+"click(findTestObject(""Utils/Page_Nh ca ti (1)/a_QuanTriKhuVuc""))",Edge Chromium 97,,,2022-01-16 21:08:32,2022-01-16 21:08:37,5.307s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Khu vc qun tr Tm kim/a_KhoaHoc""))",Edge Chromium 97,,,2022-01-16 21:08:37,2022-01-16 21:08:38,0.651s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Khu vc qun tr Tm kim/a_ThemSuaKhoaHoc""))",Edge Chromium 97,,,2022-01-16 21:08:38,2022-01-16 21:08:40,2.518s,PASSED
+"click(findTestObject(""Create course/Page_Qun l kha hc v danh mc kha hc/a_TaoKhoaHocMoi""))",Edge Chromium 97,,,2022-01-16 21:08:40,2022-01-16 21:08:54,13.559s,PASSED
+"setText(findTestObject(""Create course/Page_Moodle Thm kho hc mi/input_TenDayDu""), ""Nhập môn lập trình"")",Edge Chromium 97,,,2022-01-16 21:08:54,2022-01-16 21:08:56,2.300s,PASSED
+"setText(findTestObject(""Create course/Page_Moodle Thm kho hc mi/input_TenRutGon""), ""NMLT"")",Edge Chromium 97,,,2022-01-16 21:08:56,2022-01-16 21:08:58,1.548s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Thm kho hc mi/span_X""))",Edge Chromium 97,,,2022-01-16 21:08:58,2022-01-16 21:09:05,7.128s,PASSED
+"click(findTestObject(""Create course/Page_Moodle Thm kho hc mi/input__LuuVaQuayLai""))",Edge Chromium 97,,,2022-01-16 21:09:05,2022-01-16 21:09:06,1.036s,PASSED
+"verifyElementText(findTestObject(""Create course/Page_Moodle Thm kho hc mi/div_- PhaiChonLoaiKhoaHoc""), ""- You must supply a value here."")",Edge Chromium 97,,,2022-01-16 21:09:06,2022-01-16 21:09:07,0.831s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-16 21:09:07,2022-01-16 21:09:08,1.077s,PASSED
+,,,,,,,
+Test Cases/Create folder and quiz/Create folder without title,Edge Chromium 97,,,2022-01-16 21:12:06,2022-01-16 21:13:37,1m - 31.808s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:12:06,2022-01-16 21:12:12,6.958s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:12:12,2022-01-16 21:12:16,3.147s,PASSED
+"callTestCase(findTestCase(""Utils/Create course CNPM""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:12:16,2022-01-16 21:13:37,1m - 21.688s,FAILED
+,,,,,,,
+Test Cases/Create folder and quiz/Create folder,Edge Chromium 97,,,2022-01-16 21:16:38,2022-01-16 21:17:24,46.185s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:16:38,2022-01-16 21:16:43,5.074s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:16:43,2022-01-16 21:16:45,1.892s,PASSED
+"callTestCase(findTestCase(""Utils/Create course CNPM""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:16:45,2022-01-16 21:17:24,39.204s,FAILED
+,,,,,,,
+Test Cases/Create folder and quiz/Create quiz without title,Edge Chromium 97,,,2022-01-16 21:20:51,2022-01-16 21:22:23,1m - 32.546s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:20:51,2022-01-16 21:20:57,6.552s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:20:57,2022-01-16 21:21:01,3.736s,PASSED
+"callTestCase(findTestCase(""Utils/Create course CNPM""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:21:01,2022-01-16 21:22:23,1m - 22.243s,FAILED
+,,,,,,,
+Test Cases/Create folder and quiz/Create quiz,Edge Chromium 97,,,2022-01-16 21:26:16,2022-01-16 21:27:12,56.312s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:26:16,2022-01-16 21:26:21,5.228s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:26:21,2022-01-16 21:26:25,3.597s,PASSED
+"callTestCase(findTestCase(""Utils/Create course CNPM""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:26:25,2022-01-16 21:27:12,47.460s,FAILED
+,,,,,,,
+Test Cases/View course grade/Update grade with assignment,Edge Chromium 97,,,2022-01-16 21:30:48,2022-01-16 21:31:37,48.346s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:30:48,2022-01-16 21:30:53,5.061s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:30:53,2022-01-16 21:30:55,1.894s,PASSED
+"callTestCase(findTestCase(""Utils/Create course CNPM""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:30:55,2022-01-16 21:31:37,41.375s,FAILED
+,,,,,,,
+Test Cases/View course grade/Update grade without assignment,Edge Chromium 97,,,2022-01-16 21:34:35,2022-01-16 21:35:59,1m - 24.273s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:34:35,2022-01-16 21:34:41,5.949s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:34:41,2022-01-16 21:34:44,3.086s,PASSED
+"callTestCase(findTestCase(""Utils/Create course CNPM""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:34:44,2022-01-16 21:35:59,1m - 15.214s,FAILED
+,,,,,,,
+Test Cases/View course grade/View grader report site,Edge Chromium 97,,,2022-01-16 21:38:52,2022-01-16 21:40:14,1m - 21.981s,FAILED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 21:38:52,2022-01-16 21:38:58,5.968s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 21:38:58,2022-01-16 21:39:00,1.765s,PASSED
+"callTestCase(findTestCase(""Utils/Create course CNPM""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-16 21:39:00,2022-01-16 21:40:14,1m - 14.163s,FAILED
