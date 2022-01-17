@@ -6,12 +6,12 @@
    <elementGuidId>e6244287-54cb-468d-96bc-720a856c43c9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.m-0.font-weight-light.text-truncate.last-message > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='view-overview-messages-target-61d5725ced80c61d5725cd201821']/div[2]/a/div/p/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.m-0.font-weight-light.text-truncate.last-message > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

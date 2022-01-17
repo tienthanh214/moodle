@@ -6,12 +6,11 @@
    <elementGuidId>f2871282-84da-408f-a886-61fd5a52589a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='yui_3_17_2_1_1641382762786_208']/div/button[2]/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

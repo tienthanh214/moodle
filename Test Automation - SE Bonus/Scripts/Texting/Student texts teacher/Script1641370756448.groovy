@@ -68,6 +68,14 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Texting/Page_Nh c
 
 WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/i_See all_icon fa fa-comment fa-fw'))
 
+WebUI.setText(findTestObject('Object Repository/Texting/Page_Nh ca ti/input_Messages selected_form-control'), 'Nguyen Van A')
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw'))
+
+WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/i_Messages selected_icon fa fa-search fa-fw'))
+
+WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/a_Nguyen Van A_1'))
+
 WebUI.verifyElementText(findTestObject('Object Repository/Texting/Page_Nh ca ti/span_Hello world'), 'Hello world')
 
 WebUI.click(findTestObject('Object Repository/Texting/Page_Nh ca ti/span_Hello world'))

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Use enter to send_yui_3_17_2_1_164_d197e1</name>
+   <name>a_Nguyen Van A_1</name>
    <tag></tag>
-   <elementGuidId>4c820532-4456-4153-badd-326cfd5ec1e6</elementGuidId>
+   <elementGuidId>354da3fb-6525-4944-99d6-d484e54e9934</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='yui_3_17_2_1_1641378304713_228']</value>
+         <value>//div[@id='yui_3_17_2_1_1642430928292_197']/div[6]/div/div/div/div/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#yui_3_17_2_1_1641378304713_228</value>
+         <value>a.p-2.d-flex.list-group-item.list-group-item-action</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,104 +21,124 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>dir</name>
+      <name>href</name>
       <type>Main</type>
-      <value>auto</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-region</name>
-      <type>Main</type>
-      <value>send-message-txt</value>
+      <value>#</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control bg-light</value>
+      <value>p-2 d-flex list-group-item list-group-item-action</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>rows</name>
+      <name>data-route</name>
       <type>Main</type>
-      <value>3</value>
+      <value>view-conversation</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-min-rows</name>
+      <name>data-route-param-1</name>
       <type>Main</type>
-      <value>3</value>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-max-rows</name>
+      <name>data-route-param-2</name>
       <type>Main</type>
-      <value>5</value>
+      <value>create</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>data-route-param-3</name>
       <type>Main</type>
-      <value>Write a message...</value>
+      <value>31</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-contact-user-id</name>
+      <type>Main</type>
+      <value>31</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-region</name>
+      <type>Main</type>
+      <value>contact</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Write a message...</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>4096</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>yui_3_17_2_1_1641378304713_228</value>
+      <value>
+        
+        Nguyen Van A
+        
+            
+        
+    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641378304713_228&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1642430928292_197&quot;)/div[@class=&quot;h-100&quot;]/div[1]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;mb-3 bg-white&quot;]/div[@class=&quot;pt-2&quot;]/div[@class=&quot;list-group&quot;]/a[@class=&quot;p-2 d-flex list-group-item list-group-item-action&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//textarea[@id='yui_3_17_2_1_1641378304713_228']</value>
+      <value>//div[@id='yui_3_17_2_1_1642430928292_197']/div[6]/div/div/div/div/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641378304713_229']/textarea</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liên lạc'])[3]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Non-contacts'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[61]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
+      <value>//div[6]/div/div/div/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

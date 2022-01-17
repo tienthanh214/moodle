@@ -6,12 +6,11 @@
    <elementGuidId>6a071ffd-2ce2-42e8-9f29-50d111248ef9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='message-drawer-toggle-61d5836ab0e7961d5836a98d4612']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

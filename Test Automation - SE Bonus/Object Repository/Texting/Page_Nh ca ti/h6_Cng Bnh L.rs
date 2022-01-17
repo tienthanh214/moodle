@@ -6,12 +6,12 @@
    <elementGuidId>34bfb826-c966-4141-b5e2-67f9b27eebcb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h6.ml-2.font-weight-bold</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='yui_3_17_2_1_1641380790278_197']/div[6]/div/div/div/div[2]/div/a/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.ml-2.font-weight-bold</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

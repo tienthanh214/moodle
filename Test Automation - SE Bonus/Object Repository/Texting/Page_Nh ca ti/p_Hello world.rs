@@ -6,15 +6,15 @@
    <elementGuidId>66738bdc-c213-47a2-9e27-79a7f3173652</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Hello world' or . = 'Hello world')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='yui_3_17_2_1_1641378397025_197']/div[3]/div/div/div[4]/div/div[3]/div[3]/p</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Hello world' or . = 'Hello world')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
