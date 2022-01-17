@@ -1,0 +1,50 @@
+{"testCaseName":"Test Cases/Admin Site/Change full site name","testCaseId":"Test Cases/Admin Site/Change full site name"}
+{"testCaseName":"Test Cases/Admin Site/Login with Admin","testCaseId":"Test Cases/Admin Site/Login with Admin"}
+{"testCaseName":"Test Cases/Admin Site/Turn on Maintaince mode","testCaseId":"Test Cases/Admin Site/Turn on Maintaince mode"}
+{"testCaseName":"Test Cases/Create New User/Create New User Password Fail","testCaseId":"Test Cases/Create New User/Create New User Password Fail"}
+{"testCaseName":"Test Cases/Create New User/Create New User With Full Information","testCaseId":"Test Cases/Create New User/Create New User With Full Information"}
+{"testCaseName":"Test Cases/Create New User/Create Normal User","testCaseId":"Test Cases/Create New User/Create Normal User"}
+{"testCaseName":"Test Cases/Create New User/Create Teacher","testCaseId":"Test Cases/Create New User/Create Teacher"}
+{"testCaseName":"Test Cases/Create New User/Spam Create User","testCaseId":"Test Cases/Create New User/Spam Create User"}
+{"testCaseName":"Test Cases/Create User by CSV/Create By CSV Success","testCaseId":"Test Cases/Create User by CSV/Create By CSV Success"}
+{"testCaseName":"Test Cases/Create User by CSV/Create by CSV warning","testCaseId":"Test Cases/Create User by CSV/Create by CSV warning"}
+{"testCaseName":"Test Cases/Teacher and Grade/Grade for student","testCaseId":"Test Cases/Teacher and Grade/Grade for student"}
+{"testCaseName":"Test Cases/Teacher and Grade/Grade in grade report site","testCaseId":"Test Cases/Teacher and Grade/Grade in grade report site"}
+{"testCaseName":"Test Cases/Teacher and Grade/Other Teacher View Grade","testCaseId":"Test Cases/Teacher and Grade/Other Teacher View Grade"}
+{"testCaseName":"Test Cases/Create assignment/Create Assignment Set Availability","testCaseId":"Test Cases/Create assignment/Create Assignment Set Availability"}
+{"testCaseName":"Test Cases/Create assignment/Create Assignment Set Full","testCaseId":"Test Cases/Create assignment/Create Assignment Set Full"}
+{"testCaseName":"Test Cases/Create assignment/Create Assignment Set Online Text","testCaseId":"Test Cases/Create assignment/Create Assignment Set Online Text"}
+{"testCaseName":"Test Cases/Create assignment/Create Assignment Set Type File","testCaseId":"Test Cases/Create assignment/Create Assignment Set Type File"}
+{"testCaseName":"Test Cases/Create assignment/Create Simple Assignment","testCaseId":"Test Cases/Create assignment/Create Simple Assignment"}
+{"testCaseName":"Test Cases/Create event on calendar/Create Event Set Description","testCaseId":"Test Cases/Create event on calendar/Create Event Set Description"}
+{"testCaseName":"Test Cases/Create event on calendar/Create Event Set Full","testCaseId":"Test Cases/Create event on calendar/Create Event Set Full"}
+{"testCaseName":"Test Cases/Create event on calendar/Create Event Set Time Minute And Repeat","testCaseId":"Test Cases/Create event on calendar/Create Event Set Time Minute And Repeat"}
+{"testCaseName":"Test Cases/Create event on calendar/Create Event Set Time","testCaseId":"Test Cases/Create event on calendar/Create Event Set Time"}
+{"testCaseName":"Test Cases/Create event on calendar/Create Simple Event","testCaseId":"Test Cases/Create event on calendar/Create Simple Event"}
+{"testCaseName":"Test Cases/Student enroll course/Enroll Course With Password","testCaseId":"Test Cases/Student enroll course/Enroll Course With Password"}
+{"testCaseName":"Test Cases/Student enroll course/Enroll Course","testCaseId":"Test Cases/Student enroll course/Enroll Course"}
+{"testCaseName":"Test Cases/Students check events on calendar/Asignment event","testCaseId":"Test Cases/Students check events on calendar/Asignment event"}
+{"testCaseName":"Test Cases/Students check events on calendar/Forum event","testCaseId":"Test Cases/Students check events on calendar/Forum event"}
+{"testCaseName":"Test Cases/Students check events on calendar/Quiz event","testCaseId":"Test Cases/Students check events on calendar/Quiz event"}
+{"testCaseName":"Test Cases/Texting/Multiple messages","testCaseId":"Test Cases/Texting/Multiple messages"}
+{"testCaseName":"Test Cases/Texting/Receive text message from multiple users","testCaseId":"Test Cases/Texting/Receive text message from multiple users"}
+{"testCaseName":"Test Cases/Texting/Student texts teacher","testCaseId":"Test Cases/Texting/Student texts teacher"}
+{"testCaseName":"Test Cases/Teacher creates announcements/Teacher create a list announcement","testCaseId":"Test Cases/Teacher creates announcements/Teacher create a list announcement"}
+{"testCaseName":"Test Cases/Teacher creates announcements/Teacher create a new announcement","testCaseId":"Test Cases/Teacher creates announcements/Teacher create a new announcement"}
+{"testCaseName":"Test Cases/Teacher creates announcements/Teacher edit announcement","testCaseId":"Test Cases/Teacher creates announcements/Teacher edit announcement"}
+{"testCaseName":"Test Cases/Students answering question being overdue or on time/Answer choice question on time","testCaseId":"Test Cases/Students answering question being overdue or on time/Answer choice question on time"}
+{"testCaseName":"Test Cases/Students answering question being overdue or on time/Answer choice question overdue","testCaseId":"Test Cases/Students answering question being overdue or on time/Answer choice question overdue"}
+{"testCaseName":"Test Cases/Students answering question being overdue or on time/Answer text question on time","testCaseId":"Test Cases/Students answering question being overdue or on time/Answer text question on time"}
+{"testCaseName":"Test Cases/Students answering question being overdue or on time/Answer text question overdue","testCaseId":"Test Cases/Students answering question being overdue or on time/Answer text question overdue"}
+{"testCaseName":"Test Cases/Create course/Create course successfully","testCaseId":"Test Cases/Create course/Create course successfully"}
+{"testCaseName":"Test Cases/Create course/Create course with existed shortname","testCaseId":"Test Cases/Create course/Create course with existed shortname"}
+{"testCaseName":"Test Cases/Create course/Create course without fullname","testCaseId":"Test Cases/Create course/Create course without fullname"}
+{"testCaseName":"Test Cases/Create course/Create course without shortname","testCaseId":"Test Cases/Create course/Create course without shortname"}
+{"testCaseName":"Test Cases/Create course/Create course without type","testCaseId":"Test Cases/Create course/Create course without type"}
+{"testCaseName":"Test Cases/Create folder and quiz/Create folder without title","testCaseId":"Test Cases/Create folder and quiz/Create folder without title"}
+{"testCaseName":"Test Cases/Create folder and quiz/Create folder","testCaseId":"Test Cases/Create folder and quiz/Create folder"}
+{"testCaseName":"Test Cases/Create folder and quiz/Create quiz without title","testCaseId":"Test Cases/Create folder and quiz/Create quiz without title"}
+{"testCaseName":"Test Cases/Create folder and quiz/Create quiz","testCaseId":"Test Cases/Create folder and quiz/Create quiz"}
+{"testCaseName":"Test Cases/View course grade/Update grade with assignment","testCaseId":"Test Cases/View course grade/Update grade with assignment"}
+{"testCaseName":"Test Cases/View course grade/Update grade without assignment","testCaseId":"Test Cases/View course grade/Update grade without assignment"}
+{"testCaseName":"Test Cases/View course grade/View grader report site","testCaseId":"Test Cases/View course grade/View grader report site"}
