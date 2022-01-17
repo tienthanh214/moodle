@@ -246,10 +246,10 @@ if ($action === 'view') {
 <input type="hidden" name="sesskey" value="<?php p(sesskey()) ?>" />
 <input type="hidden" name="return" value="<?php p($return); ?>" />
 <input type="hidden" name="resettype" value="none" />
-<div class="submitbuttons">
+<!-- <div class="submitbuttons">
     <input type="submit" name="savechanges" class="btn btn-primary" value="<?php p($submitlabel); ?>" />
     <input type="submit" name="cancel" class="btn btn-secondary" value="<?php print_string('cancel'); ?>" />
-</div>
+</div> -->
     <?php
 }
 
