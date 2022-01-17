@@ -6,12 +6,12 @@
    <elementGuidId>7ccdff70-4e21-427a-a73e-67ed60cc7291</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#id_assignsubmission_onlinetext_enabled</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='id_assignsubmission_onlinetext_enabled']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_assignsubmission_onlinetext_enabled</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//label[@id='yui_3_17_2_1_1641828144899_1601']/input</value>
+      <value>//label[@id='yui_3_17_2_1_1642428216669_1599']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +85,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset[3]/div/div/div[2]/fieldset/div/label/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//label[@id='yui_3_17_2_1_1641828144899_1601']/input</value>
    </webElementXpaths>
 </WebElementEntity>

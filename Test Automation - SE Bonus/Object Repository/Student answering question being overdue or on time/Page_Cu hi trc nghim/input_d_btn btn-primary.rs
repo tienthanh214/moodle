@@ -6,12 +6,12 @@
    <elementGuidId>89d20d23-c7d5-40d2-8b84-cb55f70289ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.btn.btn-primary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@value='Lưu câu trả lời của tôi']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.btn.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641837722996_31&quot;)/input[@class=&quot;btn btn-primary&quot;]</value>
+      <value>id(&quot;yui_3_17_2_1_1642426124552_22&quot;)/input[@class=&quot;btn btn-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='yui_3_17_2_1_1641837722996_31']/input[4]</value>
+      <value>//form[@id='yui_3_17_2_1_1642426124552_22']/input[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,5 +71,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='yui_3_17_2_1_1641837722996_31']/input[4]</value>
    </webElementXpaths>
 </WebElementEntity>

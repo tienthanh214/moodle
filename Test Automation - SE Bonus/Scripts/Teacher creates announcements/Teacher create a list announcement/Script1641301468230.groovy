@@ -31,7 +31,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Teacher creates announc
 
 WebUI.click(findTestObject('Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm'))
+WebUI.click(findTestObject('Teacher creates announcements/Page_New Moodle Site/span_Trang ch h thng'))
+
+WebUI.click(findTestObject('Teacher creates announcements/Page_New Moodle Site/a_Test View Grade'))
 
 WebUI.click(findTestObject('Object Repository/Teacher creates announcements/Page_Kha Nhp mn Cng ngh phn mm/span_Cc thng bo Din n'))
 
@@ -60,15 +62,17 @@ WebUI.click(findTestObject('Object Repository/Teacher creates announcements/Page
 
 WebUI.click(findTestObject('Object Repository/Teacher creates announcements/Page_Local Moodle/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Username_username'), 
-    'hs01')
+WebUI.setText(findTestObject('Object Repository/Teacher creates announcements/Page_New Moodle Site Log in to the site/input_Username_username'), 
+    'student3')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/input_Password_password'), 
-    'o5TCnEIIWq2SeGQhIMNXLQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Teacher creates announcements/Page_New Moodle Site Log in to the site/input_Password_password'), 
+    'cvW8qx4B2o1gIDzvWT+0mQ==')
 
 WebUI.click(findTestObject('Object Repository/Teacher creates announcements/Page_Local Moodle Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Teacher creates announcements/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm'))
+WebUI.click(findTestObject('Teacher creates announcements/Page_New Moodle Site/span_Trang ch h thng'))
+
+WebUI.click(findTestObject('Teacher creates announcements/Page_New Moodle Site/a_Test View Grade'))
 
 WebUI.click(findTestObject('Object Repository/Teacher creates announcements/Page_Kha Nhp mn Cng ngh phn mm/span_Cc thng bo Din n'))
 
@@ -78,8 +82,6 @@ WebUI.click(findTestObject('Object Repository/Teacher creates announcements/Page
 
 WebUI.verifyElementText(findTestObject('Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo dng bullet/h3_Thng bo dng bullet'), 
     'Thông báo dạng bullet')
-
-WebUI.closeBrowser()
 
 WebUI.closeBrowser()
 

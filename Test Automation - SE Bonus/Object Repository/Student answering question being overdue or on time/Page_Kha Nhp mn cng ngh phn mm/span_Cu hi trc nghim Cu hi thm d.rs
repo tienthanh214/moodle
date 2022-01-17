@@ -6,19 +6,19 @@
    <elementGuidId>926a125b-a5d6-4815-a5c5-52bceb8faea9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1642078581211_29 > div.activityinstance > a.aalink > span.instancename</value>
+         <key>XPATH</key>
+         <value>//li[@id='module-136']/div/div/div[2]/div/a/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1642078581211_29']/div/a/span</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Câu hỏi trắc nghiệm Câu hỏi thăm dò' or . = 'Câu hỏi trắc nghiệm Câu hỏi thăm dò')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1642078581211_29&quot;)/div[@class=&quot;activityinstance&quot;]/a[@class=&quot;aalink&quot;]/span[@class=&quot;instancename&quot;]</value>
+      <value>id(&quot;module-136&quot;)/div[1]/div[@class=&quot;mod-indent-outer w-100&quot;]/div[2]/div[@class=&quot;activityinstance&quot;]/a[@class=&quot;aalink&quot;]/span[@class=&quot;instancename&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1642078581211_29']/div/a/span</value>
+      <value>//li[@id='module-136']/div/div/div[2]/div/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +81,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mark as done'])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>//*/text()[normalize-space(.)='Câu hỏi trắc nghiệm']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
@@ -89,6 +96,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/div[3]/ul/li/div/div/div[2]/div/a/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1642078581211_29']/div/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

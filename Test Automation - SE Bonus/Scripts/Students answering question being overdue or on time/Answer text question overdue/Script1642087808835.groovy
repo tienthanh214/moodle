@@ -21,25 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
-WebUI.click(findTestObject('Object Repository/Page_Local Moodle/a_Log in (24) (1)'))
+WebUI.callTestCase(findTestCase('Utils/Create course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Local Moodle Log in to the site/input_Username_username (24) (1)'), 
-    'robertle')
+WebUI.callTestCase(findTestCase('Utils/Login as teacher'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Local Moodle Log in to the site/input_Password_password (24) (1)'), 
-    'e0iuw4o+VG38P/PfCbIZUw==')
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Nh ca ti/span_Trang ch h thng'))
 
-WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the site/button_Log in (24) (1)'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_New Moodle Site/a_Nhp mn Cng ngh phn mm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Trang ch h thng (3) (1)'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Bt ch  chnh sa'))
 
-WebUI.click(findTestObject('Page_Local Moodle/a_Software Engineering'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/span_Thm hot ng hoc ti nguyn'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (13) (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (7) (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/img_Thng tin v  Bi hc hot ng_icon icon (1) (1)'))
+WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn Cng ngh phn mm/div_Thng tin v  Bi hc hot ng_optionicon mt-_6d37dc'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Bin son Bi tp/input_Tn bi tp_name (13) (1)'), 'PA1')
 
@@ -71,25 +65,23 @@ WebUI.setText(findTestObject('Object Repository/Page_Bin son Bi tp/input_Gii hn 
 
 WebUI.click(findTestObject('Object Repository/Page_Bin son Bi tp/input_Upon activity completion_submitbutton2 (13) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/a_Robert Le (13) (1)'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/a_Nguyen Van A'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_Thot (1) (1)'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/span_Thot'))
 
-WebUI.click(findTestObject('Object Repository/Page_Local Moodle/a_Log in (24) (1)'))
+WebUI.callTestCase(findTestCase('Utils/Login as student'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Local Moodle Log in to the site/input_Username_username (24) (1)'), 
-    'hocvien')
+WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Trang ch h thng'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Local Moodle Log in to the site/input_Password_password (24) (1)'), 
-    'e0iuw4o+VG38P/PfCbIZUw==')
-
-WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the site/button_Log in (24) (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Trang ch h thng (3) (1)'))
-
-WebUI.click(findTestObject('Page_Local Moodle/a_Software Engineering'))
+WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_New Moodle Site/a_Nhp mn Cng ngh phn mm'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_PA1 Bi tp (1)'))
+
+WebUI.click(findTestObject('Create folder and quiz/Page_quiz1 Xem li ln lm th/a_Student Nguyen'))
+
+WebUI.click(findTestObject('Create folder and quiz/Page_quiz1 Xem li ln lm th/span_Thot'))
+
+WebUI.callTestCase(findTestCase('Utils/Delete course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

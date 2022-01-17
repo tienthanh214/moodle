@@ -21,28 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Local Moodle/a_Log in'))
+WebUI.callTestCase(findTestCase('Utils/Create course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Username_username'), 
-    'gv01')
+WebUI.callTestCase(findTestCase('Utils/Login as teacher'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Password_password'), 
-    'RigbBhfdqOAWw2eOk0+aVg==')
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Nh ca ti/span_Trang ch h thng'))
 
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/button_Log in'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_New Moodle Site/a_Nhp mn Cng ngh phn mm'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Bt ch  chnh sa'))
 
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa'))
-
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/button_Bt ch  chnh sa'))
-
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Thm hot ng hoc ti nguyn'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/div_Cu hi thm d'), 
-    'Câu hỏi thăm dò')
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/span_Thm hot ng hoc ti nguyn'))
 
 WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/div_Cu hi thm d'))
 
@@ -69,36 +58,30 @@ WebUI.click(findTestObject('Object Repository/Student answering question being o
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Cu hi trc nghim Cu hi thm d'))
 
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/a_Van A Nguyen'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/a_Nguyen Van A'))
 
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/a_Thot'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/span_Thot'))
 
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Local Moodle/a_Log in'))
+WebUI.callTestCase(findTestCase('Utils/Login as student'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Username_username'), 
-    'hs02')
+WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Trang ch h thng'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/input_Password_password'), 
-    'RigbBhfdqOBGP4y92+oMSw==')
+WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_New Moodle Site/a_Nhp mn Cng ngh phn mm'))
 
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Local Moodle Log in to the site/button_Log in'))
-
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm_1'))
-
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Cu hi trc nghim Cu hi thm d_1'))
+WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn Cng ngh phn mm/span_Cu hi trc nghim Cu hi thm d'))
 
 WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Cu hi trc nghim/input__answer'))
 
 WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Cu hi trc nghim/input_d_btn btn-primary'))
 
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Cu hi trc nghim/a_Nh ca ti'))
-
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Nh ca ti/span_Nhp mn cng ngh phn mm'))
-
-WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/span_Cu hi trc nghim Cu hi thm d_1'))
-
 WebUI.verifyElementText(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Cu hi trc nghim/div_La chn ca bn a'), 
     'Lựa chọn của bạn: a')
+
+WebUI.click(findTestObject('Create folder and quiz/Page_quiz1 Xem li ln lm th/a_Student Nguyen'))
+
+WebUI.click(findTestObject('Create folder and quiz/Page_quiz1 Xem li ln lm th/span_Thot'))
+
+WebUI.callTestCase(findTestCase('Utils/Delete course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

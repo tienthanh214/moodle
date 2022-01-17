@@ -6,12 +6,12 @@
    <elementGuidId>c856c62f-6a13-4413-a468-f6e58c066cb4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#id_name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='id_name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641828144899_1456']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1642428216669_1460']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,5 +85,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='yui_3_17_2_1_1641828144899_1456']/input</value>
    </webElementXpaths>
 </WebElementEntity>

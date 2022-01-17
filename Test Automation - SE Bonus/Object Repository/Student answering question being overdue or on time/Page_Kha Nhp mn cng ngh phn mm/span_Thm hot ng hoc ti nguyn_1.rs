@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Nhp mn cng ngh phn mm</name>
+   <name>span_Thm hot ng hoc ti nguyn_1</name>
    <tag></tag>
-   <elementGuidId>62d1cd69-06ec-4250-8769-b478f2591c7f</elementGuidId>
+   <elementGuidId>4f49a01f-b289-42f7-9f1f-d3ee54b4eb66</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='course-info-container-20-6']/div/div/a/span[3]</value>
+         <value>//span[@id='yui_3_17_2_1_1642428192618_623']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.aalink.coursename.mr-2 > span.text-truncate</value>
+         <value>#yui_3_17_2_1_1642428192618_623</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,83 +28,76 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-truncate</value>
+      <value>section-modchooser-text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>yui_3_17_2_1_1642428192618_623</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Nhập môn Công nghệ phần mềm</value>
+      <value>Thêm hoạt động hoặc tài nguyên</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;course-info-container-20-6&quot;)/div[@class=&quot;d-flex align-items-start&quot;]/div[@class=&quot;w-100 text-truncate&quot;]/a[@class=&quot;aalink coursename mr-2&quot;]/span[@class=&quot;text-truncate&quot;]</value>
+      <value>id(&quot;yui_3_17_2_1_1642428192618_623&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='yui_3_17_2_1_1642428192618_623']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='course-info-container-20-6']/div/div/a/span[3]</value>
+      <value>//button[@id='yui_3_17_2_1_1642428192618_624']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tên khóa học'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thêm tập tin ở đây'])[2]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Khóa học được đánh dấu sao'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chủ đề 1'])[2]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bỏ qua Course overview'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sửa chủ đề'])[2]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course overview'])[1]/preceding::span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Nhập môn Công nghệ phần mềm']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nổi bật'])[2]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='course-info-container-2-4']/div/div/a/span[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Nhập môn công nghệ phần mềm']/parent::*</value>
+      <value>//li[2]/div[3]/div[3]/div/button/span</value>
    </webElementXpaths>
 </WebElementEntity>
