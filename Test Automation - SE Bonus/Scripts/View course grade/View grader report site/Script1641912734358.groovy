@@ -39,6 +39,10 @@ if (tatCaThanhVien != 'Tất cả thành viên:0/0') {
     WebUI.verifyElementVisible(findTestObject('View course grade/Page_im s Xem/th_Trung bnh tng'), FailureHandling.STOP_ON_FAILURE)
 }
 
+WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/a_Qun tr Thnh vin'))
+
+WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span_Thot'))
+
 WebUI.callTestCase(findTestCase('Utils/Delete course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()

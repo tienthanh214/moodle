@@ -41,13 +41,16 @@ WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/
 
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/button_Ghi danh ngi dng'))
 
-WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/input_Danh sch thnh vin_yui_3_17_2_1_164190_a20bc6'))
+WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/input_Danh sch thnh vin_btn btn-secondary my-1'))
 
-WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span__1'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create course/Page_CNPM Danh sch thnh vin/select_Ngi qun l            Gio vin        _4311d9'), 
+    '3', true)
 
-WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_Teacher Nguyen'))
+WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_'))
 
-WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/button_Ghi danh ngi dng_1'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_CNPM Danh sch thnh vin/span_Nguyen Van A'))
+
+WebUI.click(findTestObject('Object Repository/Create course/Page_CNPM Danh sch thnh vin/button_Ghi danh ngi dng_1'))
 
 WebUI.click(findTestObject('Object Repository/Utils/Page_CNPM Danh sch thnh vin/span_CNPM'))
 

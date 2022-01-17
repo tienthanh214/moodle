@@ -25,22 +25,24 @@ WebUI.callTestCase(findTestCase('Utils/Create course CNPM'), [:], FailureHandlin
 
 WebUI.callTestCase(findTestCase('Utils/Login as teacher'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Create folder and quiz/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Nh ca ti/span_Trang ch h thng'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Bt ch  chnh sa_1'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_New Moodle Site/a_Nhp mn Cng ngh phn mm'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/span_Thm hot ng hoc ti nguyn 1'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Bt ch  chnh sa'))
+
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/span_Thm hot ng hoc ti nguyn'))
 
 WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/div_Thng tin v  Trang hot ng_optionicon mt-_99da1e'))
 
 WebUI.click(findTestObject('Create folder and quiz/Page_Bin son Trc nghim/input_Upon activity completion_submitbutton'))
 
 WebUI.verifyElementText(findTestObject('Create folder and quiz/Page_Bin son Trc nghim/div_- You must supply a value here'), 
-    '- You must supply a value here')
+    '- You must supply a value here.')
 
-WebUI.click(findTestObject('Create folder and quiz/Page_CNPM Doc/a_Teacher Nguyen'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/a_Nguyen Van A'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_CNPM Doc/a_Thot'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/span_Thot'))
 
 WebUI.callTestCase(findTestCase('Utils/Delete course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
 
