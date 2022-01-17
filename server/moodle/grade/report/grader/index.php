@@ -196,8 +196,8 @@ if ($USER->gradeediting[$course->id] && ($report->get_pref('showquickfeedback') 
     echo '<input type="hidden" value="'.$page.'" name="page"/>';
     echo $gpr->get_form_fields();
     echo $reporthtml;
-    //echo '<div class="submit"><input type="submit" id="gradersubmit" class="btn btn-primary"
-    //    value="'.s(get_string('savechanges')).'" /></div>';
+    echo '<div class="submit"><input type="submit" id="gradersubmit" class="btn btn-primary"
+        value="'.s(get_string('savechanges')).'" /></div>';
     echo '</div></form>';
 } else {
     echo $reporthtml;
