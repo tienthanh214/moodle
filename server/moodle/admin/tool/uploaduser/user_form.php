@@ -66,7 +66,7 @@ class admin_uploaduser_form1 extends moodleform {
         $mform->addElement('select', 'previewrows', get_string('rowpreviewnum', 'tool_uploaduser'), $choices);
         $mform->setType('previewrows', PARAM_INT);
 
-        // $this->add_action_buttons(false, get_string('uploadusers', 'tool_uploaduser'));
+        $this->add_action_buttons(false, get_string('uploadusers', 'tool_uploaduser'));
     }
 
     /**
@@ -336,7 +336,7 @@ class admin_uploaduser_form2 extends moodleform {
         $mform->addElement('hidden', 'previewrows');
         $mform->setType('previewrows', PARAM_INT);
 
-        // $this->add_action_buttons(true, get_string('uploadusers', 'tool_uploaduser'));
+        $this->add_action_buttons(true, get_string('uploadusers', 'tool_uploaduser'));
 
         $this->set_data($data);
     }
