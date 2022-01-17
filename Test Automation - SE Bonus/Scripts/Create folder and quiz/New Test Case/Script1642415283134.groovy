@@ -21,8 +21,6 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
-WebUI.callTestCase(findTestCase('Utils/Create course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Utils/Login as teacher'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Nh ca ti/span_Trang ch h thng'))
@@ -31,7 +29,17 @@ WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_New Mo
 
 WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Bt ch  chnh sa'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/span_Thm hot ng hoc ti nguyn'))
+for (def index : (0..2)) {
+    WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/span_Thm hot ng hoc ti nguyn 1'))
+
+    WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/div_Thng tin v  Phng chat hot ng_optionicon_c1613a'))
+
+    WebUI.setText(findTestObject('Create folder and quiz/Page_Bin son Th mc/input_Tn_name'), 'Doc')
+
+    WebUI.click(findTestObject('Create folder and quiz/Page_Bin son Th mc/input_Upon activity completion_submitbutton2'))
+}
+
+WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/span_Thm hot ng hoc ti nguyn 1'))
 
 WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/div_Thng tin v  Phng chat hot ng_optionicon_c1613a'))
 
@@ -49,13 +57,19 @@ WebUI.click(findTestObject('Create folder and quiz/Page_Nh ca ti/span_Nhp mn Cng
 
 WebUI.verifyElementVisible(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/div_Doc Th mc 0'))
 
+WebUI.verifyElementVisible(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/div_Doc Th mc 1'))
+
+WebUI.verifyElementVisible(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/div_Doc Th mc 2'))
+
 WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Mark as done 0'))
+
+WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Mark as done 1'))
+
+WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Mark as done 2'))
 
 WebUI.click(findTestObject('Create folder and quiz/Page_Nh ca ti/a_Student Nguyen'))
 
 WebUI.click(findTestObject('Create folder and quiz/Page_Nh ca ti/span_Thot'))
-
-WebUI.callTestCase(findTestCase('Utils/Delete course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

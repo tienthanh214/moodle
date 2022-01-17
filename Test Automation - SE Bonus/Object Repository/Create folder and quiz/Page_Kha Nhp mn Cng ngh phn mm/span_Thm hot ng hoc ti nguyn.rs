@@ -6,16 +6,16 @@
    <elementGuidId>23d90811-2f0f-4a84-9776-e3c83d3848d5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'yui_3_17_2_1_1642352521094_616' and (text() = 'Thêm hoạt động hoặc tài nguyên' or . = 'Thêm hoạt động hoặc tài nguyên')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//span[@id='yui_3_17_2_1_1642352521094_616']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#yui_3_17_2_1_1642352521094_616</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'yui_3_17_2_1_1642352521094_616' and (text() = 'Thêm hoạt động hoặc tài nguyên' or . = 'Thêm hoạt động hoặc tài nguyên')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

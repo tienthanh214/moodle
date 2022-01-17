@@ -3406,6 +3406,35 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/View course grade/Page_im s Xem/div_im c nhp i vi Tng kha hc cho Student Nguyen nhiu hn mc ti a cho php",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/View course grade/Page_im s Xem/div_im c nhp i vi Tng kha hc cho Student Nguyen nhiu hn mc ti a cho php_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/div_Doc Th mc 0",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641398068785_61\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Chủ đề 1\u0027])[2]/following::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/div_Doc Th mc 0_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Mark as done 0",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1641398068785_75\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Thư mục\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Mark as done 0_neighbor.png"
     }
   ]
 }

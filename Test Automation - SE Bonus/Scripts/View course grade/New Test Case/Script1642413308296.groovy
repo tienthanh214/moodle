@@ -21,8 +21,6 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
-WebUI.callTestCase(findTestCase('Utils/Create course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Utils/Login as admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('View course grade/Page_Nh ca ti/span_Trang ch h thng'))
@@ -39,13 +37,7 @@ WebUI.setText(findTestObject('View course grade/Page_im s Xem/input_Student Nguy
 
 WebUI.click(findTestObject('View course grade/Page_im s Xem/input_Trung bnh tng_gradersubmit'))
 
-WebUI.verifyTextPresent('Điểm được nhập đối với Tổng khóa học cho Student Nguyen nhiều hơn mức tối đa cho phép', false)
-
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/a_Qun tr Thnh vin'))
-
-WebUI.click(findTestObject('Create course/Page_CNPM Danh sch thnh vin/span_Thot'))
-
-WebUI.callTestCase(findTestCase('Utils/Delete course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Điểm được nhập đối với Tổng khóa học cho Student Nguyen nhiều hơn mức tối đa cho phép', true)
 
 WebUI.closeBrowser()
 
