@@ -3396,6 +3396,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Student answering question being overdue or on time/Page_Kha Nhp mn cng ngh phn mm/div_Cu hi thm d_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641380790278_197\u0027]/div[6]/div/div/div/div[2]/div/a/h6",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Load more\u0027])[1]/preceding::h6[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/h6_Cng Bnh L_neighbor.png"
     }
   ]
 }
