@@ -25,11 +25,13 @@ WebUI.callTestCase(findTestCase('Utils/Create course CNPM'), [:], FailureHandlin
 
 WebUI.callTestCase(findTestCase('Utils/Login as teacher'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Create folder and quiz/Page_Nh ca ti/span_Nhp mn Cng ngh phn mm'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Nh ca ti/span_Trang ch h thng'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Bt ch  chnh sa'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_New Moodle Site/a_Nhp mn Cng ngh phn mm'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/span_Thm hot ng hoc ti nguyn'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/button_Bt ch  chnh sa'))
+
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/span_Thm hot ng hoc ti nguyn'))
 
 WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn mm/div_Thng tin v  Trang hot ng_optionicon mt-_99da1e'))
 
@@ -60,17 +62,15 @@ WebUI.click(findTestObject('Create folder and quiz/Page_ang sa bi trc nghim quiz
 
 WebUI.setText(findTestObject('Create folder and quiz/Page_Sa cu hi ngsai/input_Tn cu hi_name'), 'AUT')
 
-WebUI.setText(findTestObject('Create folder and quiz/Page_Sa cu hi ngsai/div_Katalon is an automation test tool'), 
-    'Katalon is an automation test tool')
+WebUI.setText(findTestObject('Create folder and quiz/Page_Sa cu hi ngsai/div_Katalon is an automation test tool'), 'Katalon is an automation test tool')
 
-WebUI.selectOptionByValue(findTestObject('Create folder and quiz/Page_Sa cu hi ngsai/select_Sai            ng'), 
-    '1', true)
+WebUI.selectOptionByValue(findTestObject('Create folder and quiz/Page_Sa cu hi ngsai/select_Sai            ng'), '1', true)
 
 WebUI.click(findTestObject('Create folder and quiz/Page_Sa cu hi ngsai/input__submitbutton'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_ang sa bi trc nghim quiz1/a_Teacher Nguyen'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/a_Nguyen Van A'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_ang sa bi trc nghim quiz1/span_Thot'))
+WebUI.click(findTestObject('Object Repository/Create course/Page_Nh ca ti/span_Thot'))
 
 WebUI.callTestCase(findTestCase('Utils/Login as student'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -80,8 +80,7 @@ WebUI.click(findTestObject('Create folder and quiz/Page_Kha Nhp mn Cng ngh phn m
 
 WebUI.click(findTestObject('Create folder and quiz/Page_CNPM quiz1/button_Bt u kim tra'))
 
-WebUI.setEncryptedText(findTestObject('Create folder and quiz/Page_CNPM quiz1/input_Quiz password_quizpassword'), 
-    '4nvbrPglk7k=')
+WebUI.setEncryptedText(findTestObject('Create folder and quiz/Page_CNPM quiz1/input_Quiz password_quizpassword'), '4nvbrPglk7k=')
 
 WebUI.click(findTestObject('Create folder and quiz/Page_CNPM quiz1/input_Quiz password_submitbutton'))
 
@@ -93,8 +92,7 @@ WebUI.click(findTestObject('Create folder and quiz/Page_quiz1 Tng quan bi lm th/
 
 WebUI.click(findTestObject('Create folder and quiz/Page_quiz1 Tng quan bi lm th/input_Mt khi np bi, bn s khng th thay i p n_23c1d4'))
 
-WebUI.verifyElementText(findTestObject('Create folder and quiz/Page_quiz1 Xem li ln lm th/td_10,00 trn 10,00 (100)'), 
-    '10,00 trên 10,00 (100%)')
+WebUI.verifyElementText(findTestObject('Create folder and quiz/Page_quiz1 Xem li ln lm th/td_10,00 trn 10,00 (100)'), '10,00 trên 10,00 (100%)')
 
 WebUI.click(findTestObject('Create folder and quiz/Page_quiz1 Xem li ln lm th/a_Student Nguyen'))
 

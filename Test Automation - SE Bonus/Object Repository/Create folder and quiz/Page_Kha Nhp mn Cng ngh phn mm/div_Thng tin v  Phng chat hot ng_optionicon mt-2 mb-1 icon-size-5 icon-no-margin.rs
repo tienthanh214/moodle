@@ -11,7 +11,10 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;all-5&quot;)/div[@class=&quot;optionscontainer d-flex flex-wrap p-1 mw-100 position-relative&quot;]/div[@class=&quot;option border-0 card m-1 bg-white&quot;]/div[@class=&quot;optioninfo card-body d-flex flex-column text-center p-1&quot;]/a[@class=&quot;d-flex flex-column justify-content-between flex-fill&quot;]/div[@class=&quot;optionicon mt-2 mb-1 icon-size-5 icon-no-margin&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Create course/Page_Moodle Khu vc q
 
 WebUI.click(findTestObject('Object Repository/Create course/Page_Moodle Khu vc qun tr Tm kim/a_Thmsa cc kho hc'))
 
-WebUI.click(findTestObject('Object Repository/Create course/Page_Qun l kha hc v danh mc kha hc/a_To kha hc mi'))
+WebUI.click(findTestObject('Create course/Page_Qun l kha hc v danh mc kha hc/a_TaoKhoaHocMoi'))
 
 WebUI.setText(findTestObject('Object Repository/Create course/Page_Moodle Thm kho hc mi/input_Tn y_fullname'), 'Nhập môn lập trình')
 
@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('Object Repository/Create course/Page_Moodle Thm kh
 
 WebUI.click(findTestObject('Object Repository/Create course/Page_Moodle Thm kho hc mi/input__saveandreturn'))
 
-WebUI.click(findTestObject('Object Repository/Create course/Page_Qun l kha hc v danh mc kha hc/a_To kha hc mi'))
+WebUI.click(findTestObject('Create course/Page_Qun l kha hc v danh mc kha hc/a_TaoKhoaHocMoi'))
 
 WebUI.setText(findTestObject('Object Repository/Create course/Page_Moodle Thm kho hc mi/input_Tn y_fullname'), 'Nhập môn lập trình')
 
@@ -49,8 +49,6 @@ WebUI.click(findTestObject('Object Repository/Create course/Page_Moodle Thm kho 
 
 WebUI.verifyElementText(findTestObject('Object Repository/Create course/Page_Moodle Thm kho hc mi/div_Tn tt ny  c dng trong mt kho hc khc (Nh_d016a9'), 
     'Tên tắt này đã được dùng trong một khoá học khác (Nhập môn lập trình)')
-
-WebUI.click(findTestObject('Object Repository/Create course/Page_Qun l kha hc v danh mc kha hc/i_Nhp mn Cng ngh phn mm_yui_3_17_2_1_164205_0a846d'))
 
 WebUI.navigateToUrl('http://localhost/course/delete.php?id=16')
 
