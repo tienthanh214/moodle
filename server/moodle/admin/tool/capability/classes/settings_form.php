@@ -65,7 +65,7 @@ class tool_capability_settings_form extends moodleform {
         $form->setType('onlydiff', PARAM_BOOL);
         $form->addGroup($filters, 'filters', get_string('filters', 'tool_capability'), array('<br>'), false);
 
-        // $form->addElement('submit', 'submitbutton', get_string('getreport', 'tool_capability'));
+        $form->addElement('submit', 'submitbutton', get_string('getreport', 'tool_capability'));
     }
 
 }
