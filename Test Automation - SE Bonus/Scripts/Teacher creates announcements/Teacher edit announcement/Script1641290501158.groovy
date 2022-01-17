@@ -71,8 +71,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Teacher creates announ
 
 WebUI.click(findTestObject('Object Repository/Teacher creates announcements/Page_Cc thng bo/a_Thng bo  c chnh sa'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Teacher creates announcements/Page_NM CNPM Thng bo  c chnh sa/div_Thay i ni dung test'), 
-    'Thay đổi nội dung test')
-
 WebUI.closeBrowser()
 
