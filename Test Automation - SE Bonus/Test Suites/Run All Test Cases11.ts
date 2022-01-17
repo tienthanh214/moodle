@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Run All Test Cases 1</name>
+   <name>Run All Test Cases11</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>3</numberOfRerun>
-   <pageLoadTimeout>5</pageLoadTimeout>
+   <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>a4ec3a81-fe39-4f38-b291-4d86020615bb</testSuiteGuid>
+   <testSuiteGuid>98d80378-52f0-4ea1-b00b-cd95df5f3cec</testSuiteGuid>
    <testCaseLink>
-      <guid>1a32d48e-185b-45f7-9fd2-b3b8971f17a6</guid>
+      <guid>385b0431-683c-4f2c-b034-9f46e9b98247</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin Site/Login with Admin</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4f066d4f-8432-4402-aa12-363e9e6e90ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Site/Change full site name</testCaseId>
@@ -24,31 +30,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0786c85b-dc6e-469a-9158-3e875fb836b1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin Site/Login with Admin</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3ea96638-1ff0-4bde-827f-532b5768f914</guid>
+      <guid>3b96c802-74e6-4009-b1ab-05c8b359a87a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin Site/Turn on Maintaince mode</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fa932f5-8513-49a1-bf34-774ffb03d153</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create New User/Create New User Password Fail</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>19a84b8f-9e5f-4747-af52-f722d121ceea</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create New User/Create New User With Full Information</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ecebaca6-81e8-470e-8996-d0a4feb15593</guid>
+      <guid>049d2798-9ba7-46a3-8195-b6ae828a54cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create New User/Create Normal User</testCaseId>
@@ -66,265 +54,277 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>20111bcf-f759-4d49-93d8-693977c0b1b7</guid>
+      <guid>0c241ea4-a1e2-4d65-8932-2c72cd05f975</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create New User/Create New User Password Fail</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dc739d81-d20c-4022-ade1-d18bcd136023</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create New User/Create New User With Full Information</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>deadcb6a-9d94-4acc-a46f-06962e7fc435</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create New User/Create Teacher</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d8f5fd6-5bfd-4c6c-bcae-212d0661dbc5</guid>
+      <guid>62948497-12f1-4843-8209-fd3cf9179fa3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create New User/Spam Create User</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>23114e26-ee4d-4b77-aabc-275fc670ef00</guid>
+      <guid>615a2865-b406-497e-89ea-75385fd371e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create User by CSV/Create By CSV Success</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e850ee0e-57f6-44fb-aa72-d28dfe01593e</guid>
+      <guid>c8a1cfe3-3443-4157-9c9d-cd536ae82087</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create User by CSV/Create by CSV warning</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1cba10e7-d549-4b55-ba36-4f6c73e8dd17</guid>
+      <guid>1f1c8397-0602-4a92-96c2-bbaa8009852e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher and Grade/Grade for student</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c991d68-e558-42c2-a27f-7fbf72dcf70c</guid>
+      <guid>5e5f6002-8cf7-4ad0-a4c6-65ae993e7f69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher and Grade/Grade in grade report site</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>372cc538-2bcf-4f79-9545-aff551136d4e</guid>
+      <guid>942f6fb4-365b-48cb-a55c-e9b1b204ad3c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher and Grade/Other Teacher View Grade</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>48d06c1f-0e41-4acc-8e9e-b6a8208c0e78</guid>
+      <guid>4ff55037-2558-47b7-8304-3c34a4e00a41</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create assignment/Create Assignment Set Availability</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7272e496-2cdc-4087-9ea3-0a6102adc094</guid>
+      <guid>3b062bf8-3065-420e-86c9-3bef726dc1e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create assignment/Create Assignment Set Full</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5e99a7f8-a886-4364-9a51-58f7dd75d6b7</guid>
+      <guid>d4491586-200a-4332-9c65-6ce904aacec0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create assignment/Create Assignment Set Online Text</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>38ba1c87-fe6a-4ffd-a259-b56d0b8f7719</guid>
+      <guid>c8e9168a-21ce-4bd3-969b-8562c0de465b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create assignment/Create Assignment Set Type File</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>77840c7c-ecf9-4ff2-8049-4b484a6e22ab</guid>
+      <guid>4af24153-4acb-4dba-9080-72819e194e1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create assignment/Create Simple Assignment</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5b2a301a-c163-4188-8035-944a93f5a449</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create event on calendar/Create Event Set Description</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>86b8f5a5-1df8-4d4f-9a28-b95c1d30e18b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create event on calendar/Create Event Set Full</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fd08d1ce-fe47-4419-8402-9888b27390e3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create event on calendar/Create Event Set Time Minute And Repeat</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>276aad1b-9672-4853-87bf-5dc64b989a24</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Create event on calendar/Create Event Set Time</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a4b5cd12-5ac7-4b40-9552-cfffe490dfed</guid>
+      <guid>eb40cdca-d92a-4a4b-b46e-e96439b096bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create event on calendar/Create Simple Event</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fb497f6e-aead-4c49-b2eb-60a96d0f7995</guid>
+      <guid>6c8f5a89-67b0-4200-8719-766d4f18ed63</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Student enroll course/Enroll Course With Password</testCaseId>
+      <testCaseId>Test Cases/Create event on calendar/Create Event Set Full</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>638482ea-7d48-4fe9-ad80-ac103d445e62</guid>
+      <guid>95c0ed1c-0b08-4c7f-b668-e4a5725f738f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create event on calendar/Create Event Set Description</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1bf71afa-1a20-445f-82c4-839fafe360d0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create event on calendar/Create Event Set Time Minute And Repeat</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8ad08c57-b6a4-4da0-b448-818ddd73807f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create event on calendar/Create Event Set Time</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4f53421-bbbc-4973-9674-63730732e388</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Student enroll course/Enroll Course</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>cabf4a87-fcb5-47c2-b2c6-836f872aee93</guid>
+      <guid>106447c2-8def-4001-bf7b-64aed874333b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student enroll course/Enroll Course With Password</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>282b9d09-8ae8-472c-9cfb-bed74be94209</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Students check events on calendar/Asignment event</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>54f12d8c-2df7-4a96-a233-10e79a49125f</guid>
+      <guid>628b85e8-43c8-448f-868d-12b6dd54d5e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Students check events on calendar/Forum event</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>88446bef-be21-47c5-b074-7d4397179ea4</guid>
+      <guid>d3a4647b-ee41-4dae-ab88-529e29ae4178</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Students check events on calendar/Quiz event</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1da80676-5062-41ba-9cf6-e0b431d34ca1</guid>
+      <guid>73e47075-7a64-4519-9e87-17d0c53fbb42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Texting/Multiple messages</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e658e797-4070-4c93-b89f-57976f36ca49</guid>
+      <guid>f9028cdb-e4cf-47b5-8287-6a8848a80d2a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Texting/Receive text message from multiple users</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d5b7c4f8-f68a-4d29-8d87-7de316bcd78d</guid>
+      <guid>8e56c599-3b6c-4424-a2df-d68e730c574e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Texting/Student texts teacher</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2fe48d7e-f960-48b3-8805-727a82cfe501</guid>
+      <guid>8643256c-cade-48aa-a67d-678979f41739</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher creates announcements/Teacher create a list announcement</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fb84dd04-489d-4361-9804-1da0d83016be</guid>
+      <guid>7b492474-c993-412a-aeba-dd7b1840d06c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher creates announcements/Teacher create a new announcement</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ad2243ee-6f53-44be-ba7a-3e49f498c252</guid>
+      <guid>3b663e78-b756-4cd6-b245-ccd41aa267b6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Teacher creates announcements/Teacher edit announcement</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>28287689-9a29-4815-84ec-be7de9de495e</guid>
+      <guid>a168bf36-bc8d-40e4-bf4e-9af26db43ffe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Students answering question being overdue or on time/Answer choice question on time</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d3a2989d-d312-44c3-8c38-19a1ce34b493</guid>
+      <guid>ab1d01b2-3593-42f7-9c45-1dc34e248625</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Students answering question being overdue or on time/Answer choice question overdue</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ec19d651-f993-4d7d-a3bc-edcb1625664a</guid>
+      <guid>8c8b51a2-a9f2-49d7-9fb9-1710d1f7bd2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Students answering question being overdue or on time/Answer text question on time</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e8f88229-010a-4c5c-8626-d34856e58bdf</guid>
+      <guid>95f4fae4-6909-4953-8acc-71262e464b17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Students answering question being overdue or on time/Answer text question overdue</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>12b268c3-6b64-4584-8aff-f71521663445</guid>
+      <guid>e1efc791-9590-48a3-b787-293a3141dda6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create course/Create course successfully</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7b3fb04d-98e6-44a6-a970-1cb32db5f83c</guid>
+      <guid>831c2b9c-29c9-42a2-938c-d66d835e493f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create course/Create course with existed shortname</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7a1d881f-57f1-4bfc-a9a2-d3e55b8e4eeb</guid>
+      <guid>171704a1-f9b3-4711-b285-9e7d0f73449d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create course/Create course without fullname</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f555fd1b-e817-4734-8e94-c60be514c729</guid>
+      <guid>f8acfab9-e2b6-4f0c-91de-a027b093e827</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create course/Create course without shortname</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>483ea223-9562-49f7-9a22-10de2149339b</guid>
+      <guid>faa51088-f0d1-4a19-86a1-c79ff40e6dc5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create course/Create course without type</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2b55b637-2cce-4cfa-afa0-8f61b0329d1b</guid>
+      <guid>516039a8-f2f7-4a41-bee6-fedadf9212d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create folder and quiz/Create folder without title</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4631df23-733e-4f56-9804-aa5851f28e7d</guid>
+      <guid>96b6accc-a727-4400-953c-c145b90bfd6e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create folder and quiz/Create folder</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e2c4467a-1059-4fe7-8264-633c34d3b3e7</guid>
+      <guid>1812d85e-3d34-42db-993d-df27c849d327</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create folder and quiz/Create quiz without title</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8aedf445-f032-439e-844d-8fe6c169b6f4</guid>
+      <guid>1a716079-daff-4bec-8242-2c1a27562d59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create folder and quiz/Create quiz</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4ad7bd40-3f49-4e0b-a11b-4e5d5633b819</guid>
+      <guid>b213ef93-f4d7-40ee-8ed7-ee469e7a18bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/View course grade/Update grade with assignment</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>14cba6b0-6731-43c2-8d42-718e9a37920a</guid>
+      <guid>41531604-f144-4fdd-bf01-1fee268802b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/View course grade/Update grade without assignment</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9b3a80ae-075b-40f3-a451-abe68d17a5ba</guid>
+      <guid>331a6ef4-2b1d-49d3-8eda-a1777580cc7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/View course grade/View grader report site</testCaseId>

@@ -3485,6 +3485,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Student answering question being overdue or on time/Page_CNPM Tr li cu hi trc tip/button_Thm bi np_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_d197e1",
+      "brokenLocator": "//textarea[@id\u003d\u0027yui_3_17_2_1_1641378304713_228\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/textarea_Use enter to send_yui_3_17_2_1_164_d197e1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/a_Nguyen Van A_1",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642430928292_197\u0027]/div[6]/div/div/div/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Liên lạc\u0027])[3]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/a_Nguyen Van A_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Texting/Page_Nh ca ti/span_Hello world",
+      "brokenLocator": "//div[@id\u003d\u0027view-overview-messages-target-61d5725ced80c61d5725cd201821\u0027]/div[2]/a/div/p/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027Hello world\u0027 or . \u003d \u0027Hello world\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Texting/Page_Nh ca ti/span_Hello world_BASIC.png"
     }
   ]
 }
