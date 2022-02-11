@@ -30,13 +30,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Local Moodle Log i
 
 WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the site/button_Log in (8)'))
 
-WebUI.click(findTestObject('Page_Nh ca ti/span_Software Engineering'))
+WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Software Engineering'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (7)'))
+WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Software Engineering/button_Bt ch  chnh sa (7)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (4)'))
+WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (4)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/a_Bi tp (5)'))
+WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Software Engineering/a_Bi tp (5)'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Bin son Bi tp/input_Tn bi tp_name (7)'), 'Availability')
 
@@ -51,9 +51,14 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Bin son Bi tp/s
 
 WebUI.click(findTestObject('Object Repository/Page_Bin son Bi tp/input_Upon activity completion_submitbutton2 (7)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/a_Robert Le (7)'))
+WebUI.verifyElementText(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Software Engineering/span_Availability Bi tp'), 
+    'Availability Bài tập')
 
-WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/a_Thot (6)'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Software Engineering/span_Availability Bi tp'))
+
+WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Software Engineering/a_Robert Le (7)'))
+
+WebUI.click(findTestObject('Object Repository/Student answering question being overdue or on time/Page_Kha Software Engineering/a_Thot (6)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Local Moodle/a_Log in (8)'))
 
@@ -64,7 +69,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Local Moodle Log i
 
 WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the site/button_Log in (8)'))
 
-WebUI.click(findTestObject('Page_Nh ca ti/span_Software Engineering'))
+WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Software Engineering'))
 
 WebUI.closeBrowser()
 

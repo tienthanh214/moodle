@@ -21,36 +21,35 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
-WebUI.click(findTestObject('Object Repository/Page_Local Moodle/a_Log in (1)'))
+WebUI.click(findTestObject('Object Repository/create simple event/Page_Local Moodle/a_Log in (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Local Moodle Log in to the site/input_Username_username (1)'), 'admin')
+WebUI.setText(findTestObject('Object Repository/create simple event/Page_Local Moodle Log in to the site/input_Username_username (1)'), 
+    'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Local Moodle Log in to the site/input_Password_password (1)'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/create simple event/Page_Local Moodle Log in to the site/input_Password_password (1)'), 
     'bfAykA/oWJ09FXmiKh6lyuuLu8QhG1K5')
 
-WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the site/button_Log in (1)'))
+WebUI.click(findTestObject('Object Repository/create simple event/Page_Local Moodle Log in to the site/button_Log in (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/a_Lch'))
+WebUI.verifyElementText(findTestObject('Object Repository/create simple event/Page_Nh ca ti/span_Lch'), 'Lịch')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_S kin mi_1'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/create simple event/Page_Nh ca ti/span_Lch'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Tiu  s kin_name'), 
-    'Seminar Project 1')
+WebUI.click(findTestObject('Object Repository/create simple event/Page_Nh ca ti/span_Lch'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Thng Ging        Thng Hai        Thn_b248db'), 
-    '2', true)
+WebUI.click(findTestObject('Object Repository/create simple event/Page_Moodle Lch Xem chi tit thng Thng Hai 2022/button_S kin mi'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Thnh vin            Kho hc          _5efb09'), 
-    'course', true)
+WebUI.click(findTestObject('Object Repository/create simple event/Page_Moodle Lch Xem chi tit thng Thng Hai 2022/fieldset_Tiu  s kin                        _042335'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/span__1_2_3_4'))
+WebUI.setText(findTestObject('Object Repository/create simple event/Page_Moodle Lch Xem chi tit thng Thng Hai 2022/input_Tiu  s kin_name'), 
+    'THI CK')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/li_Software Engineering_1_2_3'))
+WebUI.verifyElementText(findTestObject('Object Repository/create simple event/Page_Moodle Lch Xem chi tit thng Thng Hai 2022/button_Lu'), 
+    'Lưu')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/select_Software Engineering'), 
-    '3', true)
+WebUI.verifyElementClickable(findTestObject('Object Repository/create simple event/Page_Moodle Lch Xem chi tit thng Thng Hai 2022/button_Lu'))
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_Lu_1'))
+WebUI.click(findTestObject('Object Repository/create simple event/Page_Moodle Lch Xem chi tit thng Thng Hai 2022/button_Lu'))
 
 WebUI.closeBrowser()
 

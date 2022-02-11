@@ -30,9 +30,15 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Local Moodle Log i
 
 WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the site/button_Log in (13)'))
 
-WebUI.click(findTestObject('Page_Nh ca ti/span_Software Engineering'))
+WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Software Engineering'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (12)'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Kha Software Engineering/h1_Software Engineering'), 'Software Engineering')
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa'), 'Bật chế độ chỉnh sửa')
+
+WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa_1_2'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_Thm hot ng hoc ti nguyn (6)'))
 
@@ -77,7 +83,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Local Moodle Log i
 
 WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the site/button_Log in (13)'))
 
-WebUI.click(findTestObject('Page_Nh ca ti/span_Software Engineering'))
+WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Software Engineering'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_Assignment Full Bi tp'))
 

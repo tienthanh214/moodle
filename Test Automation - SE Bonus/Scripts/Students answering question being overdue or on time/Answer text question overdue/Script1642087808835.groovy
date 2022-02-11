@@ -21,9 +21,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
+WebUI.callTestCase(findTestCase('Utils/Login as teacher'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Utils/Create course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Utils/Login as teacher'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Qun l kha hc v danh mc kha hc/a_To danh mc mi'), 'Tạo danh mục mới')
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Qun l kha hc v danh mc kha hc/a_To danh mc mi'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Qun l kha hc v danh mc kha hc/h2_Qun l kha hc v danh mc kha hc'), 
+    'Quản lý khóa học và danh mục khóa học')
+
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_Qun l kha hc v danh mc kha hc/h2_Qun l kha hc v danh mc kha hc'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Qun l kha hc v danh mc kha hc/h3_Danh mc kho hc'), 'Danh mục khoá học')
 
 WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_Nh ca ti/span_Trang ch h thng'))
 
@@ -77,9 +88,9 @@ WebUI.click(findTestObject('Object Repository/Student answering question being o
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_PA1 Bi tp (1)'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_quiz1 Xem li ln lm th/a_Student Nguyen'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_quiz1 Xem li ln lm th/a_Student Nguyen'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_quiz1 Xem li ln lm th/span_Thot'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_quiz1 Xem li ln lm th/span_Thot'))
 
 WebUI.callTestCase(findTestCase('Utils/Delete course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
 
