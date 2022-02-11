@@ -98,6 +98,8 @@ WebUI.click(findTestObject('Object Repository/Create course/Page_New Moodle Site
 
 WebUI.click(findTestObject('Create course/Page_Nh ca ti/span_Trang ch h thng'))
 
+WebUI.verifyElementClickable(findTestObject('Create course/Page_New Moodle Site/a_Nhp mn Cng ngh phn mm'))
+
 WebUI.click(findTestObject('Create course/Page_New Moodle Site/a_Nhp mn Cng ngh phn mm'))
 
 WebUI.click(findTestObject('Create course/Page_Kha Nhp mn Cng ngh phn mm/button_Bt ch  chnh sa'))

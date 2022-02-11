@@ -36,9 +36,13 @@ WebUI.click(findTestObject('Object Repository/Page_Local Moodle/a_Software Engin
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_SE3/input_Mt khu ng k_enrolpassword'), 'tzH6RvlfSTg=')
 
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_SE3/input_Mt khu ng k_submitbutton'))
+
 WebUI.click(findTestObject('Object Repository/Page_SE3/input_Mt khu ng k_submitbutton'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering 3/a_Software Engineering 3_action-menu-toggle-2'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Kha Software Engineering 3/a_Rt tn ti khi kho hc SE3'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering 3/a_Rt tn ti khi kho hc SE3'))
 
