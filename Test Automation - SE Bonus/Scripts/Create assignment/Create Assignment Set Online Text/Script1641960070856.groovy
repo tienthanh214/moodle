@@ -30,7 +30,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Local Moodle Log i
 
 WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the site/button_Log in (11)'))
 
-WebUI.click(findTestObject('Page_Nh ca ti/span_Software Engineering'))
+WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Software Engineering'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (10)'))
 
@@ -64,11 +64,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Local Moodle Log i
 
 WebUI.click(findTestObject('Object Repository/Page_Local Moodle Log in to the site/button_Log in (11)'))
 
-WebUI.click(findTestObject('Page_Nh ca ti/span_Software Engineering'))
+WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Software Engineering'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_Bi tp vn bn'))
 
-WebUI.click(findTestObject('Object Repository/Page_SE Bi tp vn bn/button_Thm bi np'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_SE Bi tp vn bn/h2_Bi tp vn bn'), 'Bài tập văn bản')
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_SE Bi tp vn bn/button_Thm bi np_1'))
 
 WebUI.closeBrowser()
 

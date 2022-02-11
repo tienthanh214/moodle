@@ -6,15 +6,15 @@
    <elementGuidId>2e9cc6ab-2063-429b-8d40-643f3755b0a0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Quản trị khu vực' or . = 'Quản trị khu vực')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='nav-drawer']/nav[2]/ul/li/a/div/div/span[2]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

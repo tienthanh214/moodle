@@ -71,6 +71,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Create New User/Page_Lo
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Local Moodle Log in to the site/button_Log in'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Create New User/Page_Nh ca ti/span_Test 2 Nguyn'), 'Test 2 Nguyễn')
+
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Nh ca ti/a_A2 Nguyn'))
 
 WebUI.click(findTestObject('Object Repository/Create New User/Page_Nh ca ti/span_Thot'))

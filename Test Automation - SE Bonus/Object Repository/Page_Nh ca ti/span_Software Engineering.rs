@@ -6,10 +6,6 @@
    <elementGuidId>adf836cb-f80f-4d30-b286-13fff0f8d30a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='course-info-container-3-8']/div/div/a/span[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.multiline</value>
       </entry>
@@ -20,6 +16,10 @@
         ' or . = '
             Software Engineering
         ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='course-info-container-3-8']/div/div/a/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
