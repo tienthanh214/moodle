@@ -1,0 +1,7 @@
+server/moodledata/localcache/
+server/moodledata/cache/
+server/moodle/config.php
+server/tmp/
+server/php/
+server/mysql/
+server/moodledata/temp/
