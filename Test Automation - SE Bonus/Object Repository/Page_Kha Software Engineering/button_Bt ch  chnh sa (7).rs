@@ -6,12 +6,12 @@
    <elementGuidId>d3f6166a-7c3d-4c6d-8c7c-33c6f08df816</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='single_button61dd945f772791']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#single_button61dd945f772791</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='single_button61dd945f772791']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

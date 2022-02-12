@@ -6,12 +6,12 @@
    <elementGuidId>8c170fe2-1f59-40c9-bb81-7b4921a0fd53</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='yui_3_17_2_1_1641911395881_621']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#yui_3_17_2_1_1641911395881_621</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='yui_3_17_2_1_1641911395881_621']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

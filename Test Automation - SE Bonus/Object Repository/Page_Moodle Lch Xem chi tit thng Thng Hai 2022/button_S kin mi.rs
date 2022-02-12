@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Thot (6)</name>
+   <name>button_S kin mi</name>
    <tag></tag>
-   <elementGuidId>4541eea2-3aa5-48b7-98a6-196ec9470351</elementGuidId>
+   <elementGuidId>b32c9c9c-d935-4ff2-a84b-cc2ee0f60d74</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value>button.btn.btn-secondary.float-sm-right.float-right</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='action-menu-1-menu']/a[6]</value>
+         <value>//div[@id='calendar-month-6207e5095f7006207e5092db3f21']/div/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,42 +21,28 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>http://localhost/login/logout.php?sesskey=KMV8YsLjGF</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dropdown-item menu-action</value>
+      <value>btn btn-secondary float-sm-right float-right</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>data-context-id</name>
       <type>Main</type>
-      <value>menuitem</value>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-title</name>
+      <name>data-action</name>
       <type>Main</type>
-      <value>logout,moodle</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-labelledby</name>
-      <type>Main</type>
-      <value>actionmenuaction-6</value>
+      <value>new-event-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,57 +50,63 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                                
-                                Thoát
-                        </value>
+            Sự kiện mới
+        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;action-menu-1-menu&quot;)/a[@class=&quot;dropdown-item menu-action&quot;]</value>
+      <value>id(&quot;calendar-month-6207e5095f7006207e5092db3f21&quot;)/div[@class=&quot;header d-flex flex-wrap p-1&quot;]/button[@class=&quot;btn btn-secondary float-sm-right float-right&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='action-menu-1-menu']/a[6]</value>
+      <value>//div[@id='calendar-month-6207e5095f7006207e5092db3f21']/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tuỳ chọn'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Danh sách khóa học'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tin nhắn'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tháng'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đổi sang vai trò...'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='◄'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/login/logout.php?sesskey=KMV8YsLjGF']</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tháng Giêng 2022'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sự kiện mới']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[6]</value>
+      <value>//div/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

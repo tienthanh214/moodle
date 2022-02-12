@@ -21,6 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/')
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Qun l kha hc v danh mc kha hc/h1_New Moodle Site'), 'New Moodle Site')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Qun l kha hc v danh mc kha hc/h1_New Moodle Site'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Qun l kha hc v danh mc kha hc/h2_Qun l kha hc v danh mc kha hc'), 
+    0)
+
 WebUI.callTestCase(findTestCase('Utils/Create course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Utils/Login as teacher'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -77,9 +84,9 @@ WebUI.click(findTestObject('Object Repository/Student answering question being o
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_PA1 Bi tp (1)'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_quiz1 Xem li ln lm th/a_Student Nguyen'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_quiz1 Xem li ln lm th/a_Student Nguyen'))
 
-WebUI.click(findTestObject('Create folder and quiz/Page_quiz1 Xem li ln lm th/span_Thot'))
+WebUI.click(findTestObject('Object Repository/Create folder and quiz/Page_quiz1 Xem li ln lm th/span_Thot'))
 
 WebUI.callTestCase(findTestCase('Utils/Delete course CNPM'), [:], FailureHandling.STOP_ON_FAILURE)
 
