@@ -61,7 +61,9 @@ WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng T
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/div_Gii p thc mc v  n'), 
     'Giải đáp thắc mắc về đồ án')
 
-WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_Lu (1)'))
+WebUI.click(findTestObject('Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_Lu (1)'))
+
+WebUI.verifyElementClickable(findTestObject('Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_Lu (1)'))
 
 WebUI.closeBrowser()
 

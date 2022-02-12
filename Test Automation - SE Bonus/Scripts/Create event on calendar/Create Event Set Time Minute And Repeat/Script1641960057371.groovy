@@ -72,5 +72,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng
 
 WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_Lu (4)'))
 
+WebUI.verifyElementClickable(findTestObject('Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_Lu (4)'))
+
 WebUI.closeBrowser()
 

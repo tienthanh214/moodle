@@ -68,7 +68,7 @@ WebUI.click(findTestObject('Object Repository/Page_Nh ca ti/span_Software Engine
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/span_Bi tp vn bn'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_SE Bi tp vn bn/h2_Bi tp vn bn'), 'Bài tập văn bản')
+WebUI.verifyElementText(findTestObject('Page_SE Bi tp vn bn/h2_Bi tp vn bn'), 'Bài tập văn bản')
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_SE Bi tp vn bn/button_Thm bi np_1'))
 
