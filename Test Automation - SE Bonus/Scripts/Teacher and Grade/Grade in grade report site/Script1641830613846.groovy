@@ -26,7 +26,8 @@ WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Local Moodl
 WebUI.setText(findTestObject('Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/input_Username_username'), 
     'lcbinh')
 
-WebUI.setEncryptedText(findTestObject('Admin Site/Page_Local Moodle Log in to the site/input_Password_password'), 'o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2')
+WebUI.setEncryptedText(findTestObject('Object Repository/Admin Site/Page_Local Moodle Log in to the site/input_Password_password'), 
+    'o5TCnEIIWq0Pz0TkrK1a2rpuWvRKVWz2')
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Local Moodle Log in to the site/button_Log in'))
 
@@ -34,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Nh ca ti/sp
 
 WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Kha Test View Grade/a_im s'))
 
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_im s Xem/i_Test ch  1_icon fa fa-pencil fa-fw'))
+WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_im s Xem/i_Bi tp quiz_icon fa fa-pencil fa-fw'))
 
 WebUI.check(findTestObject('Object Repository/Teacher and Grade/Page_im s Xem/input_Override for Student Replace_override_3_28'))
 
@@ -62,25 +63,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Teacher and Grade/Page
 WebUI.verifyElementText(findTestObject('Object Repository/Teacher and Grade/Page_im s Xem/span_60,00'), '60,00')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Teacher and Grade/Page_im s Xem/span_25,00'), '25,00')
-
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_im s Xem/span_Ch  1'))
-
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_Kha Test View Grade/span_Test ch  1 Bi tp'))
-
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test ch  1/a_im'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_100,00'), 
-    '100,00')
-
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_25,00'), 
-    '25,00')
-
-WebUI.click(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Teacher and Grade/Page_View Grade Test ch  1 - ang chm/a_60,00'), 
-    '60,00')
 
 WebUI.closeBrowser()
 

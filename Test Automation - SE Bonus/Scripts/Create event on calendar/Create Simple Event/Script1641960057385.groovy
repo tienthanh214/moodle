@@ -36,9 +36,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Moodle Lch Xem ch
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Hai 2022/h1_Lch'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Hai 2022/button_S kin mi'), 
-    0)
-
 WebUI.click(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/button_S kin mi_1'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Moodle Lch Xem chi tit thng Thng Ging 2022/input_Tiu  s kin_name'), 

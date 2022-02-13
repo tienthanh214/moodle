@@ -36,7 +36,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Kha Software Engi
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Kha Software Engineering/h1_Software Engineering'), 0)
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_Kha Software Engineering/h1_Software Engineering'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Kha Software Engineering/h1_Software Engineering'))
 
 WebUI.click(findTestObject('Object Repository/Page_Kha Software Engineering/button_Bt ch  chnh sa (7)'))
 

@@ -63,7 +63,7 @@ WebUI.setText(findTestObject('Object Repository/Students check events on calenda
     'Kiểm tra tính năng')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Students check events on calendar/Page_Bin son Bi tp/select_1        2        3        4        _45ea30'), 
-    '28', true)
+    '14', true)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Students check events on calendar/Page_Bin son Bi tp/input_Upon activity completion_submitbutton'), 
     '')
@@ -89,9 +89,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Students check events o
 
 WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Local Moodle Log in to the site/button_Log in'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Students check events on calendar/Page_Nh ca ti/a_28'))
+WebUI.verifyElementClickable(findTestObject('Students check events on calendar/Page_Nh ca ti/a_14'))
 
-WebUI.click(findTestObject('Object Repository/Students check events on calendar/Page_Nh ca ti/a_28'))
+WebUI.click(findTestObject('Students check events on calendar/Page_Nh ca ti/a_14'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Students check events on calendar/Page_Moodle Lch Xem ngy Th Su, 14 Thng Ging 2022/a_Thm bi np'), 
     'Thêm bài nộp')
